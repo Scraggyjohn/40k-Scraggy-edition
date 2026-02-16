@@ -30133,6 +30133,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="638b-2384-da7e-6dd1" type="notInstanceOf"/>
+                <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="34ed-e62d-981a-c9e7" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -30142,6 +30143,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="041e-c0d4-9ca5-a0ee" type="notInstanceOf"/>
+                <condition type="notInstanceOf" value="0" field="selections" scope="parent" childId="34ed-e62d-981a-c9e7" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
