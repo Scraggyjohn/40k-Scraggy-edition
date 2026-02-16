@@ -2642,7 +2642,7 @@
     </entryLink>
     <entryLink import="true" name="Terminator Ancient" hidden="false" id="34ed-e62d-981a-c9e7" type="selectionEntry" targetId="1b0f-12e3-c7e0-a069">
       <categoryLinks>
-        <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="7398-d621-9614-4454" primary="false" name="No Force Org Slot"/>
+        <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="1213-7238-8d19-4042" primary="false" name="No Force Org Slot"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50"/>
@@ -2917,6 +2917,9 @@
       <costs>
         <cost name="pts" typeId="points" value="15"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="d1b4-6752-117b-7964" primary="false" name="No Force Org Slot"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="9bb3-2f25-19b8-6dae" name="Power Weapon (Sword)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -29367,9 +29370,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Terminator Ancient" hidden="false" id="1b0f-12e3-c7e0-a069">
-      <infoLinks>
-        <infoLink name="Terminator" id="01b0-6f66-afb6-7dac" hidden="false" type="profile" targetId="d46c-d1fc-163e-805c"/>
-      </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Terminator Melee Weapons" hidden="false" id="e031-8d16-cf91-1483" type="selectionEntryGroup" targetId="e2ec-f990-87c2-711f">
           <constraints>
@@ -29422,6 +29422,53 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </conditionGroups>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile name="Terminator Ancient" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit" hidden="false" id="2d15-3b89-0c02-0280">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">10</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">2+/5++</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Apothecarian Detachment" hidden="false" id="52aa-20a1-2aab-2cb9">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="b870-73a3-d24c-b174">
+          <costs>
+            <cost name="pts" typeId="points" value="33"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4df-926e-be68-52cf" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a003-6312-1cbd-87ae" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Assault Grenades" id="01bd-7bb4-b91e-8a12" hidden="false" type="profile" targetId="fdd8-1a5f-5722-d6ee"/>
+            <infoLink name="Krak Grenades" id="5e2c-577b-238c-db90" hidden="false" type="profile" targetId="3bf6-b4f7-6b2f-bb7b"/>
+            <infoLink name="Narthecium" id="060c-0485-001d-12b6" hidden="false" type="profile" targetId="4413-04f2-67bb-3b97"/>
+            <infoLink name="Bolt Pistol" id="7a89-5b9c-254c-10a2" hidden="false" type="profile" targetId="e6d5-677a-d8ed-f6a5"/>
+            <infoLink name="Close Combat Weapon" id="53f5-16d5-d5a9-ae84" hidden="false" type="profile" targetId="e294-a5c7-e01e-0a82"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Movement Option" id="f557-0535-ef7d-e0ed" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Jump pack" hidden="false" id="44ca-a681-ab2b-e12a" type="selectionEntry" targetId="2a89-2577-2a25-9ac4"/>
+                <entryLink import="true" name="Space Marine Bike" hidden="false" id="acc1-acdd-b02f-ea0f" type="selectionEntry" targetId="088f-7314-29df-5b84"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f76f-918f-d3ff-f11a" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
