@@ -2641,18 +2641,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Terminator Ancient" hidden="false" id="34ed-e62d-981a-c9e7" type="selectionEntry" targetId="1b0f-12e3-c7e0-a069">
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="622b-834a-f8d4-b527" shared="true" includeChildSelections="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="any" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="7398-d621-9614-4454" primary="false" name="No Force Org Slot"/>
       </categoryLinks>
@@ -5894,6 +5882,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <infoLink id="b040-4cc1-8f09-926a" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule" name="Bulky"/>
         <infoLink id="c315-8c35-f657-f83d" hidden="false" targetId="e6bc-ea23-502f-5042" type="rule" name="Slow and Purposeful"/>
         <infoLink id="f771-214c-d3d8-bf2e" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule" name="Deep Strike"/>
+        <infoLink name="Hail of Fire" id="9f89-fd64-8d04-e424" hidden="false" type="rule" targetId="53ef-472d-fba7-5517"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="9f71-7695-b684-0c16" name="Cataphractii Terminator Sergeant" hidden="false" collective="false" import="true" type="model">
@@ -28970,6 +28959,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <infoLink id="6c6a-8e97-34a8-baba" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule" name="Bulky"/>
         <infoLink id="2b30-ffd3-e3f7-82b8" hidden="false" targetId="7674-690c-ab59-1444" type="rule" name="Relentless"/>
         <infoLink id="95ea-8900-39fe-e849" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule" name="Deep Strike"/>
+        <infoLink name="Hail of Fire" id="851b-9602-adfd-4bdd" hidden="false" type="rule" targetId="53ef-472d-fba7-5517"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="5bd5-6fd7-0129-f3de" name="Tartaros Sergeant" hidden="false" collective="false" import="true" type="model">
@@ -29403,7 +29393,25 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <entryLink import="true" name="Chapter Relics - Battle Standards" hidden="false" id="9532-f276-4489-d5a8" type="selectionEntryGroup" targetId="f94f-df5d-fabc-5577"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Terminator Armour" id="87ac-1bcf-c590-9a44" hidden="false">
+          <infoLinks>
+            <infoLink name="Cataphractii Terminator Armour" id="eaa1-383e-a4fd-9b1c" hidden="false" type="profile" targetId="5a0f-751c-e77a-5c81"/>
+            <infoLink name="Slow and Purposeful" id="464d-64c9-07ec-1fe7" hidden="false" type="rule" targetId="e6bc-ea23-502f-5042"/>
+          </infoLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="622b-834a-f8d4-b527" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="any" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
