@@ -29375,6 +29375,11 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Terminator Ancient" hidden="false" id="1b0f-12e3-c7e0-a069">
+      <infoLinks>
+        <infoLink name="And They Shall Know No Fear" id="56ee-e529-3215-9999" hidden="false" type="rule" targetId="2e56-6b02-4343-0e40"/>
+        <infoLink name="Bulky" id="1fb4-7b25-7917-b82b" hidden="false" type="rule" targetId="b4c1-e1df-b875-92a6"/>
+        <infoLink name="Relentless" id="5d44-29c9-ccd7-ccd3" hidden="false" type="rule" targetId="7674-690c-ab59-1444"/>
+      </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Terminator Melee Weapons" hidden="false" id="e031-8d16-cf91-1483" type="selectionEntryGroup" targetId="e2ec-f990-87c2-711f">
           <constraints>
@@ -29503,7 +29508,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </selectionEntries>
       <infoLinks>
         <infoLink name="Feel No Pain" id="96d9-17f7-957c-123c" hidden="false" type="rule" targetId="3c7d-11d6-e265-abb4"/>
+        <infoLink name="And They Shall Know No Fear" id="b328-fbe8-6df5-96d0" hidden="false" type="rule" targetId="2e56-6b02-4343-0e40"/>
       </infoLinks>
+      <rules>
+        <rule name="Apothecarian Detachment" id="6009-49a4-4d99-a9c2" hidden="false">
+          <description>Each Apothecary in this unit will operate as a separate unit and may join different Units before the game has started.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
