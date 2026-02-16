@@ -29405,12 +29405,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="622b-834a-f8d4-b527" shared="true" includeChildSelections="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="4f7e-2af7-34e8-e81a" shared="true" includeChildSelections="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="9fe0-0294-9427-6305" shared="true" includeChildSelections="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="997e-bda2-eaa0-0484" shared="true" includeChildSelections="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="7ddc-c626-51ad-2bb4" shared="true" includeChildSelections="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="1f6d-19c4-e3e6-eb87" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="622b-834a-f8d4-b527" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="4f7e-2af7-34e8-e81a" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="9fe0-0294-9427-6305" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="997e-bda2-eaa0-0484" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="7ddc-c626-51ad-2bb4" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="1f6d-19c4-e3e6-eb87" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="forces" scope="force" childId="1f6d-19c4-e3e6-eb87" shared="true" includeChildSelections="true" percentValue="false"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
