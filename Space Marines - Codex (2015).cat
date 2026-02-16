@@ -2646,8 +2646,8 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="parent" childId="622b-834a-f8d4-b527" shared="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="622b-834a-f8d4-b527" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="any" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
