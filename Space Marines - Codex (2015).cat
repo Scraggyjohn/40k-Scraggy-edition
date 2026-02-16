@@ -2648,6 +2648,11 @@
         <cost name="pts" typeId="points" value="50"/>
       </costs>
     </entryLink>
+    <entryLink import="true" name="Apothecarian Detachment" hidden="false" id="f6af-315e-1235-47bd" type="selectionEntry" targetId="52aa-20a1-2aab-2cb9">
+      <categoryLinks>
+        <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="094e-cb06-201e-9e1f" primary="false" name="No Force Org Slot"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="bab5-1920-a2ed-5b27" name="Vulkan&apos;s Teachings" publicationId="7ab0-ceb9-pubN65665" hidden="false">
