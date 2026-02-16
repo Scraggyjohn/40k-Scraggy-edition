@@ -29406,7 +29406,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="622b-834a-f8d4-b527" shared="true" includeChildSelections="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="any" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="4f7e-2af7-34e8-e81a" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -29477,7 +29477,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <modifier type="set" field="points" value="5"/>
           </modifiers>
         </entryLink>
-        <entryLink id="8f18-ed43-34a3-6281" hidden="false" collective="false" import="true" targetId="9bb3-2f25-19b8-6dae" type="selectionEntry" name="Power Weapon (Sword)">
+        <entryLink id="8f18-ed43-34a3-6281" hidden="false" collective="false" import="true" targetId="9bb3-2f25-19b8-6dae" type="selectionEntry" name="Power Weapon (Sword)" defaultAmount="1">
           <modifiers>
             <modifier type="set" field="points" value="0"/>
           </modifiers>
@@ -29531,7 +29531,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <modifier type="set" field="points" value="5"/>
           </modifiers>
         </entryLink>
-        <entryLink id="c443-70f3-33ae-8ae8" hidden="false" collective="false" import="true" targetId="333f-a8ca-83c9-e7d7" type="selectionEntry" name="Storm Bolter">
+        <entryLink id="c443-70f3-33ae-8ae8" hidden="false" collective="false" import="true" targetId="333f-a8ca-83c9-e7d7" type="selectionEntry" name="Storm Bolter" defaultAmount="1">
           <modifiers>
             <modifier type="set" field="points" value="0"/>
           </modifiers>
