@@ -29455,11 +29455,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a003-6312-1cbd-87ae" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Assault Grenades" id="01bd-7bb4-b91e-8a12" hidden="false" type="profile" targetId="fdd8-1a5f-5722-d6ee"/>
-            <infoLink name="Krak Grenades" id="5e2c-577b-238c-db90" hidden="false" type="profile" targetId="3bf6-b4f7-6b2f-bb7b"/>
             <infoLink name="Narthecium" id="060c-0485-001d-12b6" hidden="false" type="profile" targetId="4413-04f2-67bb-3b97"/>
-            <infoLink name="Bolt Pistol" id="7a89-5b9c-254c-10a2" hidden="false" type="profile" targetId="e6d5-677a-d8ed-f6a5"/>
-            <infoLink name="Close Combat Weapon" id="53f5-16d5-d5a9-ae84" hidden="false" type="profile" targetId="e294-a5c7-e01e-0a82"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Movement Option" id="f557-0535-ef7d-e0ed" hidden="false">
@@ -29472,6 +29468,21 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Bolt Pistol" hidden="false" id="648d-e0b0-39b7-1b38" type="selectionEntry" targetId="fd49-81fb-9716-fb24">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7252-4cf4-cfe4-7ce8" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbd9-22c5-3a68-b36b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Frag and Krak Grenades" hidden="false" id="236e-0cb4-682e-46ae" type="selectionEntry" targetId="2f28-0a8e-362d-a945"/>
+            <entryLink import="true" name="Chainsword" hidden="false" id="1e4d-a68d-fa5c-14dd" type="selectionEntry" targetId="6e6a-f954-5a00-ca4b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a5a9-f391-5eb4-f0a8" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a64f-4146-dba2-75eb" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
