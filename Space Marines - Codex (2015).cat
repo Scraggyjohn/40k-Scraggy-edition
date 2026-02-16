@@ -29446,7 +29446,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Apothecarian Detachment" hidden="false" id="52aa-20a1-2aab-2cb9">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="b870-73a3-d24c-b174">
+        <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="b870-73a3-d24c-b174" defaultAmount="1">
           <costs>
             <cost name="pts" typeId="points" value="33"/>
           </costs>
@@ -29474,6 +29474,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
+      <infoLinks>
+        <infoLink name="Feel No Pain" id="96d9-17f7-957c-123c" hidden="false" type="rule" targetId="3c7d-11d6-e265-abb4"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
