@@ -29409,6 +29409,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="4f7e-2af7-34e8-e81a" shared="true" includeChildSelections="true"/>
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="9fe0-0294-9427-6305" shared="true" includeChildSelections="true"/>
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="997e-bda2-eaa0-0484" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="7ddc-c626-51ad-2bb4" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="87ac-1bcf-c590-9a44" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
