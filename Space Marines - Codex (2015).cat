@@ -2640,6 +2640,25 @@
         <categoryLink id="b586-d5d9-053f-00bb-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Terminator Ancient" hidden="false" id="34ed-e62d-981a-c9e7" type="selectionEntry" targetId="1b0f-12e3-c7e0-a069">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="0" field="selections" scope="parent" childId="622b-834a-f8d4-b527" shared="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and"/>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="7398-d621-9614-4454" primary="false" name="No Force Org Slot"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="bab5-1920-a2ed-5b27" name="Vulkan&apos;s Teachings" publicationId="7ab0-ceb9-pubN65665" hidden="false">
@@ -29355,6 +29374,35 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <costs>
         <cost name="pts" typeId="points" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Terminator Ancient" hidden="false" id="1b0f-12e3-c7e0-a069">
+      <infoLinks>
+        <infoLink name="Terminator" id="01b0-6f66-afb6-7dac" hidden="false" type="profile" targetId="d46c-d1fc-163e-805c"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Terminator Melee Weapons" hidden="false" id="e031-8d16-cf91-1483" type="selectionEntryGroup" targetId="e2ec-f990-87c2-711f">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="45bf-f763-bc2a-3982" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Terminator Ranged Weapons" hidden="false" id="a76c-bb35-5c51-35fc" type="selectionEntryGroup" targetId="4aad-01a3-d55f-2259">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8fbb-bdbf-e5ef-d6d3" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Standards" id="6977-36ee-9bbb-ece7" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="19f6-3dce-eb11-6828" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b1a-0072-0e81-cc36" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Space Marine Standards" hidden="false" id="c365-f290-d671-a106" type="selectionEntryGroup" targetId="17de-fa94-c1ef-dd26"/>
+            <entryLink import="true" name="Chapter Relics - Battle Standards" hidden="false" id="9532-f276-4489-d5a8" type="selectionEntryGroup" targetId="f94f-df5d-fabc-5577"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
