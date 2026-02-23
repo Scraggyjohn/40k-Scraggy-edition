@@ -2009,6 +2009,11 @@ D6 Result
         <categoryLink id="5072-fdd6-e0c3-a9cb-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Chaos Apothecary" hidden="false" id="ab18-2732-1345-e760" type="selectionEntry" targetId="3e5b-4863-770a-f8a4">
+      <categoryLinks>
+        <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="c720-301d-b026-6bfe" primary="true" name="No Force Org Slot"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="70e4-4d8f-b97f-3aaa" name="[FW] Arkos the Faithless (IA: Vraks)" publicationId="5af86795--pubN75167" page="153" hidden="true" collective="false" import="true" type="upgrade">
@@ -25461,9 +25466,6 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
       <costs>
         <cost name="pts" typeId="points" value="36"/>
       </costs>
-      <categoryLinks>
-        <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="93a0-894b-3ece-acc2" primary="true" name="No Force Org Slot"/>
-      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

@@ -1369,6 +1369,11 @@
         <categoryLink id="1a08-ed7a-1fe2-8407-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Field Ordnance Battery" hidden="false" id="70c0-e40f-bb6a-a646" type="selectionEntry" targetId="cf42-23ab-e07f-a92e">
+      <categoryLinks>
+        <categoryLink targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="c364-5c98-6917-7203" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <infoLinks>
     <infoLink id="2ab68ab6-691c-93d3-d1a7-471fc58675cb" hidden="false" targetId="75f46c65-7f3d-f7a2-0075-2cbdf9092ce1" type="rule" name="Defending Battle Force">
@@ -25512,9 +25517,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Field Ordnance Battery" hidden="false" id="cf42-23ab-e07f-a92e" defaultAmount="">
-      <categoryLinks>
-        <categoryLink targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="4ed9-fdfc-147b-4e48" primary="true" name="Heavy Support"/>
-      </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Field Ordnance Battery" hidden="false" id="2607-f6e6-7611-ca6c">
           <constraints>
