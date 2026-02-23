@@ -5637,6 +5637,11 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="a773-a0da-d60f-a65f" primary="true" name="No Force Org Slot"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Dracosan Armoured Transport Squadron" hidden="false" id="fca2-c6e4-3334-03b4" type="selectionEntry" targetId="7e34-7339-1200-6861">
+      <categoryLinks>
+        <categoryLink targetId="c274d0b0-5866-44bc-9810-91c136ae7438" id="1c32-ed08-26d9-5e33" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8f79-76b2-a1ad-6b2d" name="Acid Gas Bombs" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -8062,6 +8067,159 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <description>May give a single friendly Death Korps of Krieg vehicle within 12&quot; Power of the Machine Spirit until end of turn.</description>
         </rule>
       </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Dracosan Armoured Transport Squadron" hidden="false" id="7e34-7339-1200-6861">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Dracosan Armoured Transport" hidden="false" id="d916-3a5c-e32f-c1de">
+          <costs>
+            <cost name="pts" typeId="points" value="135"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Extra Armour" hidden="false" id="a145-0077-f260-c605">
+              <profiles>
+                <profile name="Extra Armour" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" hidden="false" id="1e37-fa3f-fcfd-ee51">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="27eb-447a-7f23-9704" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3732-e89f-d1c6-f43c" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="May exchange Twin-Linked Lascannon for:" id="aae3-03db-f8c8-8f80" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-Linked Lascannon" hidden="false" id="23f8-39ec-9a72-e8d5" defaultAmount="1">
+                  <profiles>
+                    <profile name="Twin-Linked Lascannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="73fc-34c4-94c4-9aa0">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Twin-Linked</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Twin-Linked Lascannon (Transport Capacity)" typeId="b3a8-0452-7436-44d1" typeName="Transport" hidden="false" id="a15d-de49-f985-5d69">
+                      <characteristics>
+                        <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">20</characteristic>
+                        <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">0</characteristic>
+                        <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">Two, one on each side</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Twin-Linked" id="40ee-e3e4-47cc-16b7" hidden="false" type="rule" targetId="3002-de38-7230-fbc6"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Demolisher Cannon" hidden="false" id="cf05-0d42-73cc-d8d3">
+                  <costs>
+                    <cost name="pts" typeId="points" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Demolisher Siege Cannon" id="8d85-f110-d12f-3d02" hidden="false" type="profile" targetId="a8fd8438-d21d-20c8-c27a-fcdc94aaa811"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="Demolisher Cannon (Transport Capacity)" typeId="b3a8-0452-7436-44d1" typeName="Transport" hidden="false" id="6870-a37d-c547-bec3">
+                      <characteristics>
+                        <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">10</characteristic>
+                        <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">0</characteristic>
+                        <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">Two, one on each side</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="400c-d50d-6ba3-d7d7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="845d-480a-5d5a-0924" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Pintle-mounted Multi-laser or Heavy Flamer" id="ebb4-e83a-a022-3f11" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Heavy Flamer" hidden="false" id="b8ae-eb49-21ce-874e" type="selectionEntry" targetId="98304343-e426-96dc-04d7-fa03182ce661">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Multi-laser" hidden="false" id="369d-cfe7-62f6-b6f2">
+                  <profiles>
+                    <profile name="Multi-laser" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="be57-13bc-4b0d-b291">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad57-23e4-171d-88e2" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="May take any of the following:" id="503e-463f-feef-e83c" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Armoured Ceramite" hidden="false" id="8044-2e4b-a8e4-53b0">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Armoured Ceramite" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" hidden="false" id="06b0-f2c1-b4f9-bdf6">
+                      <characteristics>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A vehicle with this wargear is not subject to the additional D6 armour penetration caused by weapons with the Melta special rule.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Auxiliary Drive" hidden="false" id="66fe-d06d-3e72-bf15">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Auxiliary Drive" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" hidden="false" id="129b-53b4-39a7-aa85">
+                      <characteristics>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"> A vehicle with an auxiliary drive may repair Immobilised results it suffers on a D6 roll of 4+ at the start of the controlling player&apos;s Movement phase.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dozer Blade" hidden="false" id="c817-af71-26fc-c60f">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Dozer Blade" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" hidden="false" id="4050-d53d-38e5-7f9b">
+                      <characteristics>
+                        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Vehicles equipped with dozer blades treat their front armour as one higher than normal when ramming. The vehicle can re-roll failed Dangerous Terrain tests.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Hunter Killer Missiles" hidden="false" id="f05d-8b45-98eb-a58a">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="567d-0548-a93a-ac6e" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Hunter-killer Missile" id="ef6b-ba86-12ed-e5f3" hidden="false" type="profile" targetId="993442fa-6e0a-526d-543a-34cb27ca5e61"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -11219,6 +11377,16 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
         <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
         <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dracosan Armoured Transport" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle" hidden="false" id="84ce-b9af-81e2-2d62">
+      <characteristics>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+        <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">13</characteristic>
+        <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">12</characteristic>
+        <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">11</characteristic>
+        <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Tank, Transport</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
