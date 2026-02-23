@@ -8054,6 +8054,14 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule name="Blessings of the Omnissiah" id="be32-fc38-bd3a-8ec6" hidden="false">
+          <description>Instead of shooting, may Repair a friendly vehicle embarked or in base contact. Need 5+, adding +1 for each Servitor with Servo-arm in unit. Success restores hull point, or repairs destroyed weapon, or repairs Immobilised.</description>
+        </rule>
+        <rule name="Awaken the Machine" id="2cc7-bf42-9bb3-a452" hidden="false">
+          <description>May give a single friendly Death Korps of Krieg vehicle within 12&quot; Power of the Machine Spirit until end of turn.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -9280,6 +9288,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
 6 Strategic Defender</description>
     </rule>
     <rule id="d8a9e347-9b56-3768-bb43-5191607bec5c" name="Wrecker" publicationId="eec64b43--pubN97811" hidden="false"/>
+    <rule name="Power of the Machine Spirit" id="b0b9-f0d9-27d9-182d" hidden="false">
+      <description>In a turn in which the vehicle neither moves Flat Out nor uses Smoke Launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5c1b1ed1-b86b-02c0-57e5-b77ea8c5f16c" name="Acheron Pattern Flame Cannon" publicationId="eec64b43--pubN66370" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
