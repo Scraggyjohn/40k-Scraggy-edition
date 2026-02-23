@@ -8070,7 +8070,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Dracosan Armoured Transport Squadron" hidden="false" id="7e34-7339-1200-6861">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Dracosan Armoured Transport" hidden="false" id="d916-3a5c-e32f-c1de">
+        <selectionEntry type="upgrade" import="true" name="Dracosan Armoured Transport" hidden="false" id="d916-3a5c-e32f-c1de" defaultAmount="1">
           <costs>
             <cost name="pts" typeId="points" value="135"/>
           </costs>
@@ -8138,13 +8138,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Pintle-mounted Multi-laser or Heavy Flamer" id="ebb4-e83a-a022-3f11" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="Heavy Flamer" hidden="false" id="b8ae-eb49-21ce-874e" type="selectionEntry" targetId="98304343-e426-96dc-04d7-fa03182ce661">
-                  <costs>
-                    <cost name="pts" typeId="points" value="10"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Multi-laser" hidden="false" id="369d-cfe7-62f6-b6f2">
                   <profiles>
@@ -8160,6 +8153,14 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                   <costs>
                     <cost name="pts" typeId="points" value="10"/>
                   </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="eb3b-cebe-9910-8e77">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Flamer" id="fa7c-e8a8-d0a6-cdcc" hidden="false" type="profile" targetId="2608-8425-4f4f-7f41"/>
+                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -8179,6 +8180,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c87-0f97-65b2-0a29" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Auxiliary Drive" hidden="false" id="66fe-d06d-3e72-bf15">
                   <costs>
@@ -8191,6 +8195,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c4a-22d4-047d-7bcf" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Dozer Blade" hidden="false" id="c817-af71-26fc-c60f">
                   <costs>
@@ -8203,6 +8210,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       </characteristics>
                     </profile>
                   </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecca-0f9b-e112-c073" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hunter Killer Missiles" hidden="false" id="f05d-8b45-98eb-a58a">
                   <constraints>
