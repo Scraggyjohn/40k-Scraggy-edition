@@ -5632,6 +5632,11 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <categoryLink targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="e50e-c161-9e8d-d624" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Tech-Priest Enginseer" hidden="false" id="9a9c-c134-00b7-66ac" type="selectionEntry" targetId="af8b-73c1-7a6c-3314">
+      <categoryLinks>
+        <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="a773-a0da-d60f-a65f" primary="true" name="No Force Org Slot"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8f79-76b2-a1ad-6b2d" name="Acid Gas Bombs" page="0" hidden="false" collective="true" import="true" type="upgrade">
@@ -7840,9 +7845,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                   <profiles>
                     <profile name="Melta lance" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="81ee-41ed-efa0-47a7">
                       <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
-                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45"/>
-                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Melta</characteristic>
                       </characteristics>
                     </profile>
@@ -7894,6 +7899,161 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tech-Priest Enginseer" hidden="false" id="af8b-73c1-7a6c-3314">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Servitors" id="2765-9ceb-a141-b83b" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Gun Servitors" id="347d-3ab1-9f74-2606" hidden="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7b68-06b2-4533-81d0" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Servitor w/ Plasma Cannon" hidden="false" id="34f8-73f6-ef57-cfac">
+                  <costs>
+                    <cost name="pts" typeId="points" value="25"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Servitor" id="f2fe-355d-7959-c3dc" hidden="false" type="profile" targetId="86da-06fa-99c4-1301"/>
+                    <infoLink name="Plasma Cannon" id="8b14-e859-384f-4cf4" hidden="false" type="profile" targetId="7983-8451-cdc3-ce7e"/>
+                    <infoLink name="Gets Hot" id="065b-a89b-90b4-4ba0" hidden="false" type="rule" targetId="4e9f-4f6f-6fbc-6418"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Servitor w/ Heavy Bolter" hidden="false" id="6ab1-9dd8-5a32-96a8">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Servitor" id="723e-2a98-2f71-f117" hidden="false" type="profile" targetId="86da-06fa-99c4-1301"/>
+                    <infoLink name="Heavy Bolter" id="be08-6995-303e-053a" hidden="false" type="profile" targetId="e2b0-b9f1-6c38-584c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Servitor w/ Multi-Melta" hidden="false" id="458c-e316-0238-ea3b">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Servitor" id="a79b-2862-5689-d71f" hidden="false" type="profile" targetId="86da-06fa-99c4-1301"/>
+                    <infoLink name="Multi-Melta" id="1726-e052-4c66-6755" hidden="false" type="profile" targetId="1768-d7b9-37ba-f3bf"/>
+                    <infoLink name="Melta" id="68d3-1a07-793b-8652" hidden="false" type="rule" targetId="bc4c-234f-0293-98a7"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Servitor w/ Servo-arm" hidden="false" id="73c1-9626-0fd5-7793">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Servitor" id="bf02-9035-1509-11ec" hidden="false" type="profile" targetId="86da-06fa-99c4-1301"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Servo-arm" hidden="false" id="a460-29ab-c3fc-5bfc">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e7a8-479c-74ae-38f9" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96db-4ac0-f6b5-6f20" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Servo-arm" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="3dd3-f848-264d-d560">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Specialist Weapon, Unwieldy</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Specialist Weapon" id="03e0-7026-5cb0-2040" hidden="false" type="rule" targetId="6981-e5a9-c7d1-9332"/>
+                    <infoLink name="Unwieldy" id="b98e-e7ee-f17e-8233" hidden="false" type="rule" targetId="3858-bd8f-cf37-f5a6"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="d07e-f355-6174-9e50" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Frag Grenades" hidden="false" id="7772-6844-48da-c29f" type="selectionEntry" targetId="f2c773dd-0705-81de-d50f-03d3564e6b41"/>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="f74e-b87b-695e-62bf" type="selectionEntry" targetId="e2beb4ff-2117-ad18-eb26-91a10181fc36"/>
+        <entryLink import="true" name="Laspistol" hidden="false" id="f76b-73b4-03ea-dacd" type="selectionEntry" targetId="70a5be1a-29d9-bb71-bab0-8fda21fe0367"/>
+        <entryLink import="true" name="Melta Bombs" hidden="false" id="5f5f-32f9-cc1b-777b" type="selectionEntry" targetId="817d1d89-a150-658d-837c-02417b24437b"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="40"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Servo-arm" hidden="false" id="7f29-6faa-2833-2494">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3edb-aaeb-ae1e-0d0a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f68-720b-3b26-31ed" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Servo-arm" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="18f2-8b0d-8c35-00ea">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Specialist Weapon, Unwieldy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Specialist Weapon" id="11b8-3a2d-aa7d-e115" hidden="false" type="rule" targetId="6981-e5a9-c7d1-9332"/>
+            <infoLink name="Unwieldy" id="09fd-4ba2-6b71-b33f" hidden="false" type="rule" targetId="3858-bd8f-cf37-f5a6"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="5f97-3c68-7cab-715e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="386d-ea68-6dbe-1445" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd0-50bb-e6d0-6325" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Power Armour" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" hidden="false" id="103b-265c-29d4-f968">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">3+ Armour Save</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Power Axe" hidden="false" id="4230-a3ff-2656-0630">
+          <profiles>
+            <profile name="Power Axe" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="a794-b68e-7fbd-36b1">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9664-8c2e-d0b1-f400" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8904-6f00-1d57-5251" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Tech-Priest Enginseer" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit" hidden="false" id="decd-75e8-247f-75b2">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -11034,6 +11194,20 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Twin-linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Servitor" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit" hidden="false" id="86da-06fa-99c4-1301">
+      <characteristics>
+        <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+        <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+        <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+        <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+        <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+        <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+        <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+        <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+        <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
