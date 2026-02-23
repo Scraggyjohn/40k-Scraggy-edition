@@ -12052,7 +12052,6 @@
     </selectionEntry>
     <selectionEntry id="e2beb4ff-2117-ad18-eb26-91a10181fc36" name="Krak Grenades" page="0" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <infoLinks>
@@ -25512,6 +25511,89 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Field Ordnance Battery" hidden="false" id="cf42-23ab-e07f-a92e" defaultAmount="">
+      <categoryLinks>
+        <categoryLink targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="4ed9-fdfc-147b-4e48" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Field Ordnance Battery" hidden="false" id="2607-f6e6-7611-ca6c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4dc-05df-705c-f345" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="57f2-6651-df0b-a445" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Flak Armour" hidden="false" id="6215-ce53-ec44-c55a" type="selectionEntry" targetId="a8ed2377-b403-a5ff-8434-78e162b086c5"/>
+            <entryLink import="true" name="Frag Grenades" hidden="false" id="f5da-f39c-8d4b-1bd7" type="selectionEntry" targetId="f2c773dd-0705-81de-d50f-03d3564e6b41"/>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="13f4-ad3d-8fa5-6f15" type="selectionEntry" targetId="e2beb4ff-2117-ad18-eb26-91a10181fc36">
+              <costs>
+                <cost name="pts" typeId="points" value="3"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="70"/>
+          </costs>
+          <profiles>
+            <profile name="Field Ordnance Battery" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit" hidden="false" id="d429-2603-a483-e4e8">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+                <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+                <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+                <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">3</characteristic>
+                <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+                <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
+                <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">6</characteristic>
+                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Lasgun" hidden="false" id="bc3a-1ff4-eabe-cddd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6393-5c81-35ca-4e5c" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea8d-2db9-4c3c-30d7" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Twin linked Lasgun" id="b960-0281-66e9-7fa2" hidden="false" type="profile" targetId="ee5b-25d1-b7e0-fdfa"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Battery Weapon" id="c833-69f7-0f00-59f4" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Lascannon" hidden="false" id="42f0-e452-2344-9c8b" defaultAmount="1">
+                  <infoLinks>
+                    <infoLink name="Heavy Lascannon" id="407e-fd00-51a9-3e52" hidden="false" type="profile" targetId="c3a2-5da4-ca0f-ba90"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bombast Field Gun" hidden="false" id="4804-71a2-fb4b-3ed4" defaultAmount="">
+                  <infoLinks>
+                    <infoLink name="Bombast Field Gun" id="e013-3711-199d-d77b" hidden="false" type="profile" targetId="5f31-9577-c86c-3dc5"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Malleus Rocket Launcher" hidden="false" id="6806-8abe-81be-f3a4">
+                  <infoLinks>
+                    <infoLink name="Malleus Rocket Launcher" id="db2b-662a-ea52-64bc" hidden="false" type="profile" targetId="b716-75e9-948b-5086"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15b2-d051-53b7-c6f6" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c9c-8aa9-e977-6590" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="dcb15017-c76e-384f-ca1a-b3ce6a1b8c02" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
@@ -31488,6 +31570,38 @@ May not take Carapace Armour.</description>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Poisoned (2+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin linked Lasgun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="ee5b-25d1-b7e0-fdfa">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Twin-linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bombast Field Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="5f31-9577-c86c-3dc5">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">60&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Barrage, Large Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Lascannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="c3a2-5da4-ca0f-ba90">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">54&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Malleus Rocket Launcher" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="b716-75e9-948b-5086">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance D6, Barrage, Blast</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
