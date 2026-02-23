@@ -5624,7 +5624,12 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
     </entryLink>
     <entryLink import="true" name="Death Korps Artillery Team" hidden="false" id="25ca-4305-1a16-547b" type="selectionEntry" targetId="773c-7429-9bba-ed64">
       <categoryLinks>
-        <categoryLink targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="dd47-1522-e118-dfe1" primary="true" name="Heavy Support"/>
+        <categoryLink targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="dffc-2eb9-f3a8-c6c9" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Death Korps Aethon Siege Sentinel Squadron" hidden="false" id="3fa2-9076-07c8-964c" type="selectionEntry" targetId="10b5-5b54-c497-66df">
+      <categoryLinks>
+        <categoryLink targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="e50e-c161-9e8d-d624" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
