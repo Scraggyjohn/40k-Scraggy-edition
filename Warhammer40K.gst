@@ -5870,10 +5870,15 @@ If the special rules of a model specify that they can never be Pinned, they auto
       <description>If this Detachment is chosen as your Primary Detachment, you can choose to re-roll the result on the Warlord Trait table.</description>
     </rule>
     <rule name="Hail of Fire" id="53ef-472d-fba7-5517" hidden="false">
-      <description>On the turn this unit deploys by means of a Deep Strike, any model in this unit may fire twice in the following Shooting Phase. 
+      <description>On the turn this unit deploys by means of a Deep Strike, any model in this unit may fire twice in the following Shooting Phase. This second round of shooting must be rolled separately and against the same target as the original attacks. 
 
+Units with Split Fire may target another unit with the second round of shooting. 
 
-This may only be used once per game.</description>
+This does not allow you to fire a weapon twice that is only allowed to be fired once.
+
+Any characters wearing any variant of Terminator Armour joining this Unit may also benefit from this rule.
+
+This may only be used once per game per unit.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
