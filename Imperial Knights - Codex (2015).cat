@@ -2184,6 +2184,11 @@
         <categoryLink id="70f0-6f9e-81ab-e2d0-28b94f51-e66b-4096-aa59-0c9df620a77d" hidden="false" targetId="28b94f51-e66b-4096-aa59-0c9df620a77d" primary="true" name="Formation"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Knight Destrier" hidden="false" id="2776-37be-998a-e419" type="selectionEntry" targetId="97e3-0210-4f5c-2677">
+      <categoryLinks>
+        <categoryLink targetId="c888f08a-6cea-4a01-8126-d374a9231554" id="f841-7df6-0e6c-445f" primary="true" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="5246-abcd-738d-14ad" name="Cerastus Knight-Acheron" hidden="false" collective="false" import="true" type="model">
@@ -5436,6 +5441,9 @@
         <infoLink name="Smash" id="7046-9c49-6d69-8cdc" hidden="false" type="rule" targetId="1bb3-2856-abde-cd6d"/>
         <infoLink name="Strikedown" id="0583-4afa-67ae-462b" hidden="false" type="rule" targetId="b500-e499-9f9b-43f4"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="c888f08a-6cea-4a01-8126-d374a9231554" id="99dd-854b-72c1-570a" primary="true" name="Lord of War"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bellatus Reaper Chainsword" hidden="false" id="7ab8-7121-92ba-265a">
       <infoLinks>
