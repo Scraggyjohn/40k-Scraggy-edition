@@ -8889,6 +8889,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <infoLinks>
         <infoLink id="993e-4ed7-e929-f76b" hidden="false" targetId="44e0993d-4c19-297a-837a-869e17e25c12" type="rule" name="And They Shall Know No Fear"/>
         <infoLink id="6ca8-ebb2-f3ab-5f8a" hidden="false" targetId="1cf8bee4-06d6-ec61-eb6c-f865cae26137" type="rule" name="Combat Squads"/>
+        <infoLink name="Hail of Fire" id="78fc-99a1-6e60-ecd9" hidden="false" type="rule" targetId="53ef-472d-fba7-5517"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="7894-bce5-ec85-977a" name="Cataphractii Sgt" page="0" hidden="false" collective="false" import="true" type="model">
@@ -19423,7 +19424,7 @@ Centurion Assault Squads can be taken as fast attack choices as well as elites c
         <entryLink id="eb7846b2-0d30-8204-a0f8-4561d0e13767" hidden="false" collective="false" import="true" targetId="2e4123c3-7c9e-eb2d-4548-9b8d7008f3b9" type="selectionEntry" name="Raptors (FW)"/>
         <entryLink id="379440e9-4206-fcf8-a8e5-8670235945fc" hidden="false" collective="false" import="true" targetId="46a0683d-0404-19d0-053f-6e87b1daf9ca" type="selectionEntry" name="Mantis Warriors (FW)"/>
         <entryLink id="02e7a355-b666-67c8-28ae-280330e65b18" hidden="false" collective="false" import="true" targetId="364c21e4-5de2-9233-930c-3d8cd30f1831" type="selectionEntry" name="Executioners (FW)"/>
-        <entryLink id="b5ef9f14-b0df-8752-ea62-e3b60f216d2e" hidden="false" collective="false" import="true" targetId="e44e4802-6ea6-6cbb-5bca-fb24a14a03bd" type="selectionEntry" name="Angels Revenant (FW)"/>
+        <entryLink id="b5ef9f14-b0df-8752-ea62-e3b60f216d2e" hidden="false" collective="false" import="true" targetId="e44e4802-6ea6-6cbb-5bca-fb24a14a03bd" type="selectionEntry" name="Angels Revenant (Post 991.M41)(FW)"/>
         <entryLink id="10417398-2675-e6fe-08e2-37fb4cfb4920" hidden="false" collective="false" import="true" targetId="d4288042-2823-4a45-f501-892a2ed4713f" type="selectionEntry" name="Red Hunters (FW)"/>
         <entryLink id="c4513883-0913-2635-7ae6-d32ce46d54fd" hidden="false" collective="false" import="true" targetId="954b48d0-d863-7a9a-9feb-44aa3c93747e" type="selectionEntry" name="Fire Hawks (FW)"/>
         <entryLink id="c03c9c7d-12ed-8ae1-eb0b-93ae491e37b3" hidden="false" collective="false" import="true" targetId="df0e42a2-a9a4-222e-5941-44b1366c623f" type="selectionEntry" name="Minotaurs (FW)"/>
