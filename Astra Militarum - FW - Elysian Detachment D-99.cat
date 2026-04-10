@@ -504,6 +504,7 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                    <constraint type="max" value="8" field="selections" scope="self" shared="true" id="ae38-d402-637f-d63b" includeChildSelections="false"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="dac8735d-a755-fcbb-663c-0f69c5d48fbc" hidden="false" targetId="14967f52-d203-8f7d-ce79-5ceed07560df" type="profile" name="Breacher Charge"/>
