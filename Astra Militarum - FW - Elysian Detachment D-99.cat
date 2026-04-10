@@ -3668,18 +3668,6 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="ee2aab73-299c-0a3e-0612-276a3c3c3e9c" name="Veterans" hidden="false" collective="false" import="true" defaultSelectionEntryId="34877fdd-e172-8ebc-93a8-d035c35fc94a">
-          <modifiers>
-            <modifier type="decrement" field="minSelections" value="1">
-              <conditions>
-                <condition field="selections" scope="df6d7c7b-2917-4609-85c2-20b7c297bb1d" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="abbe8503-23b0-3583-724b-17c572454600" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="1">
-              <conditions>
-                <condition field="selections" scope="df6d7c7b-2917-4609-85c2-20b7c297bb1d" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="abbe8503-23b0-3583-724b-17c572454600" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="12" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
