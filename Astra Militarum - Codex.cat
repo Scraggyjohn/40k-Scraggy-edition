@@ -4259,7 +4259,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0b23-a747-d88b-7d8f" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport"/>
+        <entryLink id="0b23-a747-d88b-7d8f" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport">
+          <entryLinks>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="e581-20be-a473-a0df" type="selectionEntry" targetId="9bf5-1892-fa6c-315b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c470-b0ff-78f6-7570" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
         <entryLink id="ec68-3231-a258-eb76" hidden="false" collective="false" import="true" targetId="5d9c650e-5d0d-3490-f151-8161623ea294" type="selectionEntry" name="Commissar"/>
         <entryLink id="8293-8b27-af09-bbbe" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup" name="Specialists"/>
         <entryLink id="4026-7a24-a4e2-fd7f" name="Elite" hidden="true" collective="false" import="true" targetId="c6e2-f98a-521e-3114" type="selectionEntry">
@@ -12018,7 +12026,11 @@
       <entryLinks>
         <entryLink id="185a0dab-0d81-ea98-2832-7c842b7fcc43" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport">
           <entryLinks>
-            <entryLink import="true" name="Centaur RSV" hidden="false" id="0b51-89b1-cb91-c657" type="selectionEntry" targetId="9bf5-1892-fa6c-315b"/>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="0b51-89b1-cb91-c657" type="selectionEntry" targetId="9bf5-1892-fa6c-315b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aea0-f8d1-7d79-0e71" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </entryLink>
         <entryLink id="d6813a80-e6ad-aa8c-33a1-044ac4cab9a4" hidden="false" collective="false" import="true" targetId="10d99d9a-5268-3abb-aec0-76ff3ae54961" type="selectionEntry" name="Tallarn Desert Raiders (FW)"/>
@@ -12494,7 +12506,15 @@
         <entryLink id="a87f-99a4-4805-efdd" hidden="false" collective="false" import="true" targetId="e2beb4ff-2117-ad18-eb26-91a10181fc36" type="selectionEntry" name="Krak Grenades"/>
         <entryLink id="9ad8-61ef-f756-de89" hidden="false" collective="false" import="true" targetId="f2c773dd-0705-81de-d50f-03d3564e6b41" type="selectionEntry" name="Frag Grenades"/>
         <entryLink id="a9ad-3773-5f88-aacc" hidden="false" collective="false" import="true" targetId="1d417a8d-a248-a057-2844-014b526aba23" type="selectionEntry" name="Refractor Field"/>
-        <entryLink id="b129-9c6e-dd86-d8ab" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport"/>
+        <entryLink id="b129-9c6e-dd86-d8ab" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport">
+          <entryLinks>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="ba64-4db1-f108-2a88" type="selectionEntry" targetId="9bf5-1892-fa6c-315b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47ef-f3a4-9543-91dc" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
         <entryLink id="7f2b-22e9-ef08-3ddc" hidden="false" collective="false" import="true" targetId="f3aee269-2f69-f57e-eaea-6a91ac502357" type="selectionEntry" name="Warlord"/>
         <entryLink id="92d6-db83-b19e-71f5" hidden="false" collective="false" import="true" targetId="817d1d89-a150-658d-837c-02417b24437b" type="selectionEntry" name="Melta Bombs"/>
         <entryLink id="b02d-13c5-5d2e-35fa" name="Arcana Mechanicum" hidden="false" collective="false" import="true" targetId="80a5-f64a-d9dd-9e73" type="selectionEntryGroup">
@@ -14283,7 +14303,15 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="289f-7cb6-4b0c-f597" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport"/>
+        <entryLink id="289f-7cb6-4b0c-f597" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport">
+          <entryLinks>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="703a-6359-ed90-e3b5" type="selectionEntry" targetId="9bf5-1892-fa6c-315b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce45-16e7-1b83-43a3" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
         <entryLink id="32ac-41b6-64b1-1800" hidden="false" collective="false" import="true" targetId="5d9c650e-5d0d-3490-f151-8161623ea294" type="selectionEntry" name="Commissar"/>
         <entryLink id="82f9-d204-fe65-e7c5" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup" name="Specialists"/>
         <entryLink id="ff5c-fc92-acdc-6f09" name="Elite" hidden="true" collective="false" import="true" targetId="c6e2-f98a-521e-3114" type="selectionEntry">
@@ -18214,7 +18242,15 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c997-38d1-4a37-1faf" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport"/>
+        <entryLink id="c997-38d1-4a37-1faf" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport">
+          <entryLinks>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="9a78-d76d-5af2-e14c" type="selectionEntry" targetId="9bf5-1892-fa6c-315b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66a6-d5bb-ff98-151b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
         <entryLink id="d627-e180-6872-7b46" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup" name="Specialists"/>
         <entryLink id="fa69-f9b1-dd23-2825" name="Elite" hidden="true" collective="false" import="true" targetId="c6e2-f98a-521e-3114" type="selectionEntry">
           <modifiers>

@@ -69,6 +69,16 @@
             <cost name="pts" typeId="points" value="5"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dedicated Transport" hidden="false" id="ba4f-eea9-6527-4a76">
+          <entryLinks>
+            <entryLink import="true" name="Chimera AF" hidden="false" id="d2e9-0db4-aae6-9848" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="33ac-7651-5215-95fb" type="selectionEntry" targetId="b499-7565-40d9-4579"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c69a1e69-d0dd-c9c8-7332-faec03a7ae34" name="Guardsmen" hidden="false" collective="false" import="true" defaultSelectionEntryId="ee53418f-955b-bb72-67de-b127bb2cda59">
@@ -477,11 +487,8 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="dd16ad7a-d1da-5b2a-0acc-56802330f4e1" hidden="false" collective="false" import="true" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1" type="selectionEntry" name="Chimera AF"/>
-      </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="85"/>
+        <cost name="pts" typeId="points" value="75"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2694e7d-3616-0b13-6359-422c340ad3be" name="Armoured Fist Cyclops Demolition Squadron" publicationId="b5703e9d--pubN65858" page="265" hidden="false" collective="false" import="true" type="unit">
@@ -1341,6 +1348,12 @@
             <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dedicated Transport" hidden="false" id="18ea-f87b-8d56-77eb">
+          <entryLinks>
+            <entryLink import="true" name="Chimera AF" hidden="false" id="07c1-d27b-eefa-397f" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1"/>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="9940-6dc2-f8de-e6bf" type="selectionEntry" targetId="b499-7565-40d9-4579"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b2fdb9bb-0a85-2447-0f27-a5857882cb71" name="Storm Troopers" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b41c99f-2fa1-32e0-114e-2cf5b1ad9d04">
@@ -1471,7 +1484,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2617e921-cba9-e92f-cfd2-4e76e84d6699" hidden="false" collective="false" import="true" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1" type="selectionEntry" name="Chimera AF"/>
         <entryLink id="f523-3a56-1fee-992e" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup" name="Specialists"/>
       </entryLinks>
       <costs>
@@ -10408,6 +10420,34 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <costs>
         <cost name="pts" typeId="points" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Centaur RSV" hidden="false" id="b499-7565-40d9-4579">
+      <profiles>
+        <profile name="Centaur RSV" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle" hidden="false" id="205d-d23c-e8c8-1065">
+          <characteristics>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">10</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Open-topped, Transport, Fast</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Centaur RSV" typeId="b3a8-0452-7436-44d1" typeName="Transport" hidden="false" id="59b1-fcea-d0ad-e358">
+          <characteristics>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">10</characteristic>
+            <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">Anywhere from hull</characteristic>
+            <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">Open-topped</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pintle-mounted Heavy Stubber" hidden="false" id="c1eb-1dfe-9f97-0707">
+          <infoLinks>
+            <infoLink name="Heavy Stubber" id="f1f9-46b5-fe7a-37f9" hidden="false" type="profile" targetId="0031-0314-5b36-a220"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
