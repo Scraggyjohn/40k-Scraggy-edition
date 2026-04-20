@@ -2443,6 +2443,10 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="825e-d331-7908-058d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f826-08c5-be3d-4404" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Power Staff" hidden="false" id="24b9-3449-fa3c-adee">
           <profiles>
@@ -2455,6 +2459,10 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6294-d1b7-662d-597f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4b5-b2a1-1918-d995" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2488,6 +2496,7 @@ This Formation counts as three units for the purposes of Canticles of the Omniss
         <infoLink name="Relentless" id="8917-337e-8ffe-7c49" hidden="false" type="rule" targetId="7674-690c-ab59-1444"/>
         <infoLink name="Canticles of the Omnissiah (CotO)" id="a646-de8b-622d-4b4a" hidden="false" type="rule" targetId="ebd3-71c4-e554-1948"/>
         <infoLink name="Blessing of the Omnissiah" id="072a-b2f5-dd34-b43d" hidden="false" type="rule" targetId="9e80-d151-d22e-859a"/>
+        <infoLink name="Servo Arm" id="e3f6-8348-a5d4-e104" hidden="false" type="profile" targetId="57d8-9594-281e-5001"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>

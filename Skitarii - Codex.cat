@@ -2976,6 +2976,9 @@ Servo-skull Uplink: Once per battle, at the start of any phase, you can select o
                     <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a3f6-e3d0-d63e-9ab9" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3bca-f6fd-b662-9275" includeChildSelections="false"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink name="Phosphor Pistol" id="6350-004b-bf76-47fc" hidden="false" type="profile" targetId="0e8c-a8ed-f8df-5884"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Sulphur Breath" hidden="false" id="2f0e-c148-1bcd-4093">
                   <infoLinks>
