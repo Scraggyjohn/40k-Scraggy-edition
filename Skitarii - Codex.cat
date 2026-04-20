@@ -2944,7 +2944,7 @@ Servo-skull Uplink: Once per battle, at the start of any phase, you can select o
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Serberys Sulphurhound (Pistols)" hidden="false" id="cc01-fb50-7bb0-be43">
+            <selectionEntry type="upgrade" import="true" name="Serberys Sulphurhound (Pistols)" hidden="false" id="cc01-fb50-7bb0-be43" defaultAmount="2">
               <profiles>
                 <profile name="Serberys Sulphurhound" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit" hidden="false" id="0029-47d6-2761-9f4c">
                   <characteristics>
