@@ -25666,10 +25666,134 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <infoLinks>
             <infoLink name="Heavy Stubber" id="7b3e-b5a0-2f8c-07f6" hidden="false" type="profile" targetId="0031-0314-5b36-a220"/>
           </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f67b-4772-c933-2a6f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94cd-ef43-b5e8-8fa7" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="55"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Vehicle Upgrades" id="b8eb-031d-493d-ad20" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Dozer Blade" hidden="false" id="93b4-d24d-edf7-5e38" type="selectionEntry" targetId="423a2da3-4a0f-20ac-60cb-685bfe4aa771"/>
+            <entryLink import="true" name="Camo Netting" hidden="false" id="18dc-64d5-64c6-ccb0" type="selectionEntry" targetId="3765c73f-67be-ee1b-080c-a2bd61a72f39"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hippogriff AFV" hidden="false" id="c022-cc09-621e-1eb7">
+      <profiles>
+        <profile name="Hippogriff AFV" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle" hidden="false" id="45ce-1996-cad8-4213">
+          <characteristics>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">11</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">11</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle, Fast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turret Weapons" id="ab5b-cf3a-1661-1504" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Coaxial Weapon" id="9079-b7ed-de14-593d" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="0190-3013-50b3-0451" defaultAmount="1">
+                  <infoLinks>
+                    <infoLink name="Heavy Stubber" id="9a39-a90b-2787-cd89" hidden="false" type="profile" targetId="0031-0314-5b36-a220"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="d5ac-5987-6948-fe6c">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Meltagun" id="30c1-1c44-3325-537a" hidden="false" type="profile" targetId="ec4c-1132-ddaf-db8e"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d56-9b3c-220c-c829" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3465-051c-eb94-edc6" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Main Weapon" id="675e-d999-1dbd-ff85" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Vigilator Cannon" hidden="false" id="60db-bb86-b445-5d5b" defaultAmount="1">
+                  <profiles>
+                    <profile name="Vigilator Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="1876-bf31-c139-386a">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, 3&quot; Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Chiron Gatling Cannon" hidden="false" id="cf2f-55a2-a37f-c1a5">
+                  <profiles>
+                    <profile name="Chiron Gatling Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="c2da-27b8-aefa-8134">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 12</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Lascannon" hidden="false" id="b213-3975-1f0f-f12a">
+                  <profiles>
+                    <profile name="Heavy Lascannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="11f2-4f40-66e9-7909">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">54&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Melta Cannon" hidden="false" id="5f82-bf79-13af-89d8">
+                  <profiles>
+                    <profile name="Melta Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="6bed-6e96-8491-035c">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Melta</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c484-0e60-ae6f-ae50" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c0e-1f8f-9f38-d504" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Vehicle Upgrades" id="c4db-9ee2-0cb2-0aa1" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Dozer Blade" hidden="false" id="d970-23d9-8b4e-b4fd" type="selectionEntry" targetId="423a2da3-4a0f-20ac-60cb-685bfe4aa771"/>
+            <entryLink import="true" name="Camo Netting" hidden="false" id="522e-7b0c-5900-5dd1" type="selectionEntry" targetId="3765c73f-67be-ee1b-080c-a2bd61a72f39"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="90"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -31683,4 +31807,19 @@ May not take Carapace Armour.</description>
       </characteristics>
     </profile>
   </sharedProfiles>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Hippogriff AFV Squadron" hidden="false" id="37eb-9ecd-680c-3b90">
+      <categoryLinks>
+        <categoryLink targetId="c274d0b0-5866-44bc-9810-91c136ae7438" id="38a5-ea75-8ead-ed5a" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hippogriff AFV" hidden="false" id="90c0-3d7c-de97-dde6" type="selectionEntry" targetId="c022-cc09-621e-1eb7" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fc6-fcde-1f71-1d84" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b457-2f1b-3516-9fe2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>

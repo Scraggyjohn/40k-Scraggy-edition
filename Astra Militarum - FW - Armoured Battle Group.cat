@@ -7035,8 +7035,8 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <entryLinks>
         <entryLink import="true" name="Hippogriff AFV" hidden="false" id="102e-8224-a932-eaec" type="selectionEntry" targetId="4975-ffc2-5303-d8d8" defaultAmount="1">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a07-926f-c91b-8aac" includeChildSelections="false"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="28a9-6235-90a3-188b" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c07-9a5c-1dcf-8dc8" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d670-89e4-3c54-cd5b" includeChildSelections="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -8929,6 +8929,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </costs>
     </selectionEntry>
     <selectionEntry id="082c62f1-215f-649c-d961-25e1f54ce604" name="Meltagun" page="0" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="c02ac3b3-ce77-6f0e-e1dd-830bc596976a" hidden="false" targetId="27997a1d-f5c5-0e8b-4d52-45c3037e6b4d" type="profile" name="Meltagun"/>
       </infoLinks>
@@ -10515,9 +10519,14 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </constraints>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="3929-d147-5eb6-b06c" type="selectionEntryGroup" targetId="7a15b025-7a25-1eb9-f8eb-9c88b664441c"/>
-      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Vehicle Upgrades" id="5e85-433a-c1fb-c51e" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Dozer Blade" hidden="false" id="c4ee-b930-2610-5c26" type="selectionEntry" targetId="423a2da3-4a0f-20ac-60cb-685bfe4aa771"/>
+            <entryLink import="true" name="Camo Netting" hidden="false" id="186c-857a-72fa-3f09" type="selectionEntry" targetId="3765c73f-67be-ee1b-080c-a2bd61a72f39"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Hippogriff AFV" hidden="false" id="4975-ffc2-5303-d8d8">
       <profiles>
@@ -10542,14 +10551,15 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <infoLink name="Heavy Stubber" id="4e60-f565-a62b-0994" hidden="false" type="profile" targetId="0031-0314-5b36-a220"/>
                   </infoLinks>
                 </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink import="true" name="Meltagun" hidden="false" id="9d00-652d-5174-93f5" type="selectionEntry" targetId="082c62f1-215f-649c-d961-25e1f54ce604">
+                <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="12aa-82c1-9ba1-8634">
                   <costs>
                     <cost name="pts" typeId="points" value="10"/>
                   </costs>
-                </entryLink>
-              </entryLinks>
+                  <infoLinks>
+                    <infoLink name="Meltagun" id="480b-6573-fa22-d033" hidden="false" type="profile" targetId="ec4c-1132-ddaf-db8e"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd2f-ef86-bcec-86cf" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20c1-9fa6-dfce-d25b" includeChildSelections="false"/>
@@ -10603,7 +10613,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Armourbane</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Melta</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10619,10 +10629,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Vehicle Upgrades" id="a950-3b94-1f8a-7ffc" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Dozer Blade" hidden="false" id="6538-c91b-4b3b-4076" type="selectionEntry" targetId="423a2da3-4a0f-20ac-60cb-685bfe4aa771"/>
+            <entryLink import="true" name="Camo Netting" hidden="false" id="41b0-410d-9270-0714" type="selectionEntry" targetId="3765c73f-67be-ee1b-080c-a2bd61a72f39"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="0e1c-9a67-7be8-0466" type="selectionEntryGroup" targetId="7a15b025-7a25-1eb9-f8eb-9c88b664441c"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90"/>
       </costs>
