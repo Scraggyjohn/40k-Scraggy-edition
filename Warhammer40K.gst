@@ -5880,6 +5880,9 @@ Any characters wearing any variant of Terminator Armour joining this Unit may al
 
 This may only be used once per game per unit.</description>
     </rule>
+    <rule name="Sunder" id="0a6c-ea01-41a1-4a5e" hidden="false">
+      <description>Attacks with this rule may re-roll failed Armour Penetration rolls.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="fcde-3e6a-e240-1157" name="Autogun" publicationId="e1ebd931--pubN66380" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">

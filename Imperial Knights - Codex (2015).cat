@@ -2068,6 +2068,32 @@
         <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Knight Armiger Talon" hidden="false" id="cb72-9070-25c7-bc07">
+      <categoryLinks>
+        <categoryLink targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="f268-0e06-4320-1cc5" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Knight Armiger" hidden="false" id="9b0b-694b-85b6-0aa6" type="selectionEntry" targetId="57dd-ba14-e081-5816" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63e2-33cb-e5ce-0739" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="498e-f0a0-f63f-c4c1" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Knight Moirax Talon" hidden="false" id="edc6-82e4-daa8-8438">
+      <categoryLinks>
+        <categoryLink targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="6152-8537-a4cb-7dbf" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Knight Moirax" hidden="false" id="6889-b593-9e0f-4b4e" type="selectionEntry" targetId="0cf9-7646-7357-971f">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5989-0bc8-d236-a022" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="90ed-7e02-f426-fe86" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="9ca2-8d7d-4597-040c" hidden="false" collective="false" import="true" targetId="a348-89a8-f145-4476" type="selectionEntry" name="Knight Errant">
@@ -5476,6 +5502,267 @@ Assault phase - You can reroll one of your dice when determining charge distance
       <infoLinks>
         <infoLink name="Chastiser Gatling Cannon " id="ec2d-d763-af51-86da" hidden="false" type="profile" targetId="aa6d-461b-5d6b-0e83"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Knight Armiger" hidden="false" id="57dd-ba14-e081-5816">
+      <costs>
+        <cost name="pts" typeId="points" value="180"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hull Weapon" id="35b0-118c-07ed-cf79" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="0517-7b2e-548c-a715">
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Heavy Stubber" id="c7a9-e3dd-7cf1-399c" hidden="false" type="profile" targetId="0031-0314-5b36-a220"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="c4a9-fe1d-4994-69e8">
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Meltagun" id="8006-175d-623c-7355" hidden="false" type="profile" targetId="ec4c-1132-ddaf-db8e"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d83a-5b1e-8b03-3bc0" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Arm Weapons" id="b975-79d4-e385-f754" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Armiger Autocannon" hidden="false" id="ea4c-e8bc-6ff2-7441">
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <profiles>
+                <profile name="Armiger Autocannon (Armour Piercing Rounds)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="f7fd-6f82-5f50-325d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">64&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Sunder</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Armiger Autocannon (Incendiary Rounds)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="d4e8-33a0-e3cb-807c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">64&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Ignores Cover</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Sunder" id="e1a4-a80b-151b-6d47" hidden="false" type="rule" targetId="0a6c-ea01-41a1-4a5e"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armiger Thermal Spear" hidden="false" id="f9ee-c084-9121-fd69">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <profiles>
+                <profile name="Armiger Thermal Spear" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="2395-5a28-c20a-d134">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Melta</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Melta" id="56f0-9445-a525-0e45" hidden="false" type="rule" targetId="bc4c-234f-0293-98a7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armiger Close Combat Weapon" hidden="false" id="ad60-b64d-0c03-ed81" defaultAmount="2">
+              <infoLinks>
+                <infoLink name="Dreadnought Close Combat Weapon" id="909c-26d6-54a5-4495" hidden="false" type="profile" targetId="3b26-3098-155f-0e58"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="10a5-a4d4-634a-d916" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="92b8-5b55-1b72-fdf2" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Knight Armiger" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker" hidden="false" id="e176-7831-87d6-ee8f">
+          <characteristics>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">7</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">12</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">12</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">11</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">4</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Walker)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Knight Moirax" hidden="false" id="0cf9-7646-7357-971f">
+      <profiles>
+        <profile name="Knight Moirax" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker" hidden="false" id="b128-d09f-b9b0-2223">
+          <characteristics>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">7</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">12</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">12</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">11</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">4</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Walker)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arm Weapons" id="9443-d94b-d64e-56cf" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Conversion Beam Cannon" hidden="false" id="b29f-d6dc-fe03-81d4">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7c8-620c-715c-d5b7" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Conversion Beam Cannon (1)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="458d-985a-ddb3-72cb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Up to 18&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, 3&quot; Blast</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Conversion Beam Cannon (2)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="00e3-aa4b-9284-e6f9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot; - 42&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, 3&quot; Blast</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Conversion Beam Cannon (3)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="1688-9d22-2292-3f51">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">42&quot; - 72&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, 3&quot; Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Graviton Pulsar" hidden="false" id="00cb-9340-0844-1fcc">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <profiles>
+                <profile name="Graviton Pulsar" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="a072-0694-205c-0ab6">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">-</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, 3&quot; Blast, Concussive, Graviton Pulse, Haywire</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Concussive" id="6e84-e2ff-9071-b17c" hidden="false" type="rule" targetId="d0ea-e2a6-032d-8754"/>
+                <infoLink name="Haywire" id="1408-6a6c-731e-d2bc" hidden="false" type="rule" targetId="719f-69cb-c032-d0ef"/>
+              </infoLinks>
+              <rules>
+                <rule name="Graviton Pulse" id="b7a4-22a8-2586-394f" hidden="false">
+                  <description>Instead of rolling To Wound normally with this weapon, any model caught in its blast must instead roll equal to or under their Strength on a D6 or suffer a wound (a roll of a ‘6’ always counts as a failure). After a Graviton Pulse weapon has been fired, leave the Blast marker in place. This area now counts as both difficult terrain and dangerous terrain for the next turn thanks to the gravity flux.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gyges Siege Claw with in-built Rad Cleanser" hidden="false" id="2903-f2a0-4455-244a" defaultAmount="1">
+              <profiles>
+                <profile name="Gyges Siege Claw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="1248-75ee-644c-2eeb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X2</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Wrecker</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Rad/Irad-cleanser" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="aea5-fec2-e73a-7740">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">2</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Fleshbane, Rad-phage
+
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Fleshbane" id="8b6a-7e27-e6ac-ec09" hidden="false" type="rule" targetId="3897-5e71-1b57-57ba"/>
+              </infoLinks>
+              <rules>
+                <rule name="Wrecker" id="9b2e-a2e0-37ee-3db8" hidden="false">
+                  <description>Attacks with this special rule may re-roll failed armour penetration rolls against fortifications and Immobile structures and add +1 to any result rolled on the Building Damage chart. If this attack damages a bulkhead or wall section of terrain and destroys it, remove that section of terrain from play if possible.</description>
+                </rule>
+                <rule name="Rad-phage" id="fcd7-136f-d265-716a" hidden="false">
+                  <description>A model which loses one or more wounds to an attack with this rule and survives suffers a -1 penalty to its Toughness value for the rest of the battle.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lightning Lock" hidden="false" id="e17e-c9eb-0c77-e150">
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+              <profiles>
+                <profile name="Lightning Lock" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="659a-866d-0256-080a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Rending, Shred, 3&quot; Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Rending" id="4305-fdf2-2588-e7da" hidden="false" type="rule" targetId="6a76-59d1-822c-59c9"/>
+                <infoLink name="Shred" id="8fea-476d-9f59-226d" hidden="false" type="rule" targetId="5770-35c6-7341-5527"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Volkite Veuglaire" hidden="false" id="6d7d-27d6-3994-465d" defaultAmount="1">
+              <profiles>
+                <profile name="Volkite Veuglaire" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="a8d5-1ca8-c824-82eb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 5, Deflagarate </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Deflagrate" id="26a9-7dcc-f394-93d8" hidden="false">
+                  <description>After normal attacks by this weapon have been resolved, count the number of unsaved wounds caused on the target unit. Immediately Resolve a number of additional automatic hits on the same unit using the weapon’s profile equal to the number of unsaved wounds – these can then be saved normally. Models in the targeted unit must still be in range in order for these additional hits to take effect. These additional hits do not themselves inflict more hits.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e051-a584-b42c-16e9" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a711-1b98-1383-21e6" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="155"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
