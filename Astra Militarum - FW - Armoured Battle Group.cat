@@ -7033,7 +7033,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <categoryLink targetId="c274d0b0-5866-44bc-9810-91c136ae7438" id="3820-9848-dddb-b332" primary="true" name="Fast Attack"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Hippogriff AFV" hidden="false" id="102e-8224-a932-eaec" type="selectionEntry" targetId="4975-ffc2-5303-d8d8"/>
+        <entryLink import="true" name="Hippogriff AFV" hidden="false" id="102e-8224-a932-eaec" type="selectionEntry" targetId="4975-ffc2-5303-d8d8" defaultAmount="1"/>
       </entryLinks>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="33e4-1b8a-3d29-1a3e" includeChildSelections="false"/>
