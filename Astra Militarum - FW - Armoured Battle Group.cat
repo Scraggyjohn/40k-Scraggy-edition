@@ -7033,12 +7033,13 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <categoryLink targetId="c274d0b0-5866-44bc-9810-91c136ae7438" id="3820-9848-dddb-b332" primary="true" name="Fast Attack"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Hippogriff AFV" hidden="false" id="102e-8224-a932-eaec" type="selectionEntry" targetId="4975-ffc2-5303-d8d8" defaultAmount="1"/>
+        <entryLink import="true" name="Hippogriff AFV" hidden="false" id="102e-8224-a932-eaec" type="selectionEntry" targetId="4975-ffc2-5303-d8d8" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a07-926f-c91b-8aac" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="28a9-6235-90a3-188b" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="33e4-1b8a-3d29-1a3e" includeChildSelections="false"/>
-        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="aa00-d3c4-1c6c-b9a9" includeChildSelections="false"/>
-      </constraints>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -8928,10 +8929,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </costs>
     </selectionEntry>
     <selectionEntry id="082c62f1-215f-649c-d961-25e1f54ce604" name="Meltagun" page="0" hidden="false" collective="true" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="c02ac3b3-ce77-6f0e-e1dd-830bc596976a" hidden="false" targetId="27997a1d-f5c5-0e8b-4d52-45c3037e6b4d" type="profile" name="Meltagun"/>
       </infoLinks>
