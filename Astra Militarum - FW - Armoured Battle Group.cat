@@ -7028,6 +7028,18 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <cost name="pts" typeId="points" value="2750"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Armoured Fist Hippogriff AFV Squadron" hidden="false" id="69b9-64ff-b27b-4b5a">
+      <categoryLinks>
+        <categoryLink targetId="c274d0b0-5866-44bc-9810-91c136ae7438" id="3820-9848-dddb-b332" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hippogriff AFV" hidden="false" id="102e-8224-a932-eaec" type="selectionEntry" targetId="4975-ffc2-5303-d8d8"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="33e4-1b8a-3d29-1a3e" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="aa00-d3c4-1c6c-b9a9" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="4ebc7e0a-85ad-3dc3-765e-e9460118c2e5" hidden="false" collective="false" import="true" targetId="079cbe3b-8703-9556-9623-40630da3ec9f" type="selectionEntry" name="Shadowsword"/>
@@ -10506,6 +10518,117 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="3929-d147-5eb6-b06c" type="selectionEntryGroup" targetId="7a15b025-7a25-1eb9-f8eb-9c88b664441c"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hippogriff AFV" hidden="false" id="4975-ffc2-5303-d8d8">
+      <profiles>
+        <profile name="Hippogriff AFV" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle" hidden="false" id="ea5b-31c0-b126-b094">
+          <characteristics>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">11</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">11</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle, Fast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turret Weapons" id="89d5-5db2-9e13-abf0" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Coaxial Weapon" id="8ea1-fd61-cc3a-db61" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="29df-a378-8ec4-8d67" defaultAmount="1">
+                  <infoLinks>
+                    <infoLink name="Heavy Stubber" id="4e60-f565-a62b-0994" hidden="false" type="profile" targetId="0031-0314-5b36-a220"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Meltagun" hidden="false" id="9d00-652d-5174-93f5" type="selectionEntry" targetId="082c62f1-215f-649c-d961-25e1f54ce604">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd2f-ef86-bcec-86cf" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20c1-9fa6-dfce-d25b" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Main Weapon" id="3186-986a-d3ae-1fb9" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Vigilator Cannon" hidden="false" id="a0b9-e049-2964-9fea" defaultAmount="1">
+                  <profiles>
+                    <profile name="Vigilator Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="30ea-e8e0-a426-9179">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, 3&quot; Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Chiron Gatling Cannon" hidden="false" id="e3f6-186a-bc59-00f2">
+                  <profiles>
+                    <profile name="Chiron Gatling Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="c492-94f8-bd86-0c5f">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 12</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Lascannon" hidden="false" id="9d1c-5e02-6423-accd">
+                  <profiles>
+                    <profile name="Heavy Lascannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="e354-7ba3-3b40-283f">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">54&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Melta Cannon" hidden="false" id="5d2c-c912-185d-385d">
+                  <profiles>
+                    <profile name="Melta Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="bcca-9b3f-c746-6c9e">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
+                        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Armourbane</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff56-f285-4083-46e9" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a39c-3f53-65cf-7d11" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="0e1c-9a67-7be8-0466" type="selectionEntryGroup" targetId="7a15b025-7a25-1eb9-f8eb-9c88b664441c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="90"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
