@@ -5738,6 +5738,7 @@
             <entryLink id="2a1a-3b13-638c-2a73" hidden="false" collective="false" import="true" targetId="c8ceb195-ea1c-44c8-79fb-f2dc96f40f0e" type="selectionEntry" name="Chimera"/>
             <entryLink id="7350-8724-2e68-647f" hidden="false" collective="false" import="true" targetId="1f595874-8a4a-4ea5-d551-2e6bf9901827" type="selectionEntry" name="Aquila Lander (FW)"/>
             <entryLink id="19be-9796-54a8-9309" hidden="false" collective="false" import="true" targetId="e985a7ca-7d52-68b9-43ed-a0fb977f7fbe" type="selectionEntry" name="Taurox"/>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="3c91-c8c4-8e09-71dc" type="selectionEntry" targetId="9bf5-1892-fa6c-315b"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="771d-2981-7a19-a5c6" name="Regimental Advisors" hidden="false" collective="false" import="true">
@@ -12015,7 +12016,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="185a0dab-0d81-ea98-2832-7c842b7fcc43" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport"/>
+        <entryLink id="185a0dab-0d81-ea98-2832-7c842b7fcc43" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport">
+          <entryLinks>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="0b51-89b1-cb91-c657" type="selectionEntry" targetId="9bf5-1892-fa6c-315b"/>
+          </entryLinks>
+        </entryLink>
         <entryLink id="d6813a80-e6ad-aa8c-33a1-044ac4cab9a4" hidden="false" collective="false" import="true" targetId="10d99d9a-5268-3abb-aec0-76ff3ae54961" type="selectionEntry" name="Tallarn Desert Raiders (FW)"/>
         <entryLink id="6dec22bb-fdf2-ec21-cb77-ce099dde3883" hidden="false" collective="false" import="true" targetId="5d9c650e-5d0d-3490-f151-8161623ea294" type="selectionEntry" name="Commissar"/>
         <entryLink id="dc14-e5cd-27ea-1bc5" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup" name="Specialists"/>
@@ -13438,6 +13443,7 @@
               <entryLinks>
                 <entryLink id="d44a-c803-a8b3-03c8" hidden="false" collective="false" import="true" targetId="c8ceb195-ea1c-44c8-79fb-f2dc96f40f0e" type="selectionEntry" name="Chimera"/>
                 <entryLink id="6a80-6bc8-9ac8-c4bd" hidden="false" collective="false" import="true" targetId="ff60e987-6d6d-6170-0e8f-8d5aee0d3be1" type="selectionEntry" name="Taurox Prime"/>
+                <entryLink import="true" name="Centaur RSV" hidden="false" id="65b3-97e1-11cc-28de" type="selectionEntry" targetId="9bf5-1892-fa6c-315b"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="9015-3286-bf8b-bf82" name="Scions" hidden="false" collective="false" import="true" defaultSelectionEntryId="13fe-48dd-e0f9-18db">
@@ -13699,6 +13705,7 @@
               <entryLinks>
                 <entryLink id="928e-4686-facf-212e" hidden="false" collective="false" import="true" targetId="c8ceb195-ea1c-44c8-79fb-f2dc96f40f0e" type="selectionEntry" name="Chimera"/>
                 <entryLink id="d4eb-a6b4-b9d5-3208" hidden="false" collective="false" import="true" targetId="ff60e987-6d6d-6170-0e8f-8d5aee0d3be1" type="selectionEntry" name="Taurox Prime"/>
+                <entryLink import="true" name="Centaur RSV" hidden="false" id="9bac-5592-c5ca-847b" type="selectionEntry" targetId="9bf5-1892-fa6c-315b"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="d5ef-895c-5d0e-d24e" name="Scions" hidden="false" collective="false" import="true" defaultSelectionEntryId="d591-2aaa-f11b-4fd0">
@@ -14742,6 +14749,7 @@
             <entryLink id="3ea702f0-61a0-1ff4-5d15-3eeca26f7a3b" hidden="false" collective="false" import="true" targetId="c8ceb195-ea1c-44c8-79fb-f2dc96f40f0e" type="selectionEntry" name="Chimera"/>
             <entryLink id="f32ddc9f-4403-e792-6fca-e26caf164805" hidden="false" collective="false" import="true" targetId="1f595874-8a4a-4ea5-d551-2e6bf9901827" type="selectionEntry" name="Aquila Lander (FW)"/>
             <entryLink id="01a01718-a405-542a-9e5b-ae2ce2a08cbb" hidden="false" collective="false" import="true" targetId="e985a7ca-7d52-68b9-43ed-a0fb977f7fbe" type="selectionEntry" name="Taurox"/>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="d75c-e434-4de3-5332" type="selectionEntry" targetId="9bf5-1892-fa6c-315b"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -16918,9 +16926,6 @@
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="1884265d-43fa-e908-3384-af0d3dd87123" hidden="false" targetId="9abb0348-67fc-4a0f-8dc8-1ee53fcc83e4" type="profile" name="Heavy Stubber"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
       </costs>
@@ -17927,7 +17932,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="272d-a93a-44ff-57f9" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport"/>
+        <entryLink id="272d-a93a-44ff-57f9" hidden="false" collective="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup" name="Dedicated Transport">
+          <entryLinks>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="da2d-3a64-0929-63a7" type="selectionEntry" targetId="9bf5-1892-fa6c-315b"/>
+          </entryLinks>
+        </entryLink>
         <entryLink id="b188-dc34-4054-08a7" hidden="false" collective="false" import="true" targetId="5d9c650e-5d0d-3490-f151-8161623ea294" type="selectionEntry" name="Commissar"/>
         <entryLink id="0fd0-e2de-bb4d-31be" hidden="false" collective="false" import="true" targetId="10d99d9a-5268-3abb-aec0-76ff3ae54961" type="selectionEntry" name="Tallarn Desert Raiders (FW)"/>
         <entryLink id="4644-ca9d-11c6-7d87" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup" name="Specialists"/>
@@ -25516,7 +25525,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Field Ordnance Battery" hidden="false" id="cf42-23ab-e07f-a92e" defaultAmount="">
+    <selectionEntry type="upgrade" import="true" name="Field Ordnance Battery" hidden="false" id="cf42-23ab-e07f-a92e">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Field Ordnance Battery" hidden="false" id="2607-f6e6-7611-ca6c">
           <constraints>
@@ -25570,7 +25579,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <infoLink name="Heavy Lascannon" id="407e-fd00-51a9-3e52" hidden="false" type="profile" targetId="c3a2-5da4-ca0f-ba90"/>
                   </infoLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Bombast Field Gun" hidden="false" id="4804-71a2-fb4b-3ed4" defaultAmount="">
+                <selectionEntry type="upgrade" import="true" name="Bombast Field Gun" hidden="false" id="4804-71a2-fb4b-3ed4">
                   <infoLinks>
                     <infoLink name="Bombast Field Gun" id="e013-3711-199d-d77b" hidden="false" type="profile" targetId="5f31-9577-c86c-3dc5"/>
                   </infoLinks>
@@ -25595,6 +25604,37 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Centaur RSV" hidden="false" id="9bf5-1892-fa6c-315b">
+      <profiles>
+        <profile name="Centaur RSV" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle" hidden="false" id="17e5-2894-4388-8dec">
+          <characteristics>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">10</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Open-topped, Transport, Fast</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Centaur RSV" typeId="b3a8-0452-7436-44d1" typeName="Transport" hidden="false" id="4935-1e76-21b2-65ea">
+          <characteristics>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">10</characteristic>
+            <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">Anywhere from hull.</characteristic>
+            <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">Open-topped</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pintle-mounted Heavy Stubber" hidden="false" id="86ee-bc7b-886f-1e62">
+          <infoLinks>
+            <infoLink name="Heavy Stubber" id="7b3e-b5a0-2f8c-07f6" hidden="false" type="profile" targetId="0031-0314-5b36-a220"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="55"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

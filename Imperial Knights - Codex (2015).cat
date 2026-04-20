@@ -5395,7 +5395,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="967e-9413-4d7a-45ae" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Bellatus Reaper Chainsword" hidden="false" id="1796-fe39-5fe4-28df" type="selectionEntry" targetId="7ab8-7121-92ba-265a" defaultAmount="">
+                <entryLink import="true" name="Bellatus Reaper Chainsword" hidden="false" id="1796-fe39-5fe4-28df" type="selectionEntry" targetId="7ab8-7121-92ba-265a">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc72-ee3b-eb3b-7b94" includeChildSelections="false"/>
                   </constraints>
@@ -5427,6 +5427,17 @@
             <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">3</characteristic>
             <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">5</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Super-Heavy Walker)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ram Jets" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" hidden="false" id="3782-df59-50b9-580a">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit with Ram Jets can use them once per turn in either the Movement phase or the assault phase. They cannot use Ram Jets in both phases in the same turn. 
+
+
+Movement Phase - Add D6 to your movement. 
+
+
+Assault phase - You can reroll one of your dice when determining charge distance.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6251,7 +6262,7 @@
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 12 </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 12</characteristic>
       </characteristics>
     </profile>
     <profile name="Frag Bombard" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="0765-93ee-b003-82d9">
