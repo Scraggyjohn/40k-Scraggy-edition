@@ -482,7 +482,7 @@
             <entryLink import="true" name="Centaur RSV" hidden="false" id="4f56-7961-338a-ea93" type="selectionEntry" targetId="b499-7565-40d9-4579"/>
             <entryLink import="true" name="Chimera AF" hidden="false" id="add9-129b-2baf-3d4b" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1">
               <costs>
-                <cost name="pts" typeId="points" value="10"/>
+                <cost name="pts" typeId="points" value="0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -493,7 +493,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="75"/>
+        <cost name="pts" typeId="points" value="85"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2694e7d-3616-0b13-6359-422c340ad3be" name="Armoured Fist Cyclops Demolition Squadron" publicationId="b5703e9d--pubN65858" page="265" hidden="false" collective="false" import="true" type="unit">
@@ -552,12 +552,25 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="19f61233-9abc-4241-6e13-2dde4b6c24db" hidden="false" collective="false" import="true" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1" type="selectionEntry" name="Chimera AF"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="115"/>
       </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Dedicated Transport" id="15c6-12df-da2c-adba" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Chimera AF" hidden="false" id="162e-a8f8-935c-71f6" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1">
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="80c6-6a65-7f5f-bce9" type="selectionEntry" targetId="b499-7565-40d9-4579"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0730-76d4-697a-1ffd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df85-a5d1-8fdb-7cd4" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="807178f8-71e7-8861-addb-0ace9b944d36" name="Armoured Fist Heavy Weapons Squad" publicationId="b5703e9d--pubN65858" page="265" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -731,6 +744,20 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="2af5-3e89-d631-9db5" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="f381-6025-6c45-2fee" type="selectionEntry" targetId="b499-7565-40d9-4579"/>
+            <entryLink import="true" name="Chimera AF" hidden="false" id="4db7-7220-8bf5-e6c9" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1">
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d60-387f-2243-d57c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="025d-7dd9-47b1-21e3" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -1148,9 +1175,22 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="b685-a5a8-f52d-8e07" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="b7bb-ff5d-5c42-dbd9" type="selectionEntry" targetId="b499-7565-40d9-4579"/>
+            <entryLink import="true" name="Chimera AF" hidden="false" id="e8f1-01ad-0b87-b37a" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1">
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d484-24b1-7781-69e7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b86-5a22-853f-660b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e96bd0bd-288a-7fc2-4175-aa5c54335065" hidden="false" collective="false" import="true" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1" type="selectionEntry" name="Chimera AF"/>
         <entryLink id="8ed6-ca0f-86de-dab4" hidden="false" collective="false" import="true" targetId="6fce-9698-40be-cf5e" type="selectionEntryGroup" name="Specialists"/>
       </entryLinks>
       <costs>
@@ -1353,24 +1393,6 @@
             <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Dedicated Transport" hidden="false" id="18ea-f87b-8d56-77eb">
-          <entryLinks>
-            <entryLink import="true" name="Chimera AF" hidden="false" id="07c1-d27b-eefa-397f" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6c0-253e-cbed-2030" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Centaur RSV" hidden="false" id="9940-6dc2-f8de-e6bf" type="selectionEntry" targetId="b499-7565-40d9-4579">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26f5-704c-a09b-de1d" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f3a-eebc-856c-affe" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d83-fd51-31ff-913e" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b2fdb9bb-0a85-2447-0f27-a5857882cb71" name="Storm Troopers" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b41c99f-2fa1-32e0-114e-2cf5b1ad9d04">
@@ -1498,6 +1520,20 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="752c-d50c-4434-e852" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="4d7b-a8a7-e586-babd" type="selectionEntry" targetId="b499-7565-40d9-4579"/>
+            <entryLink import="true" name="Chimera AF" hidden="false" id="b283-468d-a096-d087" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1">
+              <costs>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aafa-6e4d-5385-c672" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c4f-4dc6-e7bb-39b9" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2323,6 +2359,11 @@
           </selectionEntries>
           <entryLinks>
             <entryLink id="0236f449-a946-8151-f817-6b887c662b30" hidden="false" collective="false" import="true" targetId="c8ceb195-ea1c-44c8-79fb-f2dc96f40f0e" type="selectionEntry" name="Chimera"/>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="78cf-f834-88db-932b" type="selectionEntry" targetId="b499-7565-40d9-4579">
+              <costs>
+                <cost name="pts" typeId="points" value="55"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7368,10 +7409,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       </costs>
     </selectionEntry>
     <selectionEntry id="803f28d1-7d1d-1053-eb3d-149a715508b1" name="Chimera AF" publicationId="b5703e9d--pubN65858" page="258" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="bc4ec170-8853-8c4e-d181-dc548880fb7b" hidden="false" targetId="f7992ccf-a762-1cce-7b7b-c691d68ea253" type="profile" name="Chimera"/>
         <infoLink id="519ad776-8202-cb43-9e4f-de0be151b357" hidden="false" targetId="3421c351-9fc2-119d-883e-52ce70d26e59" type="rule" name="Mobile Command Vehicle"/>
@@ -10463,6 +10500,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <infoLinks>
             <infoLink name="Heavy Stubber" id="f1f9-46b5-fe7a-37f9" hidden="false" type="profile" targetId="0031-0314-5b36-a220"/>
           </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b094-6233-36c1-325f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6b02-c324-9ffd-0f24" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
