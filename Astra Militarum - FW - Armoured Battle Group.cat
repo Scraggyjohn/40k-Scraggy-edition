@@ -1350,9 +1350,21 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Dedicated Transport" hidden="false" id="18ea-f87b-8d56-77eb">
           <entryLinks>
-            <entryLink import="true" name="Chimera AF" hidden="false" id="07c1-d27b-eefa-397f" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1"/>
-            <entryLink import="true" name="Centaur RSV" hidden="false" id="9940-6dc2-f8de-e6bf" type="selectionEntry" targetId="b499-7565-40d9-4579"/>
+            <entryLink import="true" name="Chimera AF" hidden="false" id="07c1-d27b-eefa-397f" type="selectionEntry" targetId="803f28d1-7d1d-1053-eb3d-149a715508b1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6c0-253e-cbed-2030" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Centaur RSV" hidden="false" id="9940-6dc2-f8de-e6bf" type="selectionEntry" targetId="b499-7565-40d9-4579">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26f5-704c-a09b-de1d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f3a-eebc-856c-affe" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d83-fd51-31ff-913e" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
