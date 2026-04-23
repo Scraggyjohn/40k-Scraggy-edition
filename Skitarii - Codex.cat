@@ -2730,9 +2730,7 @@ Until the start of your next turn, all friendly models with the Doctrina Imperat
 
 Control Edict: While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll.
 
-Servo-skull Uplink: Once per battle, at the start of any phase, you can select one friendly Skitarii with 6&quot; unit that is falling back or gone to ground. That unit is instantly regroups.
-
-</description>
+Servo-skull Uplink: Once per battle, at the start of any phase, you can select one friendly Skitarii with 6&quot; unit that is falling back or gone to ground. That unit is instantly regroups.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -3074,6 +3072,9 @@ Servo-skull Uplink: Once per battle, at the start of any phase, you can select o
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Scout" id="db80-5228-ae06-bbec" hidden="false" type="rule" targetId="1794-e0e0-bedf-e46b"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

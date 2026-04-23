@@ -25673,7 +25673,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="55"/>
+        <cost name="pts" typeId="points" value="65"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Vehicle Upgrades" id="b8eb-031d-493d-ad20" hidden="false">
