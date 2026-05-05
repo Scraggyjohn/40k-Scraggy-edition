@@ -2653,6 +2653,11 @@
         <categoryLink targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="094e-cb06-201e-9e1f" primary="false" name="No Force Org Slot"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Veteran Scout Commander" hidden="false" id="d444-5b80-7f4b-0870" type="selectionEntry" targetId="db3c-3bb2-faf6-4fbb">
+      <categoryLinks>
+        <categoryLink targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="425f-be49-3d09-05fa" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="bab5-1920-a2ed-5b27" name="Vulkan&apos;s Teachings" publicationId="7ab0-ceb9-pubN65665" hidden="false">
