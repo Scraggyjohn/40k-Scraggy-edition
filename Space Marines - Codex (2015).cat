@@ -29516,6 +29516,149 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </rule>
       </rules>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Veteran Scout Commander" hidden="false" id="db3c-3bb2-faf6-4fbb">
+      <categoryLinks>
+        <categoryLink targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="aae4-ba7f-b25b-24c2" primary="true" name="HQ"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Frag and Krak Grenades" hidden="false" id="1edb-77f4-6cc7-cc25" collective="false" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
+        <entryLink import="true" name="Warlord Traits" hidden="false" id="5800-d9d6-2dd7-faf0" type="selectionEntry" targetId="0c1c-8b85-6731-e881"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="30"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Veteran Scout Sergeant" hidden="false" id="f0d9-aa5e-a508-20b3" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8574-837c-9f92-0582" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Veteran Scout Sergeant" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit" hidden="false" id="0bd5-3f1f-8dfc-c453" publicationId="7ab0-ceb9-pubN65751">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+                <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+                <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+                <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+                <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+                <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolt Pistol Hand" id="7489-dec5-6fda-7e43" hidden="false" collective="false" import="true" defaultSelectionEntryId="44e2-6cbf-2f9c-c226">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="6414-a12e-9911-1a57" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="81be-f305-138a-54c5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Melee Weapons" hidden="false" id="6d1c-2b67-c03b-fc37" collective="false" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Ranged Weapons" hidden="false" id="d1c6-11ce-3b39-b09d" collective="false" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Bolt Pistol" hidden="false" id="8039-883c-55fa-49e4" collective="false" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1c21-c71f-8434-fe90" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Boltgun Hand" id="9521-0466-73ab-2aa2" hidden="false" collective="false" import="true" defaultSelectionEntryId="133a-fd7b-c3d1-1ca6">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="3ec6-6502-b0ca-fe3b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e817-5be7-c2b5-9585" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Ranged Weapons" hidden="false" id="7706-2bc1-4728-99a7" collective="false" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Chapter Relic (RG): Nihilus" hidden="false" id="4498-73c9-b498-db64" collective="false" targetId="95b9-fad9-26c9-94a0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="b2f7-ca3e-dadc-94af" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="438f-c29e-a2c1-e209" childId="f0d9-aa5e-a508-20b3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="7b9a-d52d-a7e7-8110" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Space Marine Shotgun" hidden="false" id="29ca-d1da-b7c8-3ccb" collective="false" targetId="8edf-9dc1-9d77-196c" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1400-c1c9-4fa7-0fea" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Sniper Rifle" hidden="false" id="4f1a-a2ea-c977-589f" collective="false" targetId="ce9e-314f-36e4-74df" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="0ed3-a033-513e-801c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Chainsword" hidden="false" id="2b37-2327-4b8c-2f07" collective="false" targetId="6e6a-f954-5a00-ca4b" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="638c-8ac4-b46a-8fc3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Boltgun" hidden="false" id="7633-3ce2-2df1-eb2c" collective="false" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d174-2b47-3003-d053" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Melee Weapons" hidden="false" id="3125-7fad-4050-eb75" collective="false" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Wargear" id="4d95-9f2e-3a97-a277" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink import="true" name="Melta bombs" hidden="false" id="2914-c8b8-8675-d88b" collective="false" targetId="87b6-1fe6-7a33-b107" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="bbdc-445a-8d6d-9c8c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Teleport homer" hidden="false" id="1db0-7d8a-eb4e-3d88" collective="false" targetId="ec3a-4b3b-57ad-d46e" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4d55-1c04-106c-24b9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="0ce3-dc5c-095c-7a2b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="cfb8-5ad8-97ba-5859" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Veteran Scout Commander" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit" hidden="false" id="be0f-236c-bdba-b687" publicationId="7ab0-ceb9-pubN65751">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">2</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="438f-c29e-a2c1-e209" childId="f0d9-aa5e-a508-20b3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="cb1c-f2ee-4578-1e2f" name="Ranged Weapons" publicationId="7ab0-ceb9-pubN65751" hidden="false" collective="false" import="true" defaultSelectionEntryId="a15f-dbe3-abeb-72a0">
