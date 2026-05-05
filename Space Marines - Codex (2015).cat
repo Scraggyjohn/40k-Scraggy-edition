@@ -29588,7 +29588,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="lessThan" value="1" field="selections" scope="roster" childId="b2f7-ca3e-dadc-94af" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                        <condition type="lessThan" value="1" field="selections" scope="438f-c29e-a2c1-e209" childId="f0d9-aa5e-a508-20b3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -29636,10 +29635,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="0ce3-dc5c-095c-7a2b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="cfb8-5ad8-97ba-5859" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-      </constraints>
       <profiles>
         <profile name="Veteran Scout Commander" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit" hidden="false" id="be0f-236c-bdba-b687" publicationId="7ab0-ceb9-pubN65751">
           <characteristics>
@@ -29654,13 +29649,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
             <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="438f-c29e-a2c1-e209" childId="f0d9-aa5e-a508-20b3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
     </selectionEntry>
