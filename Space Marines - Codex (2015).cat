@@ -20117,6 +20117,27 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <infoLinks>
                 <infoLink name="Exoshock" id="ab4b-fc93-b37d-63c5" hidden="false" type="rule" targetId="3cf0-5a58-e02d-db1f"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="50"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Volkite Falconet Battery" hidden="false" id="10c9-4df5-5eb9-700a">
+              <profiles>
+                <profile name="Volkite Falconet Battery" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="6600-7988-fd4d-13b7">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Deflagrate, Pinning</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Deflagrate" id="c9d2-abd1-5174-6124" hidden="false" type="rule" targetId="93b3-388f-ccb5-d9bd"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
