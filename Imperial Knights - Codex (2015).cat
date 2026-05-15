@@ -5605,6 +5605,9 @@ Assault phase - You can reroll one of your dice when determining charge distance
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Nimble Machinery" id="c5f1-20a1-dbb3-c522" hidden="false" type="rule" targetId="c9d8-009f-2e6a-81eb"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Knight Moirax" hidden="false" id="0cf9-7646-7357-971f">
       <profiles>
@@ -5699,9 +5702,7 @@ Assault phase - You can reroll one of your dice when determining charge distance
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Template</characteristic>
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">2</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Fleshbane, Rad-phage
-
-</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Fleshbane, Rad-phage</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5743,7 +5744,7 @@ Assault phase - You can reroll one of your dice when determining charge distance
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 5, Deflagarate </characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 5, Deflagarate</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5763,6 +5764,9 @@ Assault phase - You can reroll one of your dice when determining charge distance
       <costs>
         <cost name="pts" typeId="points" value="155"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Nimble Machinery" id="a09e-20d6-9b5c-7a31" hidden="false" type="rule" targetId="c9d8-009f-2e6a-81eb"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
