@@ -2879,7 +2879,7 @@
         <infoLink name="Shred" id="c22c-2fff-4eec-d14e" hidden="false" type="rule" targetId="5770-35c6-7341-5527"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="5"/>
+        <cost name="pts" typeId="points" value="3"/>
       </costs>
       <profiles>
         <profile name="Chainsword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="0dff-2ac8-1763-7cec">
@@ -29717,7 +29717,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <infoLink name="Relentless" id="829a-9bed-4e9f-109d" hidden="false" type="rule" targetId="7674-690c-ab59-1444"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="10"/>
+        <cost name="pts" typeId="points" value="5"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f18e-cb12-c821-6726" includeChildSelections="false"/>
