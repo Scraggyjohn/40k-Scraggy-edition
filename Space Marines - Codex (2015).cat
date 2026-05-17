@@ -10186,6 +10186,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="798b-3736-2372-2fea" type="min"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Suspensor Web" hidden="false" id="4bde-bc9d-4ad5-0990" type="selectionEntry" targetId="d409-bee4-bb21-ae16"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="11"/>
@@ -13156,6 +13157,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   </constraints>
                 </entryLink>
                 <entryLink id="07b7-21c6-c826-1887" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
+                <entryLink import="true" name="Suspensor Web" hidden="false" id="0f71-9c19-1820-cdbc" type="selectionEntry" targetId="d409-bee4-bb21-ae16"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="25"/>
@@ -14846,6 +14848,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   </constraints>
                 </entryLink>
                 <entryLink id="91d5-e61e-9643-00b3" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
+                <entryLink import="true" name="Suspensor Web" hidden="false" id="25b0-f214-df6a-3fd1" type="selectionEntry" targetId="d409-bee4-bb21-ae16"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="14"/>
@@ -15501,6 +15504,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1470-cd8e-96f3-e034" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Suspensor Web" hidden="false" id="89c8-5a12-f4df-2846" type="selectionEntry" targetId="d409-bee4-bb21-ae16"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="22"/>
