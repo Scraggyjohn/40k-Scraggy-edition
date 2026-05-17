@@ -7985,6 +7985,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   </constraints>
                 </entryLink>
                 <entryLink id="432f-f4e9-a104-d9db" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
+                <entryLink import="true" name="Suspensor Web" hidden="false" id="0d0b-f665-664c-4f8f" type="selectionEntry" targetId="d409-bee4-bb21-ae16"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="14"/>
@@ -29689,6 +29690,24 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <infoLink name="Infiltrate" id="1c0f-be66-d3ad-130d" hidden="false" type="rule" targetId="0b11-a0ff-f0ba-5341"/>
         <infoLink name="And They Shall Know No Fear" id="8001-b5f9-f22a-b356" hidden="false" type="rule" targetId="2e56-6b02-4343-0e40"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Suspensor Web" hidden="false" id="d409-bee4-bb21-ae16">
+      <profiles>
+        <profile name="Suspensor Web" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" hidden="false" id="204f-9392-0174-e240">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this wargear is given the Relentless Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Relentless" id="829a-9bed-4e9f-109d" hidden="false" type="rule" targetId="7674-690c-ab59-1444"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="10"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f18e-cb12-c821-6726" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
