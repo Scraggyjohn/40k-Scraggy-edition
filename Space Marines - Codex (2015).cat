@@ -2876,11 +2876,21 @@
     </selectionEntry>
     <selectionEntry id="6e6a-f954-5a00-ca4b" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d9d7-bf95-97a6-8619" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile" name="Close Combat Weapon"/>
+        <infoLink name="Shred" id="c22c-2fff-4eec-d14e" hidden="false" type="rule" targetId="5770-35c6-7341-5527"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0"/>
+        <cost name="pts" typeId="points" value="5"/>
       </costs>
+      <profiles>
+        <profile name="Chainsword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="0dff-2ac8-1763-7cec">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+            <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+            <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry id="a69d-81d9-e426-7b8a" name="Lightning Claw" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
