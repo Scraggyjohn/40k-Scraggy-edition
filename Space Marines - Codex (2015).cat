@@ -5005,7 +5005,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                         </modifier>
                         <modifier type="set" value="Jump Pack Infantry (Character)" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">
                           <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="cf6d-2bfc-3b6d-a60e" shared="true" childName="Jump pack"/>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cf6d-2bfc-3b6d-a60e" shared="true" childName="Jump pack"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" value="Bike (Character)" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">
@@ -5015,7 +5015,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                         </modifier>
                         <modifier type="set" value="5" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd">
                           <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="49a0-5a84-22d4-5ce7" shared="true" childName="Space Marine Bike"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="49a0-5a84-22d4-5ce7" shared="true" childName="Space Marine Bike"/>
                           </conditions>
                         </modifier>
                       </modifiers>
