@@ -11807,6 +11807,13 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
                 <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">2+</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="set" value="5" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="54d9-4b5f-8c87-e02b" shared="true" childName="Space Marine Bike"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <selectionEntryGroups>
@@ -11878,37 +11885,6 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <cost name="pts" typeId="points" value="28"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Jump pack" hidden="false" id="d90c-c211-3122-de19" collective="false">
-          <infoLinks>
-            <infoLink name="Jump pack" id="064b-780d-7f51-95ca" hidden="false" targetId="e429-1efd-5c26-a25c" type="profile"/>
-            <infoLink name="Hammer of Wrath" id="c51d-7dd5-e466-4e8e" hidden="false" targetId="4628-0ada-2997-8568" type="rule"/>
-            <infoLink name="Deep Strike" id="74c4-fce8-66d0-cad7" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="691e-f0ad-e52d-1463" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="71dd-83e4-df1c-5a90" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="5" field="points">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="bb5a-20c9-37c1-a062" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false" childName="Honour Guard"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" value="1" field="71dd-83e4-df1c-5a90">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="ef5c-91eb-e807-c0c3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="a85a-5846-b438-dd4b" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="25b2-07ed-c6b7-1752" name="Dedicated Transport" hidden="false" collective="false" import="true">
@@ -11937,6 +11913,60 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <entryLink id="9b22-ff30-1897-6dbc" name="Chapter Relics - Battle Standards" hidden="false" collective="false" import="true" targetId="f94f-df5d-fabc-5577" type="selectionEntryGroup"/>
             <entryLink id="d209-a7f7-3c5a-fa88" hidden="false" collective="false" import="true" targetId="17de-fa94-c1ef-dd26" type="selectionEntryGroup" name="Space Marine Standards"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Mobility" id="650f-6612-376d-327d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Jump pack" hidden="false" id="a9d0-7c5b-7a3b-f7cd" collective="false">
+              <infoLinks>
+                <infoLink name="Jump pack" id="1b9e-ce6c-6522-cf36" hidden="false" targetId="e429-1efd-5c26-a25c" type="profile"/>
+                <infoLink name="Hammer of Wrath" id="8d0a-75df-b0dd-81f1" hidden="false" targetId="4628-0ada-2997-8568" type="rule"/>
+                <infoLink name="Deep Strike" id="3e07-20da-292e-b9c5" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4042-ea9d-8d0c-fcc6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="c878-55dc-5425-039f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="5" field="points">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="bb5a-20c9-37c1-a062" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false" childName="Honour Guard"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="1" field="c878-55dc-5425-039f">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="ef5c-91eb-e807-c0c3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="a85a-5846-b438-dd4b" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Space Marine Bike" hidden="false" id="54d9-4b5f-8c87-e02b" type="selectionEntry" targetId="8fa6-ca4b-d00f-e4ad">
+              <modifiers>
+                <modifier type="set" value="9" field="points"/>
+                <modifier type="increment" value="9" field="points">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="bb5a-20c9-37c1-a062" shared="true" roundUp="false" childName="Honour Guard"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf10-9a09-2aaa-efc1" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f511-16ef-51ba-b458" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f398-a419-97b9-8158" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
