@@ -5007,6 +5007,18 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                           <conditions>
                             <condition type="atLeast" value="1" field="selections" scope="force" childId="49a0-5a84-22d4-5ce7" shared="true" childName="Space Marine Bike" includeChildSelections="true"/>
                           </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="cc51-ea9c-a8d2-7537" shared="true" childName="Chapter Relic (WS): Wrath of the Heavens" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="cc51-ea9c-a8d2-7537" shared="true" childName="Chapter Relic (WS): Wrath of the Heavens" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </modifier>
                       </modifiers>
                     </infoLink>
