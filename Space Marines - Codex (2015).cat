@@ -11278,7 +11278,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <infoLink id="d6d7-1c95-77bf-bcd7" hidden="false" targetId="894f-81b4-7aca-8eda" type="rule" name="Chapter Tactics"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="4e24-5eae-e202-3ef5" name="Apothecary" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4e24-5eae-e202-3ef5" name="Apothecary" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64f9-e51c-22f8-6891" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f12c-a294-72ec-a727" type="min"/>
@@ -11324,7 +11324,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <cost name="pts" typeId="points" value="33"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d26c-ca3f-2e62-1e08" name="Company Champion" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d26c-ca3f-2e62-1e08" name="Company Champion" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ee5-1175-d2fb-08dd" type="max"/>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bdd6-62e8-2b6b-20c9" type="min"/>
@@ -11409,7 +11409,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <cost name="pts" typeId="points" value="33"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="05b5-a9f4-3ff2-1b4d" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="05b5-a9f4-3ff2-1b4d" name="Veteran" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="decrement" field="ecd3-09b3-5135-4e08" value="1">
               <conditions>
@@ -11582,26 +11582,34 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <entryLink id="d172-4936-ab31-6035" hidden="false" collective="false" import="true" targetId="17de-fa94-c1ef-dd26" type="selectionEntryGroup" name="Space Marine Standards"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Mobility" id="f29d-c5d6-5f87-d38e" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Space Marine Bike" hidden="false" id="8b37-d8aa-3b22-7ef7" collective="false" targetId="088f-7314-29df-5b84" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="1" field="79c2-4d33-fdee-47eb">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="7217-7de3-85b6-620c" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" value="7" field="points">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="model" shared="true" childName="model"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ea0b-0b5d-e9ff-4b24" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="79c2-4d33-fdee-47eb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="316f-ad1c-c000-1d5e" hidden="false" collective="false" import="true" targetId="088f-7314-29df-5b84" type="selectionEntry" name="Space Marine Bike">
-          <modifiers>
-            <modifier type="set" field="points" value="35"/>
-            <modifier type="set" field="fedb-2a1e-c953-a21d" value="1">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7217-7de3-85b6-620c" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e6e8-7370-888a-8d25" type="max"/>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fedb-2a1e-c953-a21d" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="7ffa-b85b-7b08-714e" hidden="false" collective="false" import="true" targetId="2a89-2577-2a25-9ac4" type="selectionEntry" name="Jump pack">
           <modifiers>
             <modifier type="set" field="points" value="35"/>
