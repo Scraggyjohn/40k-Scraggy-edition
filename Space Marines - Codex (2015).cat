@@ -6809,7 +6809,45 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a566-8762-ed41-f8f3" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="ebb8-b88b-78ea-2e63" hidden="false" targetId="60be-7fe2-bce6-22f3" type="profile" name="Chaplain"/>
+                <infoLink id="ebb8-b88b-78ea-2e63" hidden="false" targetId="60be-7fe2-bce6-22f3" type="profile" name="Chaplain">
+                  <modifiers>
+                    <modifier type="set" value="5" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="e8b2-346c-de60-2e5d" shared="true" childName="Space Marine Bike" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="5" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="c3b5-2a8f-595f-7945" shared="true" childName="Chapter Relic (RG): Raven&apos;s Fury" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="5" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="08b2-773b-d8fa-056a" shared="true" childName="Chapter Relic (WS): Wrath of the Heavens" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Bike (Character)" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="e8b2-346c-de60-2e5d" shared="true" childName="Space Marine Bike" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Bike (Character)" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="c3b5-2a8f-595f-7945" shared="true" childName="Chapter Relic (RG): Raven&apos;s Fury" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Bike (Character)" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="08b2-773b-d8fa-056a" shared="true" childName="Chapter Relic (WS): Wrath of the Heavens" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="Jump Pack Infantry (Character)" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="a614-50c3-42eb-4100" shared="true" childName="Jump pack" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="ffa7-524d-8730-2ed1" name="Bolt Pistol Hand" hidden="false" collective="false" import="true" defaultSelectionEntryId="2811-fa2e-c532-733e">
