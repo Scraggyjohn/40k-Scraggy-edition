@@ -5040,7 +5040,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                         </modifier>
                         <modifier type="set" value="2+/4++" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">
                           <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="force" childId="4f50-3231-9001-6f7f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Artificer Armour"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="4f50-3231-9001-6f7f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Artificer Armour"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -5284,7 +5284,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                             </modifier>
                             <modifier type="set" value="2+/4++" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="force" childId="4f50-3231-9001-6f7f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Artificer Armour"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="4f50-3231-9001-6f7f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" childName="Artificer Armour"/>
                               </conditions>
                             </modifier>
                           </modifiers>
