@@ -5038,6 +5038,11 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                             <condition type="atLeast" value="1" field="selections" scope="force" childId="cf6d-2bfc-3b6d-a60e" shared="true" includeChildSelections="true" childName="Jump pack"/>
                           </conditions>
                         </modifier>
+                        <modifier type="set" value="2+/4++" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="0b24-bce1-f844-87e4" childId="4f50-3231-9001-6f7f" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" childName="Artificer Armour"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -5275,6 +5280,11 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                             <modifier type="set" value="Jump Pack Infantry (Character)" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="force" childId="cf6d-2bfc-3b6d-a60e" shared="true" includeChildSelections="true" childName="Jump pack"/>
+                              </conditions>
+                            </modifier>
+                            <modifier type="set" value="2+/4++" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="0b24-bce1-f844-87e4" childId="4f50-3231-9001-6f7f" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" childName="Artificer Armour"/>
                               </conditions>
                             </modifier>
                           </modifiers>
