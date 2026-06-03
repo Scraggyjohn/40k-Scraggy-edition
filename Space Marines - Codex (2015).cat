@@ -11600,6 +11600,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <condition type="atLeast" value="1" field="selections" scope="parent" childId="model" shared="true" childName="model"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" value="0" field="points"/>
               </modifiers>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ea0b-0b5d-e9ff-4b24" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
