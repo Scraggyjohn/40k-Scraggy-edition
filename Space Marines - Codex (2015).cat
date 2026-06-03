@@ -11885,7 +11885,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <infoLink name="Deep Strike" id="74c4-fce8-66d0-cad7" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="25"/>
+            <cost name="pts" typeId="points" value="15"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="691e-f0ad-e52d-1463" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -11897,7 +11897,6 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <repeat value="1" repeats="1" field="selections" scope="self" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </repeats>
             </modifier>
-            <modifier type="decrement" value="25" field="points"/>
             <modifier type="set" value="1" field="71dd-83e4-df1c-5a90">
               <conditionGroups>
                 <conditionGroup type="or">
