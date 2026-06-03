@@ -11894,7 +11894,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           <modifiers>
             <modifier type="increment" value="5" field="points">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="self" childId="bb5a-20c9-37c1-a062" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false" childName="Honour Guard"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="bb5a-20c9-37c1-a062" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false" childName="Honour Guard"/>
               </repeats>
             </modifier>
             <modifier type="set" value="1" field="71dd-83e4-df1c-5a90">
