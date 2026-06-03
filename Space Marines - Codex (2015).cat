@@ -7799,7 +7799,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="14"/>
+            <cost name="pts" typeId="points" value="13"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7960,7 +7960,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink id="8d82-a0c3-5ca7-052e" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="13"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="209b-420d-3889-caaf" name="Space Marine (Heavy Weapon)" hidden="false" collective="false" import="true" type="model">
@@ -7998,7 +7998,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink import="true" name="Suspensor Web" hidden="false" id="0d0b-f665-664c-4f8f" type="selectionEntry" targetId="d409-bee4-bb21-ae16"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="13"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f47d-e774-81fc-8f79" name="Space Marine (Special Weapon)" hidden="false" collective="false" import="true" type="model">
@@ -8035,7 +8035,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink id="db76-74d7-8f49-24c4" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="13"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8240,7 +8240,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="55"/>
+        <cost name="pts" typeId="points" value="50"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d74c-c4ca-6e6e-1ac9" name="Drop Pod" hidden="false" collective="false" import="true" type="unit">
@@ -8337,8 +8337,25 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="35"/>
+        <cost name="pts" typeId="points" value="40"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Rapid Disembarkation Harnesses" hidden="false" id="c07a-ea4b-2376-eb4c">
+          <costs>
+            <cost name="pts" typeId="points" value="25"/>
+          </costs>
+          <profiles>
+            <profile name="Rapid Disembarkation Harnesses" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item" hidden="false" id="6be9-6c81-2ee6-ec01">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit arriving from Deep strike and disembarking from this Drop Pod may charge on the turn it does so but must discard the lowest dice roll from the Charge result. The Assault Drop Pod also cannot arrive on Turn 1 under any circumstances. The Drop Pod also becomes unable to take any unit types other than Infantry.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dee8-28ad-63b6-f1e0" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="0df1-346c-0183-d8db" name="Deathwind Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -8811,10 +8828,10 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="200"/>
+        <cost name="pts" typeId="points" value="185"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8c23-e9a1-08a5-5b49" name="Stormtalon Gunship" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="8c23-e9a1-08a5-5b49" name="Stormtalon Gunship" hidden="false" collective="false" import="true" type="model" exportable="false">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8904,7 +8921,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="110"/>
+        <cost name="pts" typeId="points" value="100"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4910-318b-09f4-1ee1" name="Hurricane Bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -9323,7 +9340,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="250"/>
+        <cost name="pts" typeId="points" value="220"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="16a6-773e-3d14-ba4c" name="Land Raider Crusader" hidden="false" collective="false" import="true" type="unit">
@@ -9418,7 +9435,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="250"/>
+        <cost name="pts" typeId="points" value="225"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1654-6ea0-709b-f614" name="Land Raider Redeemer" hidden="false" collective="false" import="true" type="unit">
@@ -9511,7 +9528,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="240"/>
+        <cost name="pts" typeId="points" value="220"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1e1-af35-d888-d961" name="Marneus Calgar" publicationId="7ab0-ceb9-pubN65751" hidden="false" collective="false" import="true" type="upgrade">
@@ -9694,7 +9711,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <entryLink id="18ca-daf8-c142-c212" hidden="false" collective="false" import="true" targetId="2bf8-9a0b-8c7c-f48c" type="selectionEntryGroup" name="(FW) Legacies of Glory (Tank)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="65"/>
+        <cost name="pts" typeId="points" value="55"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0620-caa9-88a3-1584" name="Vindicator" hidden="false" collective="false" import="true" type="model">
@@ -9746,7 +9763,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <entryLink id="accd-97d5-0f48-0fd5" hidden="false" collective="false" import="true" targetId="2bf8-9a0b-8c7c-f48c" type="selectionEntryGroup" name="(FW) Legacies of Glory (Tank)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a8f-5325-378f-6721" name="Stalker" hidden="false" collective="false" import="true" type="model">
@@ -9779,7 +9796,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <entryLink id="844e-bcc1-cde8-ef02" hidden="false" collective="false" import="true" targetId="2bf8-9a0b-8c7c-f48c" type="selectionEntryGroup" name="(FW) Legacies of Glory (Tank)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="75"/>
+        <cost name="pts" typeId="points" value="65"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2790-7dcc-c1e0-23e1" name="Predator" hidden="false" collective="false" import="true" type="model">
@@ -9843,7 +9860,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <entryLink id="b897-a073-43d6-8564" hidden="false" collective="false" import="true" targetId="2bf8-9a0b-8c7c-f48c" type="selectionEntryGroup" name="(FW) Legacies of Glory (Tank)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="75"/>
+        <cost name="pts" typeId="points" value="65"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9bb6-a5e2-7040-fec0" name="Hunter" hidden="false" collective="false" import="true" type="model">
@@ -9887,7 +9904,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <entryLink id="de8c-cd79-aa47-f1df" hidden="false" collective="false" import="true" targetId="2bf8-9a0b-8c7c-f48c" type="selectionEntryGroup" name="(FW) Legacies of Glory (Tank)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="70"/>
+        <cost name="pts" typeId="points" value="55"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a086-0fc3-ba8c-121b" name="Scout Squad" hidden="false" collective="false" import="true" type="unit">
@@ -10074,7 +10091,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <entryLink id="6775-0294-b48a-85d0" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="11"/>
+            <cost name="pts" typeId="points" value="10"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10139,7 +10156,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="11"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a207-5742-522a-6718" name="Scout (Heavy Weapon)" hidden="false" collective="false" import="true" type="model">
@@ -10199,7 +10216,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink import="true" name="Suspensor Web" hidden="false" id="4bde-bc9d-4ad5-0990" type="selectionEntry" targetId="d409-bee4-bb21-ae16"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="11"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -11655,6 +11672,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
       <infoLinks>
         <infoLink id="cea0-76e0-a317-58bc" hidden="false" targetId="2e56-6b02-4343-0e40" type="rule" name="And They Shall Know No Fear"/>
         <infoLink id="054a-4928-29dd-51b7" hidden="false" targetId="894f-81b4-7aca-8eda" type="rule" name="Chapter Tactics"/>
+        <infoLink name="Fearless" id="b67e-9689-adaa-6a1c" hidden="false" type="rule" targetId="8d37-2e47-4a04-58f7"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="36f4-2a55-bafb-3341" name="Chapter Champion" hidden="false" collective="false" import="true" type="upgrade">
@@ -11666,7 +11684,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <profile id="49d1-5630-efd9-3691" name="Chapter Champion" publicationId="7ab0-ceb9-pubN65751" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
-                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
+                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">6</characteristic>
                 <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
                 <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
                 <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
@@ -11767,7 +11785,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="35"/>
+            <cost name="pts" typeId="points" value="38"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bb5a-20c9-37c1-a062" name="Honour Guard" hidden="false" collective="false" import="true" type="upgrade">
@@ -11779,7 +11797,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <profile id="a718-6167-05e4-f2e6" name="Honour Guard" publicationId="7ab0-ceb9-pubN65751" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
-                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
                 <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
                 <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
                 <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
@@ -11857,8 +11875,40 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
+            <cost name="pts" typeId="points" value="28"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Jump pack" hidden="false" id="d90c-c211-3122-de19" collective="false">
+          <infoLinks>
+            <infoLink name="Jump pack" id="064b-780d-7f51-95ca" hidden="false" targetId="e429-1efd-5c26-a25c" type="profile"/>
+            <infoLink name="Hammer of Wrath" id="c51d-7dd5-e466-4e8e" hidden="false" targetId="4628-0ada-2997-8568" type="rule"/>
+            <infoLink name="Deep Strike" id="74c4-fce8-66d0-cad7" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
+          </infoLinks>
+          <costs>
             <cost name="pts" typeId="points" value="25"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="691e-f0ad-e52d-1463" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="71dd-83e4-df1c-5a90" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="5" field="points">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="self" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="25" field="points"/>
+            <modifier type="set" value="1" field="71dd-83e4-df1c-5a90">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="ef5c-91eb-e807-c0c3" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="a85a-5846-b438-dd4b" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -12195,7 +12245,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <entryLink id="3d20-e8ad-6b2a-7383" hidden="false" collective="false" import="true" targetId="1ef4-c6ad-4280-9f3b" type="selectionEntryGroup" name="(FW) Legacies of Glory (Walker)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="100"/>
+        <cost name="pts" typeId="points" value="85"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ea4-8a62-96b6-77d0" name="Dreadnoughts" hidden="false" collective="false" import="true" type="upgrade">
@@ -12426,7 +12476,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <entryLink id="7990-6014-9ed1-3cbf" hidden="false" collective="false" import="true" targetId="1ef4-c6ad-4280-9f3b" type="selectionEntryGroup" name="(FW) Legacies of Glory (Walker)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="135"/>
+        <cost name="pts" typeId="points" value="115"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb1b-d00b-3c7b-605e" name="Ironclad Dreadnoughts" hidden="false" collective="false" import="true" type="unit">
@@ -12572,7 +12622,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="55"/>
+            <cost name="pts" typeId="points" value="45"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3e5a-8edb-8811-e235" name="Centurion Sergeant" hidden="false" collective="false" import="true" type="model">
@@ -12647,7 +12697,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="55"/>
+            <cost name="pts" typeId="points" value="45"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13803,7 +13853,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="14"/>
+            <cost name="pts" typeId="points" value="13"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13929,7 +13979,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink id="dbb6-8c30-0f0b-f993" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="13"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c309-77b6-1bb8-8a65" name="Space Marine (Special Weapon)" hidden="false" collective="false" import="true" type="model">
@@ -13961,7 +14011,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink id="4712-814d-b826-42b2" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="13"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3454-af47-b9dd-44f3" name="Space Marine (Eviscerator)" hidden="false" collective="false" import="true" type="model">
@@ -13992,7 +14042,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="13"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -14394,7 +14444,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <entryLink id="74f9-2801-07bb-21fa" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="40"/>
+        <cost name="pts" typeId="points" value="35"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15b7-a0d4-09ef-d64c" name="Attack Bike Squad" hidden="false" collective="false" import="true" type="unit">
@@ -14564,7 +14614,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="21"/>
+            <cost name="pts" typeId="points" value="20"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -14608,7 +14658,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="21"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6450-976d-2953-9b2b" name="Biker (Special Weapon)" hidden="false" collective="false" import="true" type="upgrade">
@@ -14648,7 +14698,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="21"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -14835,7 +14885,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink id="dcf2-47e3-6e77-22eb" hidden="false" collective="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry" name="Frag and Krak Grenades"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="13"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c4af-8a5b-7fa3-e25e" name="Space Marine (Heavy Weapon)" hidden="false" collective="false" import="true" type="model">
@@ -14861,7 +14911,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink import="true" name="Suspensor Web" hidden="false" id="25b0-f214-df6a-3fd1" type="selectionEntry" targetId="d409-bee4-bb21-ae16"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="13"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -14953,7 +15003,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink id="352e-1846-d16c-8b59" hidden="false" collective="false" import="true" targetId="4a77-9c7c-2c54-f27c" type="selectionEntry" name="Signum"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="14"/>
+                <cost name="pts" typeId="points" value="13"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -15171,7 +15221,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="19"/>
+            <cost name="pts" typeId="points" value="15"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5a8d-4e28-2941-2824" name="Veteran" hidden="false" collective="false" import="true" type="model">
@@ -15315,7 +15365,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="19"/>
+            <cost name="pts" typeId="points" value="15"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15471,7 +15521,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="22"/>
+            <cost name="pts" typeId="points" value="18"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="21a6-2cd3-ea38-02ac" name="Veteran (Special/Heavy Weapon)" hidden="false" collective="false" import="true" type="model">
@@ -15517,7 +15567,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <entryLink import="true" name="Suspensor Web" hidden="false" id="89c8-5a12-f4df-2846" type="selectionEntry" targetId="d409-bee4-bb21-ae16"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="22"/>
+            <cost name="pts" typeId="points" value="18"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15685,7 +15735,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="22"/>
+                <cost name="pts" typeId="points" value="18"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -19066,7 +19116,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
         <entryLink id="40a9-cb74-2669-d861" hidden="false" collective="false" import="true" targetId="2bf8-9a0b-8c7c-f48c" type="selectionEntryGroup" name="(FW) Legacies of Glory (Tank)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="260"/>
+        <cost name="pts" typeId="points" value="220"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c36d-33cd-532d-28c9" name="(FW) Caestus Assault Ram" hidden="false" collective="false" import="true" type="model">
@@ -23839,7 +23889,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
         <entryLink id="d685-6a82-d336-bd98" hidden="false" collective="false" import="true" targetId="2bf8-9a0b-8c7c-f48c" type="selectionEntryGroup" name="(FW) Legacies of Glory (Tank)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="325"/>
+        <cost name="pts" typeId="points" value="275"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d8c6-25d2-14ae-46e8" name="(FW) Land Raider Prometheus" hidden="false" collective="false" import="true" type="model">
@@ -23902,7 +23952,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
         <entryLink id="ce2d-4fb3-62aa-0da1" hidden="false" collective="false" import="true" targetId="2bf8-9a0b-8c7c-f48c" type="selectionEntryGroup" name="(FW) Legacies of Glory (Tank)"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="270"/>
+        <cost name="pts" typeId="points" value="215"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="2x Twin Linked Heavy Bolter Per sponson" hidden="false" id="f6b5-4ef1-2254-2ce9" defaultAmount="2">
@@ -32871,7 +32921,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 6</characteristic>
       </characteristics>
     </profile>
     <profile id="d403-5b0b-32ae-76e7" name="Icarus Stormcannon Array (Details)" publicationId="7ab0-ceb9-pubN65751" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -33350,7 +33400,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
     <profile id="d46c-d1fc-163e-805c" name="Terminator" publicationId="7ab0-ceb9-pubN247960" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
-        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
         <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
         <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
         <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
@@ -33364,7 +33414,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
     <profile id="745a-6146-7cea-4952" name="Terminator Sergeant" publicationId="7ab0-ceb9-pubN65751" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
-        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+        <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
         <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
         <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
         <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
