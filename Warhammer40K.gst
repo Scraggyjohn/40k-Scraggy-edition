@@ -5883,6 +5883,12 @@ This may only be used once per game per unit.</description>
     <rule name="Sunder" id="0a6c-ea01-41a1-4a5e" hidden="false">
       <description>Attacks with this rule may re-roll failed Armour Penetration rolls.</description>
     </rule>
+    <rule name="Exoshock" id="3cf0-5a58-e02d-db1f" hidden="false">
+      <description>If this weapon successfully scores a penetrating hit on a target, roll a D6. On a 4+, a second automatic penetrating hit is inflicted on the same target against which cover saves may not be taken.</description>
+    </rule>
+    <rule name="Deflagrate" id="93b3-388f-ccb5-d9bd" hidden="false">
+      <description>After normal attacks by this weapon have been resolved, count the number of unsaved wounds caused on the target unit. Immediately Resolve a number of additional automatic hits on the same unit using the weapon’s profile equal to the number of unsaved wounds – these can then be saved normally. Models in the targeted unit must still be in range in order for these additional hits to take effect. These additional hits do not themselves inflict more hits.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="fcde-3e6a-e240-1157" name="Autogun" publicationId="e1ebd931--pubN66380" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
