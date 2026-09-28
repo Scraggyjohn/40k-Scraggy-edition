@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Inquisition: Codex (2013) + Agents of the Imperium" id="6e6c7c90-fc3a-84f7-48fc-47e305b2de3b" authorName="BSData Developers" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2038" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink name="New Catalogue (link)" id="2a0d-8fcc-302f-550e" targetId="f840-ed73-44ab-3d6a" type="catalogue"/>
+    <catalogueLink name="New Catalogue (link)" id="c271-5aa4-1211-2e53" targetId="2be8d152-3ba0-47c1-9a34-96f5f76bc49c" type="catalogue"/>
+  </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="HQ" id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false"/>
     <categoryEntry name="Elites" id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false"/>
@@ -227,6 +231,11 @@
     <entryLink name="Arbites Exaction Squad" id="94ae-012f-191c-e529" hidden="false" import="true" targetId="d5b8-ad02-031a-c019" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="b145-91b6-c648-163b" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Arbites Armoured Sentinel Section" id="d963-107b-0daa-9e55" hidden="false" import="true" targetId="90f0-645a-1a64-72ad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" id="004b-1de5-0b7d-92db" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -6480,7 +6489,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Arbites Subductor Squad" id="04b6-655f-6261-4de8" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Arbites Subductor Section" id="04b6-655f-6261-4de8" hidden="false" import="true" type="upgrade">
       <entryLinks>
         <entryLink name="Cyber-Mastiff" id="3baa-f6c3-f595-6429" hidden="false" import="true" targetId="3f8e-dab2-62a7-cd28" type="selectionEntry">
           <constraints>
@@ -6594,8 +6603,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6678,8 +6686,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="Krak Grenade" id="95df-ce3a-32c5-97f0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6688,8 +6695,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="Assault &amp; Krak Grenades" id="9928-e197-fc8b-fc8e" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -6726,7 +6732,7 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
             <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">-</characteristic>
             <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
             <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
-            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1 </characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
             <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">4</characteristic>
             <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
             <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">6</characteristic>
@@ -6748,8 +6754,7 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6860,7 +6865,7 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Arbites Vigilant Squad" id="ba9c-44d7-7608-b1d6" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Arbites Vigilant Section" id="ba9c-44d7-7608-b1d6" hidden="false" import="true" type="upgrade">
       <entryLinks>
         <entryLink name="Cyber-Mastiff" id="19d3-47cf-8083-9049" hidden="false" import="true" targetId="3f8e-dab2-62a7-cd28" type="selectionEntry">
           <constraints>
@@ -6955,8 +6960,7 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, 3&quot; Blast</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="Grenade Launcher - Krak" id="05da-dbf4-389b-8abe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6965,8 +6969,7 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6979,8 +6982,7 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7025,16 +7027,15 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Arbites Exaction Squad" id="d5b8-ad02-031a-c019" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Arbites Exaction Section" id="d5b8-ad02-031a-c019" hidden="false" import="true" type="upgrade">
       <entryLinks>
         <entryLink name="Cyber-Mastiff" id="703d-83cc-dcc0-ada2" hidden="false" import="true" targetId="3f8e-dab2-62a7-cd28" type="selectionEntry"/>
-        <entryLink name="Arbites Proctor-Exactant" id="33de-782d-7ec5-e3fd" hidden="false" import="true" targetId="7e78-7b76-493c-ffd5" type="selectionEntry">
+        <entryLink name="Arbites Proctor-Exactant" id="33de-782d-7ec5-e3fd" defaultAmount="1" hidden="false" import="true" targetId="7e78-7b76-493c-ffd5" type="selectionEntry">
           <constraints>
             <constraint id="75f7-8544-9a5d-f87e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="c4e8-9ed9-72a6-8bae" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -7056,44 +7057,76 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
               <constraints>
                 <constraint id="7a42-dd44-c6f8-4c1b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="4"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="12"/>
+              </costs>
             </entryLink>
-            <entryLink name="Arbites Subductor" id="6a32-e75f-ae98-7cc7" hidden="false" import="true" targetId="12f7-9e3d-3e0e-92b1" type="selectionEntry"/>
-            <entryLink name="Vox-Signifier" id="b888-c059-4f9f-4305" hidden="false" import="true" targetId="904a-b783-6c01-a85c" type="selectionEntry">
+            <entryLink name="Arbites Subductor" id="6a32-e75f-ae98-7cc7" hidden="false" import="true" targetId="12f7-9e3d-3e0e-92b1" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="14"/>
+              </costs>
+            </entryLink>
+            <entryLink name="Arbites Vox-Signifier" id="b888-c059-4f9f-4305" hidden="true" import="true" targetId="904a-b783-6c01-a85c" type="selectionEntry">
               <constraints>
                 <constraint id="a68d-a088-50d7-26cc" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="16"/>
+              </costs>
             </entryLink>
             <entryLink name="Arbites Revelatum" id="2f71-3a73-c954-8c54" hidden="false" import="true" targetId="0702-9628-a4c9-6315" type="selectionEntry">
               <constraints>
                 <constraint id="6bf7-fbf8-8e0f-548a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="16"/>
+              </costs>
             </entryLink>
-            <entryLink name="Arbites Vigilant" id="96cc-a9a7-649a-d894" hidden="false" import="true" targetId="2b5f-9201-bba8-719c" type="selectionEntry"/>
+            <entryLink name="Arbites Vigilant" id="96cc-a9a7-649a-d894" defaultAmount="4" hidden="false" import="true" targetId="2b5f-9201-bba8-719c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="12"/>
+              </costs>
+            </entryLink>
             <entryLink name="Arbites Malocator" id="c607-707f-2ad0-4458" hidden="false" import="true" targetId="aecd-bd52-aa56-290c" type="selectionEntry">
               <constraints>
                 <constraint id="8a71-6e85-7ee5-2a58" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="16"/>
+              </costs>
             </entryLink>
             <entryLink name="Arbites Leashmaster" id="f9ac-0c03-1361-b37d" hidden="false" import="true" targetId="4139-b409-1ddd-cf8d" type="selectionEntry">
               <constraints>
                 <constraint id="9989-3f88-ae1e-bb28" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="16"/>
+              </costs>
             </entryLink>
             <entryLink name="Arbites Chirurgant" id="1c3d-6900-75ba-1681" hidden="false" import="true" targetId="bde9-ec90-223d-b67b" type="selectionEntry">
               <constraints>
                 <constraint id="8dd7-7891-c850-dd84" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="16"/>
+              </costs>
             </entryLink>
             <entryLink name="Arbites Castigator" id="37e8-82ae-0a77-70ee" hidden="false" import="true" targetId="5480-8451-ce4a-8467" type="selectionEntry">
               <constraints>
                 <constraint id="5415-386e-8d37-f72c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="16"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Arbites Proctor-Exactant" id="7e78-7b76-493c-ffd5" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="12"/>
+      </costs>
       <entryLinks>
         <entryLink name="Assault &amp; Krak Grenades" id="b41d-e330-d7f5-cc61" hidden="false" import="true" targetId="b863-e06c-b5dd-1433" type="selectionEntry"/>
         <entryLink name="Nuncio-Aquila" id="bab8-0499-e8f4-cffb" hidden="false" import="true" targetId="f3e2-59d4-3e15-de5a" type="selectionEntry">
@@ -7146,7 +7179,7 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
             <constraint id="75bb-1821-e954-3cf8" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry name="Repression Baton &amp; Combat Shotgun" id="4777-3e27-eec8-6230" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Repression Baton &amp; Combat Shotgun" id="4777-3e27-eec8-6230" defaultAmount="1" hidden="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink name="Repression Baton" id="598d-7df9-0ca3-adeb" hidden="false" import="true" targetId="e8ff-7e34-148e-6dcc" type="selectionEntry">
                   <constraints>
@@ -7163,6 +7196,9 @@ Models equipped with assault grenades don’t suffer the penalty to their Initia
               </entryLinks>
             </selectionEntry>
             <selectionEntry name="Assault Shield &amp; Shock Maul" id="d0ac-ab2b-2836-e677" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="2"/>
+              </costs>
               <entryLinks>
                 <entryLink name="Assault Shield" id="34ea-70e2-acfa-d0be" hidden="false" import="true" targetId="8d57-6637-1bd8-a19f" type="selectionEntry">
                   <constraints>
@@ -7340,8 +7376,7 @@ Roll a D6:
 
 1–2: The sample is unusable.
 3–5: The sample is successfully collected. Until the end of the game, the Malocator&apos;s unit has Preferred Enemy against that enemy unit.
-6: The sample reveals a critical weakness. Until the end of the game, all Adeptus Arbites units have Preferred Enemy against that enemy unit.
-</characteristic>
+6: The sample reveals a critical weakness. Until the end of the game, all Adeptus Arbites units have Preferred Enemy against that enemy unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7490,8 +7525,7 @@ Roll a D6:
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive</characteristic>
-                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7505,18 +7539,18 @@ Roll a D6:
       <profiles>
         <profile name="Arbites Repressor" id="a113-f446-76b8-2bda" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
           <characteristics>
-            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
             <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">13</characteristic>
             <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">11</characteristic>
             <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
-            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">2</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Tank, Transport)</characteristic>
           </characteristics>
         </profile>
         <profile name="Arbites Repressor" id="3b90-8138-dd7a-4c9c" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">10</characteristic>
-            <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">None.</characteristic>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">12</characteristic>
+            <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">Two models can fire from the Repressor&apos;s top hatch. In addition, there are three firing ports on either side of the troop compartment, each of which may be fired out of by a single passenger.</characteristic>
             <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">3. One on each side and one at the rear.</characteristic>
           </characteristics>
         </profile>
@@ -7544,10 +7578,13 @@ Roll a D6:
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="High Pressure Water Cannon" id="cf89-8fd7-34dd-efc0" defaultAmount="1" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Pacifier Water Cannon" id="cf89-8fd7-34dd-efc0" defaultAmount="1" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="25ec-e22a-d685-4440" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
               <infoLinks>
                 <infoLink name="Concussive" id="0a6e-85f7-942b-837b" hidden="false" targetId="d0ea-e2a6-032d-8754" type="rule"/>
                 <infoLink name="Pinning" id="afb2-0019-eaf0-a68b" hidden="false" targetId="8918-d7ce-5edb-3b70" type="rule"/>
@@ -7560,6 +7597,121 @@ Roll a D6:
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Torrent, Concussive, Pinning</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Twin-Linked Webber" id="d922-9d50-6140-620a" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="abbf-cd14-4281-4c9d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="d346-0aaa-92a7-76f0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="3"/>
+              </costs>
+              <profiles>
+                <profile name="Twin-Linked Webber" id="1bd7-3e88-8ef2-61c0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">16&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, 3&quot; Blast, Cocooned, Twin-linked</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Cocooned: The AP value of a Wound caused by this weapon is equal to the current Strength characteristic of the model it was allocated to. For example, if a Wound from a web weapon was allocated to a Space Marine (Strength 4) that wound is resolved at AP4. Against vehicles, or models with a Strength of 7 or more, this weapon is AP-.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Arbites Armoured Sentinel" id="5d6c-8b72-7006-2912" hidden="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink name="Sentinel Upgrades" id="7edd-6f14-9f03-4bf1" hidden="false" import="true" targetId="f2aeb023-205d-bdb2-66d5-a7d33d1974e3" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Arbites Armoured Sentinel" id="c685-8b0a-6812-e6cb" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
+          <characteristics>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">5</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">12</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">2</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Walker</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hull Weapon" id="22b5-755d-1e7d-eac4" hidden="false">
+          <constraints>
+            <constraint id="5957-c16a-16b6-d8a5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="6aac-ba54-8b8e-b9db" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="d383-562a-0b02-e42b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Autocannon*" id="eeda-f1c7-873a-24d6" hidden="false" import="true" targetId="eff0-1071-7abe-2d03" type="selectionEntry">
+              <modifiers>
+                <modifier field="name" type="set" value="Autocannon"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Heavy Webber" id="a236-1a61-3206-12d1" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <profiles>
+                <profile name="Heavy Webber" id="863d-a62b-e9eb-2f37" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Cocooned</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Cocooned: The AP value of a Wound caused by this weapon is equal to the current Strength characteristic of the model it was allocated to. For example, if a Wound from a web weapon was allocated to a Space Marine (Strength 4) that wound is resolved at AP4. Against vehicles, or models with a Strength of 7 or more, this weapon is AP-.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Heavy Bolter" id="3096-90ea-ee9a-ae61" hidden="false" import="true" type="upgrade">
+              <profiles>
+                <profile name="Heavy Bolter" id="bc0e-1da2-d33d-f628" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Automatic Grenade Launcher" id="3cf1-a3e2-3ce0-58fc" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+              <profiles>
+                <profile name="Automatic Grenade Launcher - Frag" id="cdf0-e904-e1ee-5fb4" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Blast</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Automatic Grenade Launcher - Krak" id="c0f9-5b7e-0b1e-9754" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
                     <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
 </characteristic>
                   </characteristics>
@@ -7569,6 +7721,61 @@ Roll a D6:
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Arbites Armoured Sentinel Section" id="90f0-645a-1a64-72ad" hidden="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink name="Arbites Armoured Sentinel" id="9574-a0c9-bb69-a13f" hidden="false" import="true" targetId="5d6c-8b72-7006-2912" type="selectionEntry">
+          <constraints>
+            <constraint id="86c2-428d-a3a0-1e1a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="aa2e-5a1d-48b6-7e50" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="40"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Arbites Taurox Patrol Vehicle" id="2c70-9247-906f-1211" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="40"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Arbites Vehicle Equipment" id="2a0b-c61b-526c-39cf" hidden="false" import="true" targetId="cbf5-97c9-7c1f-f627" type="selectionEntryGroup"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Arbites Taurox Patrol Vehicle" id="892a-cc36-48c8-660a" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+            <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">11</characteristic>
+            <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">10</characteristic>
+            <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+            <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Transport</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arbites Taurox Patrol Vehicle" id="c604-2da7-63eb-0cdb" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">10</characteristic>
+            <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">The Taurox has two Fire Points, one of each side of the hull.</characteristic>
+            <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">The Taurox has one Access Point on each side of the hull and one at the rear.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Lex-Siren" id="a606-3bf8-8b1d-2339" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="0688-910d-36ef-d39a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="b9fe-b8ba-f805-f99a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Lex-Siren" id="1b36-9e7c-0ab2-80d8" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units within 12&quot; of a vehicle equipped with a Lex-Vox must subtract 1 from their rolls when taking Leadership tests.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -11561,6 +11768,7 @@ special rule is made after deployment, but before the first turn begins.</descri
             <cost name="pts" typeId="points" value="75"/>
           </costs>
         </entryLink>
+        <entryLink name="Arbites Taurox Patrol Vehicle" id="e7fb-028b-40ff-5f2b" hidden="false" import="true" targetId="2c70-9247-906f-1211" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
