@@ -19,11 +19,6 @@
         <categoryLink name="Troops" id="59df-5447-fa8f-4687" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Arbites Subductor Squad" id="ad24-6dc2-2d8c-a89b" hidden="false" import="true" targetId="04b6-655f-6261-4de8" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Troops" id="a523-d6e0-2090-fc7f" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink name="Arbites Exaction Squad" id="4d83-d08d-dc8b-98b5" hidden="false" import="true" targetId="d5b8-ad02-031a-c019" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="1fe1-5c6b-f4a6-f19f" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
@@ -57,6 +52,11 @@
     <entryLink name="Arbites Armoured Sentinel Section" id="a504-0bf5-3f38-65d3" hidden="false" import="true" targetId="90f0-645a-1a64-72ad" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="7c01-78a5-1877-f85b" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Arbites Subductor Section" id="36d4-7679-86b7-89f6" hidden="false" import="true" targetId="04b6-655f-6261-4de8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Troops" id="ab36-5c42-4f96-130d" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

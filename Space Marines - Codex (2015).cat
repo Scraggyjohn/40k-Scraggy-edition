@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue name="Space Marines: Codex (2015)" id="7ab0-ceb9-0a9f-f0b6" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2051" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink name="New Catalogue (link)" id="4932-612f-0824-d0fe" targetId="6cacb5fc-d6bf-078d-307e-6f16c72d5f2a" type="catalogue"/>
+    <catalogueLink name="New Catalogue (link)" id="e230-9ed5-7785-dda0" targetId="578f-d512-a02e-7d0b" type="catalogue"/>
+  </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
     <categoryEntry name="Command" id="9050-d437-3301-7e42" hidden="false"/>
@@ -468,7 +472,7 @@
         <categoryLink name="Elites" id="f9a2-8ed9-da73-49aa-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Venerable Dreadnoughts" id="60f4-c765-8d86-493f" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
+    <entryLink name="Castraferrum-Venerable Dreadnoughts" id="60f4-c765-8d86-493f" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="60f4-c765-8d86-493f-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
@@ -491,12 +495,12 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Dreadnoughts" id="dd6f-0a8c-bd9f-8552" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry">
+    <entryLink name="Castraferrum Dreadnoughts" id="dd6f-0a8c-bd9f-8552" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="dd6f-0a8c-bd9f-8552-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Ironclad Dreadnoughts" id="0db3-6a22-9d02-1a91" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry">
+    <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="0db3-6a22-9d02-1a91" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="0db3-6a22-9d02-1a91-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
@@ -666,7 +670,7 @@
         <categoryLink name="Elites" id="3a1d-44f2-0eb1-305a-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Dreadnoughts" id="0b5f-3a2f-3dd3-914b" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry">
+    <entryLink name="Castraferrum Dreadnoughts" id="0b5f-3a2f-3dd3-914b" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="0b5f-3a2f-3dd3-914b-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
@@ -689,12 +693,12 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Venerable Dreadnoughts" id="674e-8e55-c4db-0cd1" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
+    <entryLink name="Castraferrum-Venerable Dreadnoughts" id="674e-8e55-c4db-0cd1" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="674e-8e55-c4db-0cd1-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Ironclad Dreadnoughts" id="33e9-67c2-193d-9d51" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry">
+    <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="33e9-67c2-193d-9d51" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="33e9-67c2-193d-9d51-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
@@ -1821,7 +1825,7 @@
         <categoryLink name="HQ" id="9e00-f374-3157-59ad-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Chaplain Dreadnought Titus" id="1568-8008-ff98-70f7" collective="false" hidden="false" import="true" targetId="5a8d-7da3-9673-0033" type="selectionEntry">
+    <entryLink name="Castraferrum-Chaplain Dreadnought Titus" id="1568-8008-ff98-70f7" collective="false" hidden="false" import="true" targetId="5a8d-7da3-9673-0033" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="1568-8008-ff98-70f7-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
@@ -2008,17 +2012,17 @@
         <categoryLink name="Fast Attack" id="8e89-fded-752f-5492-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Chaplain Dreadnought" id="dde5-9df7-da2c-5059" collective="false" hidden="false" import="true" targetId="a7a3-c6a4-2ef2-189b" type="selectionEntry">
+    <entryLink name="Castraferrum-Chaplain Dreadnought" id="dde5-9df7-da2c-5059" collective="false" hidden="false" import="true" targetId="a7a3-c6a4-2ef2-189b" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="dde5-9df7-da2c-5059-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Siege Dreadnought" id="157d-8023-fc26-2bae" collective="false" hidden="false" import="true" targetId="bfcd-8088-dfce-bab7" type="selectionEntry">
+    <entryLink name="Castraferrum-Siege Dreadnought" id="157d-8023-fc26-2bae" collective="false" hidden="false" import="true" targetId="bfcd-8088-dfce-bab7" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="157d-8023-fc26-2bae-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Mark V Mortis Pattern Dreadnought" id="cf83-f8a9-aeaf-4c7e" collective="false" hidden="false" import="true" targetId="87fe-5c79-bafc-2a71" type="selectionEntry">
+    <entryLink name="Castraferrum-Mortis Dreadnought" id="cf83-f8a9-aeaf-4c7e" collective="false" hidden="false" import="true" targetId="87fe-5c79-bafc-2a71" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="cf83-f8a9-aeaf-4c7e-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
@@ -2043,7 +2047,7 @@
         <categoryLink name="HQ" id="1ecc-cf0e-d78e-bcc4-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Dreadnought-Brother Halar" id="3b52-9a29-d37d-d8d6" collective="false" hidden="false" import="true" targetId="66fe-4587-7661-5caf" type="selectionEntry">
+    <entryLink name="Castraferrum Dreadnought-Brother Halar" id="3b52-9a29-d37d-d8d6" collective="false" hidden="false" import="true" targetId="66fe-4587-7661-5caf" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="3b52-9a29-d37d-d8d6-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
@@ -2352,6 +2356,28 @@
     <entryLink name="Tactical Squad with Boarding Shields" id="b991-4d31-fea7-0b1e" hidden="false" import="true" targetId="4e54-c631-8140-070f" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="0aa5-f5c4-d3c9-ebb4" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Castraferrum-Librarian Dreadnought" id="fdc3-8bfc-834a-b494" hidden="false" import="true" targetId="ec485d82-9ebd-b8fd-8343-434a0c548c84" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="HQ" id="094a-2f88-c757-d8e5" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Castraferrum-Furioso Dreadnought" id="695b-a43c-dc5a-1931" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" id="88cd-7608-cc78-6645" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Nephilim Jetfighter" id="469a-e06d-07a1-9d78" hidden="false" import="true" targetId="2c64-daad-13a6-c7bf" type="selectionEntry"/>
+    <entryLink name="Nephilim Jetfighter Flyer Wing" id="fd2f-74fa-77e8-3de3" hidden="false" import="true" targetId="d05a-fa3a-278f-87d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" id="ef27-f5e6-edb5-020a" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Dark Talon Strike Fighter" id="0fa2-b056-f624-be17" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry"/>
+    <entryLink name="Dark Talon Flyer Wing" id="ef3c-db6e-fe7c-5a27" hidden="false" import="true" targetId="aedf-7e8d-6c0b-6836" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" id="4dcc-1c55-277a-cc01" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2913,6 +2939,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Grenade Launcher (Frag Grenade)" id="daee-ca3f-e171-4a2e" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2921,6 +2948,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Grenade Launcher (Krak Grenade)" id="beba-e3e3-03ea-8eee" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2929,6 +2957,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Cerberus Launcher" id="2d3e-2858-50b3-0d26" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2937,6 +2966,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blind, Large Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Cyclone Missile Launcher (Frag Missile)" id="dd65-9f0c-f224-f43a" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2945,6 +2975,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Cyclone Missile Launcher (Krak Missile)" id="ce98-e18c-80e9-fae4" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2953,6 +2984,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Conversion Beamer (0&quot; - 18&quot;)" id="0e99-c456-60c1-aad1" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2961,6 +2993,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Conversion Beamer (42&quot; - 72&quot;)" id="3e9f-e7e4-7e8b-9395" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2969,6 +3002,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Conversion Beamer (18&quot; - 42&quot;)" id="fbff-98e2-275d-5031" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2977,6 +3011,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Deathwind Launcher" id="c25f-7709-bdcc-f638" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2985,6 +3020,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Demolisher Cannon" id="eab4-4414-8faa-8fe7" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2993,6 +3029,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Large Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Skyhammer Missile Launcher" id="9452-1d12-7c2a-bdbd" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3001,6 +3038,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Hurricane Bolter" id="d8a7-b6a2-5688-d59d" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3009,6 +3047,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 6</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Icarus Stormcannon Array (Details)" id="d403-5b0b-32ae-76e7" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -3032,6 +3071,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Interceptor, Skyfire</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Skyspear Missile Launcher" id="3629-55b1-86fb-800e" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3040,6 +3080,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Armourbane, Savant Lock, Skyfire</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Typhoon Missile Launcher (Krak Missile)" id="4b77-621f-8bd8-6684" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3048,6 +3089,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Typhoon Missile Launcher (Frag Missile)" id="9bef-3281-fb9b-e872" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3056,6 +3098,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Stormstrike Missiles" id="9754-8310-388d-8e68" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3064,6 +3107,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Concussive, One Use Only</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Thunderfire Cannon (Details)" id="6e77-fc4d-9994-d4b8" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -3082,6 +3126,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Barrage, Large Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Whirlwind Missile Launcher (Incendiary Castellan)" id="ef26-ba9e-245e-0de1" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3090,6 +3135,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Barrage, Ignores Cover, Large Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Thunderfire Cannon (Surface Detonation)" id="1a51-5b7e-80a7-0646" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3098,6 +3144,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Barrage, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Thunderfire Cannon (Airburst)" id="6789-3296-d9e6-7fb4" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3106,6 +3153,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Barrage, Blast, Ignores Cover</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Thunderfire Cannon (Subterranean Blast)" id="6d67-e559-4931-a190" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3114,6 +3162,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Barrage, Blast, Strikedown</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Relic Blade" id="a86f-9b15-d4c2-1690" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3122,6 +3171,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-handed</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Seismic Hammer" id="0ddd-2041-cc18-cb30" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3130,6 +3180,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Specialist Weapon, Unwieldy</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Servo-Arm" id="0840-97d3-fc87-a022" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3138,6 +3189,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Specialist Weapon, Unwieldy</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Siege Drill" id="47b2-c780-96e7-aed5" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3146,6 +3198,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Specialist Weapon</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Camo Cloak" id="0d38-f544-7735-7185" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -3169,6 +3222,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast, Poisoned (2+)</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Hellfire Shells (Details)" id="178f-cf84-27ff-a0d4" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -3207,6 +3261,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Servo-Harness (Plasma Cutter)" id="029a-3293-1666-7100" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3215,6 +3270,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Gets Hot, Twin-Linked</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Signum" id="cab2-05e3-5fb3-5e9f" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -3233,6 +3289,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Gets Hot</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Special Ammunition: Hellfire round" id="8429-dfe8-94f9-dd3d" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3241,6 +3298,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Poisoned (2+)</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Special Ammunition: Kraken bolt" id="358a-3b39-5623-737a" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3249,6 +3307,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Special Ammunition: Dragonfire bolt" id="97df-e579-bc82-b201" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3257,6 +3316,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Ignores Cover</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Artificer Armour" id="43b5-e1a1-2660-1b32" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -3300,6 +3360,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Twin-linked</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Atomantic Shielding" id="ce80-9d54-555b-abf3" hidden="false" publicationId="7ab0-ceb9-pubN65665" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -3360,6 +3421,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Rear Grapples" id="beaf-c0c8-a41d-b346" hidden="false" publicationId="7ab0-ceb9-pubN109967" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -3754,6 +3816,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Shred</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3856,6 +3919,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-Handed</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3878,6 +3942,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-Handed, Shred</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4204,6 +4269,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, One Use Only</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4291,6 +4357,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Salvo 3/5, Master-crafted, Shred</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4334,6 +4401,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Rampage, Specialist Weapon</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4355,6 +4423,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+3</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Blind, Incandescant</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4458,6 +4527,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Coup de Grace</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4576,6 +4646,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Force, Master-crafted, Soul Blaze</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4677,6 +4748,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, One Use Only</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Chapter Relic: Infernus (Hellfire Round)" id="fe49-03b8-ebf8-e5c4" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -4685,6 +4757,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Master-crafted, Poisoned (2+)</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4702,6 +4775,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5206,6 +5280,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Sniper</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5386,6 +5461,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Prey&apos;s Bane</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5531,6 +5607,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5554,6 +5631,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master Crafted, Two-handed</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5659,6 +5737,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted, Rending, Shred</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5733,6 +5812,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="Chapter Relic: Armour of Faith" id="986d-fd60-2a76-6992" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -6519,6 +6599,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Master-crafted, Specialist Weapon, Unwieldy</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6616,6 +6697,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6728,6 +6810,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Legacy of Dorn, Master-crafted</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6911,6 +6994,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Blast</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7171,6 +7255,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+3 (Charge) / +1 (Normal)</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2 (Charge) / 3 (Normal)</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7192,6 +7277,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Warblessed, Master-crafted</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8341,6 +8427,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Only in Death</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8398,6 +8485,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol, Ignores Cover, Master-crafted</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8439,6 +8527,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Master-crafted</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="Chapter Relic (IH): Betrayer&apos;s Bane (Melta Barrel)" id="0e2e-b6d3-492c-dcb5" hidden="false" publicationId="7ab0-ceb9-pubN65665" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8447,6 +8536,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Master-Crafted, Melta</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8484,6 +8574,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted, Severing Strike, Unwieldy</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8542,6 +8633,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Force, Unwieldy</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8579,6 +8671,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Master-crafted, Rending</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8600,6 +8693,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="Chapter Relic (SAL): Nocturne&apos;s Fury (Drakefire)" id="3351-93f6-8c36-1f3b" hidden="false" publicationId="7ab0-ceb9-pubN65665" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -8608,6 +8702,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Torrent</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="Chapter Relic (SAL): Nocturne&apos;s Fury (Details)" id="d570-0418-3ff7-8538" hidden="false" publicationId="7ab0-ceb9-pubN65665" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -8670,6 +8765,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Master-crafted, Specialist Weapon, Unwieldy, Mighty Strike</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8697,6 +8793,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Sniper, Armourbane, Shadow-shot</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8743,6 +8840,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3, Rending, Precision Shots</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8816,6 +8914,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Flurry, Shred, Specialist Weapon</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -9483,7 +9582,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <constraint id="dee8-28ad-63b6-f1e0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="30"/>
+            <cost name="pts" typeId="points" value="35"/>
           </costs>
           <profiles>
             <profile name="Rapid Disembarkation Harnesses" id="6be9-6c81-2ee6-ec01" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -9657,6 +9756,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -10779,6 +10879,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Chapter Relic: Gauntlets of Ultramar (Ranged)" id="83a7-f3a5-1b7b-18ed" hidden="false" publicationId="7ab0-ceb9-pubN65751" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -10787,6 +10888,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -11000,6 +11102,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Rending (6+)</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11019,6 +11122,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Twin-Linked, Sunder</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13383,7 +13487,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <infoLink name="Twin-Linked" id="1a24-a7fa-baa9-ef43" hidden="false" targetId="3002-de38-7230-fbc6" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Venerable Dreadnoughts" id="26d6-4c1c-d787-d28f" collective="false" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Castraferrum-Venerable Dreadnoughts" id="26d6-4c1c-d787-d28f" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0"/>
       </costs>
@@ -13468,7 +13572,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Dreadnought" id="41fc-7893-62fd-5f0a" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Castraferrum Dreadnought" id="41fc-7893-62fd-5f0a" collective="false" hidden="false" import="true" type="model">
       <costs>
         <cost name="pts" typeId="points" value="85"/>
       </costs>
@@ -13558,12 +13662,12 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Dreadnoughts" id="0ea4-8a62-96b6-77d0" collective="false" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Castraferrum Dreadnoughts" id="0ea4-8a62-96b6-77d0" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Dreadnought" id="aa45-f65b-89ab-7abe" collective="false" hidden="false" import="true" targetId="41fc-7893-62fd-5f0a" type="selectionEntry">
+        <entryLink name="Castraferrum Dreadnought" id="aa45-f65b-89ab-7abe" collective="false" hidden="false" import="true" targetId="41fc-7893-62fd-5f0a" type="selectionEntry">
           <constraints>
             <constraint id="9226-e186-096d-1824" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
             <constraint id="82a4-4bd2-1fa0-7fee" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -13789,7 +13893,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Ironclad Dreadnoughts" id="fb1b-d00b-3c7b-605e" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Castraferrum-Ironclad Dreadnoughts" id="fb1b-d00b-3c7b-605e" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="points" value="0"/>
       </costs>
@@ -17224,10 +17328,10 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <constraint id="1fb0-d9ff-ecc0-5bca" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Ironclad Dreadnoughts" id="659c-69f4-c500-9738" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
-            <entryLink name="Venerable Dreadnoughts" id="bd54-a7b1-7b18-ac92" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="659c-69f4-c500-9738" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Venerable Dreadnoughts" id="bd54-a7b1-7b18-ac92" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
             <entryLink name="Contemptor Dreadnoughts" id="069d-48f4-05ba-b33e" collective="false" hidden="false" import="true" targetId="cf76-43dd-578f-eb6b" type="selectionEntry"/>
-            <entryLink name="Dreadnoughts" id="782b-8c75-4f21-0021" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
+            <entryLink name="Castraferrum Dreadnoughts" id="782b-8c75-4f21-0021" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -17291,10 +17395,10 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint id="5257-24f3-27c2-90a4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Ironclad Dreadnoughts" id="431a-518f-e806-0651" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
-                <entryLink name="Venerable Dreadnoughts" id="f89c-055d-8c46-4a92" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
+                <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="431a-518f-e806-0651" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
+                <entryLink name="Castraferrum-Venerable Dreadnoughts" id="f89c-055d-8c46-4a92" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
                 <entryLink name="Contemptor Dreadnoughts" id="5fe2-71ab-6374-ac66" collective="false" hidden="false" import="true" targetId="cf76-43dd-578f-eb6b" type="selectionEntry"/>
-                <entryLink name="Dreadnoughts" id="b6d0-58ba-0873-c8bc" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
+                <entryLink name="Castraferrum Dreadnoughts" id="b6d0-58ba-0873-c8bc" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Demi-Company Captain" id="32e1-5037-242d-f80c" collective="false" hidden="false" import="true">
@@ -17367,10 +17471,10 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint id="0e62-28b1-48ea-84d0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Ironclad Dreadnoughts" id="7394-f719-726d-fffa" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
-                <entryLink name="Venerable Dreadnoughts" id="3c9b-c38b-31cb-8db1" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
+                <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="7394-f719-726d-fffa" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
+                <entryLink name="Castraferrum-Venerable Dreadnoughts" id="3c9b-c38b-31cb-8db1" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
                 <entryLink name="Contemptor Dreadnoughts" id="026b-2b6e-544b-c3b0" collective="false" hidden="false" import="true" targetId="cf76-43dd-578f-eb6b" type="selectionEntry"/>
-                <entryLink name="Dreadnoughts" id="c6c9-1f1c-79cb-b1ed" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
+                <entryLink name="Castraferrum Dreadnoughts" id="c6c9-1f1c-79cb-b1ed" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Demi-Company Chaplain" id="a999-0139-b311-d4cd" collective="false" hidden="false" import="true">
@@ -17703,6 +17807,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol, Gets Hot, Instant Death</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -17727,6 +17832,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Gets Hot, Instant Death</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -17738,7 +17844,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Venerable Dreadnoughts" id="5e0f-cc1f-8845-e7f8" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
+        <entryLink name="Castraferrum-Venerable Dreadnoughts" id="5e0f-cc1f-8845-e7f8" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
           <constraints>
             <constraint id="c4d7-948d-bced-8b1d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="7809-a6e0-e0b2-e19b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -17845,7 +17951,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Ironclad Dreadnoughts" id="20c1-fcd5-c889-4151" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry">
+        <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="20c1-fcd5-c889-4151" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry">
           <constraints>
             <constraint id="d4a3-a2e9-aafa-de6b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="1d84-2c7d-8caf-7939" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -18000,7 +18106,7 @@ Furthermore, when the nominated Librarian makes Psychic tests this phase, he wil
             <constraint id="7c22-07b9-de31-1927" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Venerable Dreadnoughts" id="aced-9ff4-f5ee-ce9a" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
+        <entryLink name="Castraferrum-Venerable Dreadnoughts" id="aced-9ff4-f5ee-ce9a" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
           <constraints>
             <constraint id="20d9-3b93-b1c2-b55f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="6808-8e5a-616c-2557" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -18079,7 +18185,7 @@ Furthermore, when the nominated Librarian makes Psychic tests this phase, he wil
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Venerable Dreadnoughts" id="cb5e-80ec-e2fa-afbc" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
+        <entryLink name="Castraferrum-Venerable Dreadnoughts" id="cb5e-80ec-e2fa-afbc" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
           <constraints>
             <constraint id="115c-ddee-aa99-1ead" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="57ad-9eda-b8ab-5929" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -18390,9 +18496,9 @@ Furthermore, when the nominated Librarian makes Psychic tests this phase, he wil
             <constraint id="b28a-efd1-50fa-532e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Dreadnoughts" id="a16d-7e4b-2361-4271" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
-            <entryLink name="Ironclad Dreadnoughts" id="2a60-1b65-d99b-d3f7" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
-            <entryLink name="Venerable Dreadnoughts" id="c2db-1ed8-6b20-9a25" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
+            <entryLink name="Castraferrum Dreadnoughts" id="a16d-7e4b-2361-4271" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="2a60-1b65-d99b-d3f7" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Venerable Dreadnoughts" id="c2db-1ed8-6b20-9a25" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
             <entryLink name="Contemptor Dreadnought" id="b7da-944d-ce36-c746" collective="false" hidden="false" import="true" targetId="8a70-4e5c-40f0-b267" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -18695,10 +18801,10 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
       </costs>
       <entryLinks>
         <entryLink name="Captain" id="8305-bbb9-4785-367a" collective="false" hidden="false" import="true" targetId="5d06-fec0-cdb5-f771" type="selectionEntry"/>
-        <entryLink name="Venerable Dreadnoughts" id="b73a-2134-db9d-41ff" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
+        <entryLink name="Castraferrum-Venerable Dreadnoughts" id="b73a-2134-db9d-41ff" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
         <entryLink name="Chaplain" id="d442-08e5-c9c3-b248" collective="false" hidden="false" import="true" targetId="f8b2-45c8-889e-00d3" type="selectionEntry"/>
-        <entryLink name="Venerable Dreadnoughts" id="7776-0b1d-b8da-85f6" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
-        <entryLink name="Venerable Dreadnoughts" id="a190-5f9b-9e43-2506" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
+        <entryLink name="Castraferrum-Venerable Dreadnoughts" id="7776-0b1d-b8da-85f6" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
+        <entryLink name="Castraferrum-Venerable Dreadnoughts" id="a190-5f9b-9e43-2506" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Fear" id="809e-32e1-6cb8-7c90" hidden="false" targetId="280d-1a0c-5916-3012" type="rule"/>
@@ -19215,13 +19321,13 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
             <constraint id="8bbb-6997-18a3-bddd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
           </constraints>
         </entryLink>
-        <entryLink name="Dreadnoughts" id="81ac-1467-eda9-445f" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry">
+        <entryLink name="Castraferrum Dreadnoughts" id="81ac-1467-eda9-445f" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry">
           <constraints>
             <constraint id="f312-1e40-dedd-53d4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="e42f-bd49-d9aa-b9b2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Dreadnoughts" id="a8b3-4284-3079-35bd" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry">
+        <entryLink name="Castraferrum Dreadnoughts" id="a8b3-4284-3079-35bd" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry">
           <constraints>
             <constraint id="1396-ef34-328c-d319" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="6da6-3aaf-a74b-d9c9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -19426,6 +19532,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Barrage, Massive Blast, One Use Only, Orbital</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -19521,9 +19628,9 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
             <constraint id="b140-628f-baac-959e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Dreadnoughts" id="f5bf-7463-26c5-6e6b" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
-            <entryLink name="Venerable Dreadnoughts" id="60d8-a374-8067-4200" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
-            <entryLink name="Ironclad Dreadnoughts" id="ef76-4993-c761-519e" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
+            <entryLink name="Castraferrum Dreadnoughts" id="f5bf-7463-26c5-6e6b" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Venerable Dreadnoughts" id="60d8-a374-8067-4200" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="ef76-4993-c761-519e" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
             <entryLink name="Contemptor Dreadnoughts" id="6072-3324-5606-238a" collective="false" hidden="false" import="true" targetId="cf76-43dd-578f-eb6b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -19745,7 +19852,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
             <constraint id="f06c-7adc-8c33-36f3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Ironclad Dreadnoughts" id="6466-78bc-a449-fe0d" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="6466-78bc-a449-fe0d" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
             <entryLink name="Contemptor Dreadnoughts" id="c7c2-a9fd-42e4-fa35" collective="false" hidden="false" import="true" targetId="cf76-43dd-578f-eb6b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -19787,9 +19894,9 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
             <constraint id="b7e4-2836-37d9-7d67" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Dreadnoughts" id="d11f-4b4e-e91b-c110" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
-            <entryLink name="Venerable Dreadnoughts" id="46fd-9bcb-cf21-6d63" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
-            <entryLink name="Ironclad Dreadnoughts" id="5990-822f-d7e0-5ee2" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
+            <entryLink name="Castraferrum Dreadnoughts" id="d11f-4b4e-e91b-c110" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Venerable Dreadnoughts" id="46fd-9bcb-cf21-6d63" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="5990-822f-d7e0-5ee2" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry"/>
             <entryLink name="Contemptor Dreadnoughts" id="b57f-cb93-f7f6-4b59" collective="false" hidden="false" import="true" targetId="cf76-43dd-578f-eb6b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -19929,6 +20036,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Rending</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -20150,6 +20258,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Missile, One Use Only</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -20298,6 +20407,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Massive Blast, Primary Weapon</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -20313,6 +20423,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Primary Weapon</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -20355,6 +20466,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Apocalyptic Barrage 1, One Shot</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -20409,6 +20521,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Skyfire, Interceptor, Heat Seeker</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -20583,6 +20696,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Melta, Twin-Linked</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -20606,6 +20720,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Blast, Twin-Linked, One Use</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -20732,6 +20847,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Large Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -20806,6 +20922,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Twin-Linked</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -20906,6 +21023,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Armourbane, Concussive, Collapsing Singularity</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -20933,6 +21051,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Atrapos Lascutter - Close Combat" id="a847-c4f5-19fe-310b" hidden="false" publicationId="7ab0-ceb9-pubN174565" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -20941,6 +21060,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Wrecker</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21015,6 +21135,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21042,6 +21163,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Machine Destroyer</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21106,6 +21228,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 8, Twin-Linked</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21128,6 +21251,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Deflagrate, Tempest Attack, Sunder</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21194,6 +21318,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Swift Strike</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Cerastus Shock Lance (Energy Blast)" id="7e22-10f8-f8a9-61b7" hidden="false" publicationId="7ab0-ceb9-pubN174565" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -21202,6 +21327,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Concussive</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21282,6 +21408,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Salvo 2/3</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21305,6 +21432,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Rending, Large Blast, Shred</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21328,6 +21456,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21346,6 +21475,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Wrecker</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21368,6 +21498,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">2</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Fleshbane, Rad-phage</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -21500,6 +21631,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Pinning, Independent Tracking</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21532,6 +21664,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Sunder, Twin-Linked</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21550,6 +21683,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Twin-Linked</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Twin-Linked Hellfire Plasma Cannonade (Maximum Fire)" id="3c30-bf77-d50a-8309" hidden="false" publicationId="7ab0-ceb9-pubN174565" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -21558,6 +21692,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Gets Hot, Large Blast, Twin-Linked</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21576,6 +21711,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Exoshock</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21594,6 +21730,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Deflagrate, Pinning</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21721,6 +21858,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Cluster Warhead, Terminal Tracking</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -21825,6 +21963,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted, Smash</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -22015,6 +22154,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Specialist Weapon, Unwieldy</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Slake" id="d9ea-ea9f-23d4-d2cf" hidden="false" publicationId="7ab0-ceb9-pubN146351" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -22023,6 +22163,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Shred, Specialist Weapon</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Hunger &amp; Slake (Details)" id="865c-593c-c9b0-6d89" hidden="false" publicationId="7ab0-ceb9-pubN146351" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -22034,7 +22175,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Chaplain Dreadnought Titus" id="5a8d-7da3-9673-0033" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Castraferrum-Chaplain Dreadnought Titus" id="5a8d-7da3-9673-0033" collective="false" hidden="false" import="true" type="model">
       <constraints>
         <constraint id="3774-d700-68b5-01d5" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="false" type="max" value="1"/>
       </constraints>
@@ -22251,6 +22392,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Master-crafted, Gets Hot!</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -22496,6 +22638,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Salvo 2/4, Special Issue Ammunition</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -22589,6 +22732,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Specialist Weapon, Unwieldy, Shred, Master-crafted</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -22684,6 +22828,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -22791,6 +22936,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Dreadfire Heavy Flamer" id="e6df-113c-13f7-dace" hidden="false" publicationId="7ab0-ceb9-pubN146351" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -22804,6 +22950,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Melta</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -23071,6 +23218,7 @@ Mirage is a blessing that targets the psyker, as well as any unit he has joined 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy, Two-handed</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -23352,6 +23500,7 @@ Mirage is a blessing that targets the psyker, as well as any unit he has joined 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Rending, Soul Blaze, Specialist Weapon, Smash</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -23463,6 +23612,7 @@ In addition, when an opponent currently fighting a challenge against Silas Alber
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy, Two-handed, Master-crafted, Concussive, Slayer (Daemon &amp; Psyker)</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -23567,6 +23717,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Shred, Specialist Weapon, Ghost Razor</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -23666,6 +23817,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -23689,6 +23841,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted, Rage</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -23805,6 +23958,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Specialist Weapon</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -23888,6 +24042,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Rending</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -23987,6 +24142,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Specialist Weapon</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Lasbeam" id="87c9-09fa-4f60-b8e3" hidden="false" publicationId="7ab0-ceb9-pubN146351" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -23995,6 +24151,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, One Use</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -24091,6 +24248,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Master-crafted, Concussive, Specialist Weapon</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Assault Launcher" id="332a-b7f8-e261-744c" hidden="false" publicationId="7ab0-ceb9-pubN146351" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -24099,6 +24257,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast, Twin-linked</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -24131,6 +24290,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, blast</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                     <profile name="Auxiliary Grenade Launcher - Krak" id="67f7-50e4-d499-879e" hidden="false" publicationId="7ab0-ceb9-pubN146351" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -24139,6 +24299,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -24210,6 +24371,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Large Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -24233,6 +24395,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Massive Blast, Twin-Linked</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Fellblade Accelerator Cannon - AP Shell" id="0298-adda-5654-a797" hidden="false" publicationId="7ab0-ceb9-pubN192504" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -24241,6 +24404,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Armourbane, Blast, Twin-Linked</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -24339,6 +24503,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Twin-linked</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -24357,6 +24522,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Twin-linked</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -24410,6 +24576,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Massive Blast, Ignores Cover</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Dreadhammer Siege Cannon - Stationary" id="2bca-4f9f-a872-795b" hidden="false" publicationId="7ab0-ceb9-pubN192504" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -24418,6 +24585,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Massive Blast, Ignores Cover</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -24534,6 +24702,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon D3, Concussive, Feedback, Shock Pulse</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -24933,6 +25102,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Firing Calibration</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Heavy Conversion Beamer (18&quot; - 42&quot;)" id="8987-bcd3-7edb-d439" hidden="false" publicationId="7ab0-ceb9-pubN192504" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -24941,6 +25111,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Firing Calibration</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Heavy Conversion Beamer (42&quot; - 72&quot;)" id="ffeb-8517-0a75-c64f" hidden="false" publicationId="7ab0-ceb9-pubN192504" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -24949,6 +25120,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Firing Calibration</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Heavy Conversion Beamer (Details)" id="0fc9-8c76-6dc0-e79d" hidden="false" publicationId="7ab0-ceb9-pubN192504" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -24974,6 +25146,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Blast</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -24992,6 +25165,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Melta</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25010,6 +25184,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Rending (6+)</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25029,6 +25204,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Twin-Linked, Sunder</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -25450,6 +25626,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Rending, Rapid Tracking</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -25559,6 +25736,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Barrage, Blast, Rocket Barrage</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -25691,6 +25869,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Twin-Linked</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -25781,6 +25960,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Concussive, One Use Only</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -25803,6 +25983,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 7, Twin Linked</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -25938,7 +26119,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
         <infoLink name="Twin-Linked" id="c954-3681-88a7-eb34" hidden="false" targetId="3002-de38-7230-fbc6" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Chaplain Dreadnought" id="a7a3-c6a4-2ef2-189b" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Castraferrum-Chaplain Dreadnought" id="a7a3-c6a4-2ef2-189b" collective="false" hidden="false" import="true" type="model">
       <costs>
         <cost name="pts" typeId="points" value="135"/>
       </costs>
@@ -26123,7 +26304,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Siege Dreadnought" id="bfcd-8088-dfce-bab7" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Castraferrum-Siege Dreadnought" id="bfcd-8088-dfce-bab7" collective="false" hidden="false" import="true" type="model">
       <costs>
         <cost name="pts" typeId="points" value="120"/>
       </costs>
@@ -26220,7 +26401,7 @@ In subsequent turns the Deathstorm may continue to fire, picking a single enemy 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Mark V Mortis Pattern Dreadnought" id="87fe-5c79-bafc-2a71" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Castraferrum-Mortis Dreadnought" id="87fe-5c79-bafc-2a71" collective="false" hidden="false" import="true" type="model">
       <costs>
         <cost name="pts" typeId="points" value="115"/>
       </costs>
@@ -26722,6 +26903,7 @@ If a unit of Automated Artillery loses an assault, nothing happens - there are n
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Twin-linked</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27039,7 +27221,7 @@ If a unit of Automated Artillery loses an assault, nothing happens - there are n
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Dreadnought-Brother Halar" id="66fe-4587-7661-5caf" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Castraferrum Dreadnought-Brother Halar" id="66fe-4587-7661-5caf" collective="false" hidden="false" import="true" type="model">
       <constraints>
         <constraint id="d623-fa13-3c5d-9e6c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
@@ -27081,6 +27263,11 @@ If a unit of Automated Artillery loses an assault, nothing happens - there are n
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="937e-5387-3588-0c10" childName="Red Scorpions" field="selections" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+          </conditions>
         </modifier>
       </modifiers>
       <profiles>
@@ -27212,6 +27399,7 @@ If a unit of Automated Artillery loses an assault, nothing happens - there are n
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-handed, Murderous Strike</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -27391,6 +27579,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 5, Apocalyptic Barrage</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27409,6 +27598,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Large Blast, Destroyer Weapon, Primary Weapon</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27424,6 +27614,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Primary Weapon</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27439,6 +27630,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 15</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27454,6 +27646,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Primary Weapon, Apocalyptic Blast</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="Plasma Blastgun - Rapid" id="6056-4594-b486-68aa" hidden="false" publicationId="7ab0-ceb9-pubN209783" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -27462,6 +27655,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 2, Primary Weapon, Massive Blast</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27480,6 +27674,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Apocalyptic Blast, Vortex, One Use Only</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27498,6 +27693,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Massive Blast, Primary Weapon, Destroyer</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27513,6 +27709,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Large Blast, Primary Weapon</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27531,6 +27728,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Destroyer</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27549,6 +27747,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 1, Primary Weapon, Apocalyptic Blast, Melta</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27567,6 +27766,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Large Blast, Destroyer, Primary Weapon</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -27735,6 +27935,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Sniper</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -27895,6 +28096,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Barrage, Blast, Pinning, Shell Shock</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Quad Mortar (Shatter)" id="ad97-f55e-44fe-7383" hidden="false" publicationId="7ab0-ceb9-pubN174565" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -27903,6 +28105,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Sunder</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -28239,6 +28442,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Twin-linked, Ardex Machina</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -28261,6 +28465,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Ardex Machina</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -28287,6 +28492,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Blast, Machine Destroyer</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -28310,6 +28516,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 4, Apocalyptic Barrage, Plasma Wave</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -28333,6 +28540,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D/9/6</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Blast, Seismic Shock, Concussion, Strikedown</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -28356,6 +28564,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Machine Destroyer</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -28379,6 +28588,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 6, Large Blast, Pinning</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -28452,6 +28662,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 10, Apocalyptic Barrage, Ignores Cover, One Use Only</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -28513,6 +28724,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Wrecker, Severing Cut</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28536,6 +28748,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Sunder</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28554,6 +28767,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Melta</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28584,6 +28798,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Wrecker, Armourbane</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28611,6 +28826,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Machine Destroyer, Destroyer</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28626,6 +28842,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 4, Apocalyptic Barrage, Plasma Wave</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28650,6 +28867,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Machine Destroyer, Instant Death</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="Saturnyne Lascutter (Shooting)" id="7862-f03f-a3ae-43d6" hidden="false" publicationId="7ab0-ceb9-pubN209104" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -28658,6 +28876,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Instant Death</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28676,6 +28895,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Blast, Machine Destroyer</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28694,6 +28914,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 6, Large Blast, Pinning</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28712,6 +28933,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, +1 Attack, Machine Destroyer</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28731,6 +28953,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D/9/6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Apocalyptic Mega-Blast, Seismic Shock, Concussive, Strikedown</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -28983,6 +29206,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, 3&quot; Blast, Melta, Stone Burner</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -29067,6 +29291,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 5, Skyfire, Twin-linked, Interceptor</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -30374,6 +30599,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4, Poisoned 2+</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -30392,6 +30618,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -30606,6 +30833,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Deflagrate</characteristic>
+                                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -30632,6 +30860,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Gets Hot</characteristic>
+                                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -30830,6 +31059,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Twin-Linked</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -30857,6 +31087,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -30934,7 +31165,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <profile name="Terminator Ancient" id="2d15-3b89-0c02-0280" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry (Character)</characteristic>
-            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">5</characteristic>
             <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
             <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">4</characteristic>
             <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">4</characteristic>
@@ -31298,6 +31529,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Sniper</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -31325,7 +31557,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <constraint id="f18e-cb12-c821-6726" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="5"/>
+        <cost name="pts" typeId="points" value="8"/>
       </costs>
       <infoLinks>
         <infoLink name="Relentless" id="829a-9bed-4e9f-109d" hidden="false" targetId="7674-690c-ab59-1444" type="rule"/>
@@ -31425,6 +31657,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast (5&quot;), Pinning</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                     <profile name="Kratos Battlecannon - AP Shells" id="a3b6-68d5-11dc-1a59" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -31433,6 +31666,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Sunder</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -31455,6 +31689,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Twin-Linked, Gets Hot, Sunder</characteristic>
+                            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -31476,6 +31711,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 12, Deflagrate, Pinning</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -31497,6 +31733,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast (5&quot;), Melta</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -31558,6 +31795,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Deflagrate</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -31669,6 +31907,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Deflagrate</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -31784,6 +32023,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast (3&quot;), Twin-Linked</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -31801,6 +32041,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Pulverise, Two-handed, Unwieldy</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -32052,6 +32293,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -32559,68 +32801,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Dedicated Transport" id="88ab-60c4-4288-ea60" collective="false" hidden="false" import="true">
-          <constraints>
-            <constraint id="8ceb-157c-71ad-c41d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-            <constraint id="5877-11d9-a853-e628" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="0"/>
-          </constraints>
-          <entryLinks>
-            <entryLink name="Drop Pod" id="1bf5-482a-cd82-757d" collective="false" hidden="false" import="true" targetId="d74c-c4ca-6e6e-1ac9" type="selectionEntry">
-              <constraints>
-                <constraint id="c85f-bbb4-848c-43a3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="0"/>
-                <constraint id="0b10-6e07-3a70-1231" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-              </constraints>
-              <modifiers>
-                <modifier field="points" type="set" value="0">
-                  <conditions>
-                    <condition childId="e275-392c-6fc5-767f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
-                  </conditions>
-                </modifier>
-                <modifier field="c85f-bbb4-848c-43a3" type="set" value="1">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition childId="5da6-56a8-657a-4a45" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
-                        <condition childId="a9f3-5812-5e26-afde" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-                <modifier field="0b10-6e07-3a70-1231" type="set" value="0">
-                  <conditions>
-                    <condition childId="d3cf-eec3-7a40-38f8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
-                  </conditions>
-                </modifier>
-                <modifier field="hidden" type="set" value="true">
-                  <conditions>
-                    <condition childId="8d98-232f-1db4-baa6" childName="Space Marines" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="5"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink name="Rhino" id="e0bb-074f-35ce-c553" collective="false" hidden="false" import="true" targetId="510f-fd1e-5e14-4f70" type="selectionEntry">
-              <modifiers>
-                <modifier field="points" type="set" value="0">
-                  <conditions>
-                    <condition childId="e275-392c-6fc5-767f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
-                  </conditions>
-                </modifier>
-                <modifier field="hidden" type="set" value="true">
-                  <conditions>
-                    <condition childId="8d98-232f-1db4-baa6" childName="Space Marines" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="5"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-          <modifiers>
-            <modifier field="5877-11d9-a853-e628" type="set" value="1">
-              <conditions>
-                <condition childId="d3cf-eec3-7a40-38f8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
         <selectionEntryGroup name="Space Marines" id="8d98-232f-1db4-baa6" collective="false" defaultSelectionEntryId="9c23-bc1d-d40b-e05f" hidden="false" import="true">
           <constraints>
             <constraint id="d736-9b59-f35f-11ee" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="4"/>
@@ -32710,6 +32890,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire</characteristic>
+                            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -32779,6 +32960,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy, Cumbersome</characteristic>
+                            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                           </characteristics>
                         </profile>
                         <profile name="Lascutter - Ranged" id="2f0b-cb20-e617-a0be" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -32787,6 +32969,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Armourbane (Ranged)</characteristic>
+                            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -35248,6 +35431,7 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, One Use</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -35334,6 +35518,7 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, 3&quot; Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Grenade Launcher (Krak)" id="26f1-b6ca-db34-ef4a" hidden="false" page="0" publicationId="7ab0-ceb9-pubN221661" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -35342,6 +35527,7 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -35393,6 +35579,7 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Salvo 2/4</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -35466,6 +35653,7 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Salvo 2/4</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -35504,6 +35692,7 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, 3&quot; Blast</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -35522,6 +35711,7 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 10</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -35540,6 +35730,7 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, 3&quot; Blast</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                     <profile name="Taurox Missile Launcher (Krak)" id="2864-5a65-0d63-6780" hidden="false" page="41" publicationId="7ab0-ceb9-pubN221661" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -35548,6 +35739,7 @@ Devastator: Affected models can re-roll To Hit rolls of 1 in the Shooting phase 
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>

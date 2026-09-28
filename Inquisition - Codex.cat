@@ -6527,6 +6527,14 @@ Note that Bike Squads count as being at full strength when they have eight Space
                 <cost name="pts" typeId="points" value="14"/>
               </costs>
             </entryLink>
+            <entryLink name="Arbites Subductor-Chastener" id="26e8-8ad5-ecd3-6c73" hidden="false" import="true" targetId="dc27-b04b-e0c0-6482" type="selectionEntry">
+              <constraints>
+                <constraint id="bbe5-1154-3c5c-8a6a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="14"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7561,6 +7569,9 @@ Roll a D6:
             <constraint id="d8ab-4248-fd13-012c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="0a31-3f49-4f74-b1c6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Concussion Carbine" id="446e-e00a-c6c5-683c" hidden="false" import="true" targetId="d40f-e97a-2361-cdfd" type="selectionEntry"/>
+          </entryLinks>
           <selectionEntries>
             <selectionEntry name="Storm Bolter" id="2419-21db-e204-f4cf" hidden="false" import="true" type="upgrade">
               <constraints>
@@ -7658,6 +7669,11 @@ Roll a D6:
               <modifiers>
                 <modifier field="name" type="set" value="Autocannon"/>
               </modifiers>
+            </entryLink>
+            <entryLink name="Concussion Cannon" id="0db2-3206-3763-92c3" hidden="false" import="true" targetId="21f9-1e20-de12-b4a9" type="selectionEntry">
+              <constraints>
+                <constraint id="f2c1-8c40-4dba-5d01" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
             </entryLink>
           </entryLinks>
           <selectionEntries>
@@ -7776,6 +7792,128 @@ Roll a D6:
           </profiles>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Concussion Carbine" id="d40f-e97a-2361-cdfd" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="10"/>
+      </costs>
+      <profiles>
+        <profile name="Concussion Carbine" id="8cab-cd46-31f4-d788" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
+            <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Concussion</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Concussion: If a unit suffers one or more unsaved wounds from a Concussion Carbine, it suffers -1 Initiative until the end of its next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Concussion Cannon" id="21f9-1e20-de12-b4a9" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="20"/>
+      </costs>
+      <profiles>
+        <profile name="Concussion Cannon" id="0e76-5c42-74eb-0c52" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+            <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast, Concussion</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Concussion: If a unit suffers one or more unsaved wounds from a Concussion Carbine, it suffers -1 Initiative until the end of its next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Arbites Subductor-Chastener" id="dc27-b04b-e0c0-6482" hidden="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink name="Assault Shield" id="b216-c04a-ba02-a89e" hidden="false" import="true" targetId="8d57-6637-1bd8-a19f" type="selectionEntry">
+          <constraints>
+            <constraint id="459a-0a77-f64f-4d6d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="0417-90ed-22f0-b6ee" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Shock Maul" id="3b01-9d4b-73b9-191c" hidden="false" import="true" targetId="bb90-cfb5-c336-21f0" type="selectionEntry">
+          <constraints>
+            <constraint id="5338-170d-07d4-77c9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="ce95-7566-1748-e456" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Assault &amp; Krak Grenades" id="aca3-9969-e71b-c4dc" hidden="false" import="true" targetId="b863-e06c-b5dd-1433" type="selectionEntry"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Subductor-Chastener" id="5f8e-ba16-031b-a6e6" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+/5++</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Pistol" id="07f0-ff0a-0314-d3a7" hidden="false">
+          <constraints>
+            <constraint id="4cf7-0944-1eea-a36a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="af67-22af-ecc2-1df6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Shotpistol" id="4d70-5016-7af3-c48b" defaultAmount="1" hidden="false" import="true" targetId="8c76-0240-67c3-fd37" type="selectionEntry">
+              <constraints>
+                <constraint id="d603-d61e-7d56-9e12" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Concussion Pistol" id="76cf-7116-a95b-4bf9" hidden="false" import="true" targetId="1044-d6a3-6dca-1e79" type="selectionEntry">
+              <constraints>
+                <constraint id="7f34-2453-a11d-a36a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Web Pistol" id="5d3d-cde9-9cab-3dee" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="1a79-489b-5dbe-55d4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="3"/>
+              </costs>
+              <profiles>
+                <profile name="Web Pistol" id="445d-d86c-cc1b-db80" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1, Blast, Cocooned</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Cocooned: The AP value of a Wound caused by this weapon is equal to the current Strength characteristic of the model it was allocated to. For example, if a Wound from a web weapon was allocated to a Space Marine (Strength 4) that wound is resolved at AP4. Against vehicles, or models with a Strength of 7 or more, this weapon is AP-.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Concussion Pistol" id="1044-d6a3-6dca-1e79" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="5"/>
+      </costs>
+      <profiles>
+        <profile name="Concussion Pistol" id="c88b-0e06-8185-4ad7" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
+            <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2, Concussion</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Concussion: If a unit suffers one or more unsaved wounds from a Concussion Carbine, it suffers -1 Initiative until the end of its next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -11685,6 +11823,7 @@ special rule is made after deployment, but before the first turn begins.</descri
             <cost name="pts" typeId="points" value="5"/>
           </costs>
         </entryLink>
+        <entryLink name="Concussion Carbine" id="71e3-2315-68c0-471a" hidden="false" import="true" targetId="d40f-e97a-2361-cdfd" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Arbites Vehicle Equipment" id="cbf5-97c9-7c1f-f627" hidden="false">
