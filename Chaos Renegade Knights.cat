@@ -1,34 +1,161 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0701-88e9-a200-0455" name="Chaos Renegade Knights" revision="2001" battleScribeVersion="2.03" authorName="BSData Developers" library="false" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Chaos Renegade Knights" id="0701-88e9-a200-0455" authorName="BSData Developers" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2001" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="c888f08a-6cea-4a01-8126-d374a9231554" name="Lord of War" hidden="false"/>
+    <categoryEntry name="Lord of War" id="c888f08a-6cea-4a01-8126-d374a9231554" hidden="false"/>
   </categoryEntries>
-  <forceEntries>
-    <forceEntry id="0807-c216-7ba4-c62a" name="Chaos RK Forsworn Knight Detachment" hidden="false">
-      <infoLinks>
-        <infoLink id="e2e2-83f3-b114-d671" name="" hidden="false" targetId="d5c4-ab2d-8af6-3b43" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="0807-c216-7ba4-c62a-c888f08a-6cea-4a01-8126-d374a9231554" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c7b5-5ab1-0e4e-7142" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="945c-f005-fbb4-2e33" type="min"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
   <entryLinks>
-    <entryLink id="f3fd-13bf-afe6-6d8f" hidden="false" collective="false" import="true" targetId="8077-af66-ff34-45f5" type="selectionEntry">
+    <entryLink name="Renegade Knight" id="f3fd-13bf-afe6-6d8f" collective="false" hidden="false" import="true" targetId="8077-af66-ff34-45f5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f3fd-13bf-afe6-6d8f-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
+        <categoryLink name="Lord of War" id="f3fd-13bf-afe6-6d8f-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <forceEntries>
+    <forceEntry name="Chaos RK Forsworn Knight Detachment" id="0807-c216-7ba4-c62a" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Lord of War" id="0807-c216-7ba4-c62a-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
+          <constraints>
+            <constraint id="c7b5-5ab1-0e4e-7142" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
+            <constraint id="945c-f005-fbb4-2e33" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Fallen Household" id="e2e2-83f3-b114-d671" hidden="false" targetId="d5c4-ab2d-8af6-3b43" type="rule"/>
+      </infoLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedProfiles>
+    <profile name="Avenger Gatling Cannon" id="026b-fa67-ccaa-eba3" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 12, Rending</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Hurl" id="7c23-ceb1-3a2b-9f80" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">*</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, The Bigger They Are...</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Ion Shield" id="aa51-04c0-9c9f-ebd4" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the opponents shooting phase, select the facing of the Ion Shield. The Ion Shield confers a 4+ Invunerable save against that facing until the start of your opponents next shooting phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ironstorm Missle Pod" id="255b-9aa4-d31e-01a6" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Barrage</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Rapid-Fire Battle Cannon" id="f3ca-e162-b8c4-c820" hidden="false" page="0" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 2, Large Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Reaper Chainsword" id="a85e-39e0-03ee-2f29" hidden="false" page="0" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Stormspear Rocket Pod" id="a2e6-ec8f-a719-56a1" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Thermal Cannon" id="b460-6389-8095-3046" hidden="false" page="0" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Melta, Large Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Thunderstrike Gauntlet" id="6970-2133-9082-e6b2" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Colossal, Hurl</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin Icarus Autocannon" id="6880-c5e0-9fa1-6091" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Interceptor, Skyfire, Twin-linked</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Foe-reaper Chainsword" id="a6e2-245b-5c9c-0beb" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
+        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Foe Reaper</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+      </characteristics>
+    </profile>
+    <profile name="Dirge Caster" id="87d2-daa6-ee28-d634" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">An enemy model within 6&quot; of a vehicle with this special rule cannot fire Overwatch.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Fallen Household" id="d5c4-ab2d-8af6-3b43" hidden="false">
+      <description>If this Detachment contains 3 Renegade Knights, it forms a Fallen Household and all of its models have the Preferred Enemy (Imperial Knights) special rule. However, such is the enmity between their former comrades that all Imperial Knights will have the Preferred Enemy (Fallen Household) special rule as well.</description>
+    </rule>
+    <rule name="Hurl" id="a9af-815e-2851-0ed6" hidden="false">
+      <description>If a Renegade Knight fighting with a thunderstrike gauntlet destroys an enemy Monstrous Creature or vehicle in the Fight sub-phase, it can choose to hurl it (Gargantuan Creatures, Super-heavy vehicles, and buildings cannot be hurled). If a vehicle was destroyed as a result of suffering an Explodes! result on the Vehicle Damage table, resolve any damage before hurling it. Any passengers must make an emergency disembarkation before their Transport is hurled. To hurl an enemy model, immediately resolve a shooting attack against an enemy unit within 12&quot; that is not locked in combat using the Hurl profile. A hurled model is removed from the battlefield after the attack has been resolevd.</description>
+    </rule>
+    <rule name="The Bigger They Are..." id="16e3-41e5-f577-846f" hidden="false">
+      <description>The Strength of this attack is always equal to the Toughness value of the Monstrous Creature, or half the front Armour Value of the vehicle being hurled (rounding fractions up)</description>
+    </rule>
+    <rule name="Foe-reaper" id="b84e-247f-10b8-04b0" hidden="false">
+      <description>Add +1 to the Str D table result when rolling against enemy Monstrous and Gargantuan Creatures.</description>
+    </rule>
+    <rule name="Colossal" id="529a-5c03-7cb3-bad2" hidden="false">
+      <description>A model fighting with this weapon Piles In and fights at Initiative step 1.</description>
+    </rule>
+  </sharedRules>
   <sharedSelectionEntries>
-    <selectionEntry id="8077-af66-ff34-45f5" name="Renegade Knight" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry name="Renegade Knight" id="8077-af66-ff34-45f5" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="325"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Carapace Weapons" id="67dc-1af1-57a1-fb0d" collective="false" hidden="false" import="true" targetId="ef23-c4ad-8a48-a817" type="selectionEntryGroup"/>
+        <entryLink name="Reaper Chainsword and Alternatives" id="5f6e-55a5-5732-ba7b" collective="false" hidden="false" import="true" targetId="e7d3-3542-4c38-9766" type="selectionEntryGroup"/>
+        <entryLink name="Thunderstrike Gauntlet and Alternatives" id="2d1e-d5d1-6bf7-4a32" collective="false" hidden="false" import="true" targetId="06e7-7163-f288-0913" type="selectionEntryGroup"/>
+      </entryLinks>
       <profiles>
-        <profile id="b8a6-aa9e-b268-fd4b" name="Renegade Knight" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
+        <profile name="Renegade Knight" id="b8a6-aa9e-b268-fd4b" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <characteristics>
             <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
             <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
@@ -44,63 +171,61 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="e3c4-9b14-3b5c-6704" name="Ion Shield" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Ion Shield" id="e3c4-9b14-3b5c-6704" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e66-d28f-389c-38d3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e77-f76c-dbce-50fe" type="min"/>
+            <constraint id="7e66-d28f-389c-38d3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+            <constraint id="1e77-f76c-dbce-50fe" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="5dc9-2159-320e-dfd2" name="" hidden="false" targetId="aa51-04c0-9c9f-ebd4" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Ion Shield" id="5dc9-2159-320e-dfd2" hidden="false" targetId="aa51-04c0-9c9f-ebd4" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7c1f-fb85-4e35-0d81" name="Heavy Stubber or Meltagun" hidden="false" collective="false" import="true" defaultSelectionEntryId="0768-eaed-01af-9d03">
+        <selectionEntryGroup name="Heavy Stubber or Meltagun" id="7c1f-fb85-4e35-0d81" collective="false" defaultSelectionEntryId="0768-eaed-01af-9d03" hidden="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0768-eaed-01af-9d03" name="Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Heavy Stubber" id="0768-eaed-01af-9d03" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="76bd-5ba8-7640-55a8" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Heavy Stubber" id="76bd-5ba8-7640-55a8" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+              </infoLinks>
             </selectionEntry>
-            <selectionEntry id="7481-ed5c-48cf-96ef" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Meltagun" id="7481-ed5c-48cf-96ef" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="6b49-67af-fddc-d8c8" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
-              </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="5"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Meltagun" id="6b49-67af-fddc-d8c8" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="67dc-1af1-57a1-fb0d" hidden="false" collective="false" import="true" targetId="ef23-c4ad-8a48-a817" type="selectionEntryGroup"/>
-        <entryLink id="5f6e-55a5-5732-ba7b" hidden="false" collective="false" import="true" targetId="e7d3-3542-4c38-9766" type="selectionEntryGroup"/>
-        <entryLink id="2d1e-d5d1-6bf7-4a32" hidden="false" collective="false" import="true" targetId="06e7-7163-f288-0913" type="selectionEntryGroup"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="325.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="4cc3-1630-e1c3-2ab6" name="[FW] Chaos Knight Errant" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry name="[FW] Chaos Knight Errant" id="4cc3-1630-e1c3-2ab6" collective="false" hidden="true" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Lord of War" id="4cc3-1630-e1c3-2ab6-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="370"/>
+      </costs>
       <profiles>
-        <profile id="4b4e-999e-4e2f-4c87" name="Chaos Knight Errant" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
+        <profile name="Chaos Knight Errant" id="4b4e-999e-4e2f-4c87" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <characteristics>
             <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
             <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
@@ -115,154 +240,155 @@
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="4cc3-1630-e1c3-2ab6-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4967-48f3-8bfe-ea53" name="Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Heavy Stubber" id="4967-48f3-8bfe-ea53" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="0526-0e38-a808-bc78" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Heavy Stubber" id="0526-0e38-a808-bc78" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="7507-99d1-b9a5-92d7" name="Foe-reaper Chainsword" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Foe-reaper Chainsword" id="7507-99d1-b9a5-92d7" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Foe-reaper Chainsword" id="865e-dcf3-7c89-9024" hidden="false" targetId="a6e2-245b-5c9c-0beb" type="profile"/>
+            <infoLink name="Foe-reaper" id="375b-aae0-e71a-a796" hidden="false" targetId="b84e-247f-10b8-04b0" type="rule"/>
+          </infoLinks>
           <profiles>
-            <profile id="8cac-0546-f9ac-be87" name="Foe-reaper Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile name="Foe-reaper Chainsword" id="8cac-0546-f9ac-be87" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Foe Reaper</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
           <rules>
-            <rule id="706b-e94f-b019-037b" name="Foe-reaper" hidden="false">
+            <rule name="Foe-reaper" id="706b-e94f-b019-037b" hidden="false">
               <description>Add +1 to the Str D table result when rolling against enemy Monstrous and Gargantuan Creatures.</description>
             </rule>
           </rules>
-          <infoLinks>
-            <infoLink id="865e-dcf3-7c89-9024" hidden="false" targetId="a6e2-245b-5c9c-0beb" type="profile"/>
-            <infoLink id="375b-aae0-e71a-a796" hidden="false" targetId="b84e-247f-10b8-04b0" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
         </selectionEntry>
-        <selectionEntry id="e864-47af-f8bb-090c" name="Ion Shield" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Ion Shield" id="e864-47af-f8bb-090c" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="13a3-f8ca-c68a-f9b1" hidden="false" targetId="aa51-04c0-9c9f-ebd4" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Ion Shield" id="13a3-f8ca-c68a-f9b1" hidden="false" targetId="aa51-04c0-9c9f-ebd4" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="6446-2d34-89c2-8910" name="Dirge Caster" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Dirge Caster" id="6446-2d34-89c2-8910" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="911c-e8f9-56a1-2c23" hidden="false" targetId="87d2-daa6-ee28-d634" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="5"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Dirge Caster" id="911c-e8f9-56a1-2c23" hidden="false" targetId="87d2-daa6-ee28-d634" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="fa64-27cd-9fd8-cd84" name="Thermal Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Thermal Cannon" id="fa64-27cd-9fd8-cd84" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="0607-46c1-d2e2-c129" hidden="false" targetId="b460-6389-8095-3046" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Thermal Cannon" id="0607-46c1-d2e2-c129" hidden="false" targetId="b460-6389-8095-3046" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1fd4-8cc8-d26c-5212" name="Daemon Knight upgrade" hidden="false" collective="false" import="true">
+        <selectionEntryGroup name="Daemon Knight upgrade" id="1fd4-8cc8-d26c-5212" collective="false" hidden="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f90f-70d0-0510-2ad2" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Khorne" id="f90f-70d0-0510-2ad2" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="50"/>
+              </costs>
               <rules>
-                <rule id="6bfa-6a62-fb0e-cbea" name="Daemon Knight of Khorne" hidden="false">
+                <rule name="Daemon Knight of Khorne" id="6bfa-6a62-fb0e-cbea" hidden="false">
                   <description>Confers Daemon (aligned with Khorne) and Hatred (Slaanesh). May re-roll the dice to determine the number of Stomp attacks and gains +D3 attacks on the charge instead of +1.</description>
                 </rule>
               </rules>
-              <costs>
-                <cost name="pts" typeId="points" value="50.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="41cb-7bcf-d9d9-7a28" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Tzeentch" id="41cb-7bcf-d9d9-7a28" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="65"/>
+              </costs>
               <rules>
-                <rule id="6695-6058-acf8-97da" name="Daemon Knight of Tzeentch" hidden="false">
+                <rule name="Daemon Knight of Tzeentch" id="6695-6058-acf8-97da" hidden="false">
                   <description>Confers Daemon (aligned with Tzeentch) and Hatred (Nurgle). May re-roll failed to hit rolls of 1 and Heavy stubber guns gain Soul-Blaze.</description>
                 </rule>
               </rules>
-              <costs>
-                <cost name="pts" typeId="points" value="65.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="3847-bccd-4ccb-e961" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Nurgle" id="3847-bccd-4ccb-e961" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="75"/>
+              </costs>
               <rules>
-                <rule id="accb-8b7f-5ede-08d2" name="Daemon Knight of Nurgle" hidden="false">
+                <rule name="Daemon Knight of Nurgle" id="accb-8b7f-5ede-08d2" hidden="false">
                   <description>Confers Daemon (Aligned with Nurgle) and Hatred (Tzeentch). Gains It Will Not Die!</description>
                 </rule>
               </rules>
-              <costs>
-                <cost name="pts" typeId="points" value="75.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="6d54-65e7-868e-4a69" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Slaanesh" id="6d54-65e7-868e-4a69" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="50"/>
+              </costs>
               <rules>
-                <rule id="0ef0-7c99-e041-576b" name="Daemon Knight of Slaanesh" hidden="false">
+                <rule name="Daemon Knight of Slaanesh" id="0ef0-7c99-e041-576b" hidden="false">
                   <description>Gains Daemon (aligned with Slaanesh) and Hatred (Khorne). All models in base contact with the knight at the start of the fight sub-phase must pass a Leadership check at -2 or be reduced to I1 for the rest of the fight.</description>
                 </rule>
               </rules>
-              <costs>
-                <cost name="pts" typeId="points" value="50.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="370.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="a492-af8a-2d52-3fcd" name="[FW] Chaos Knight Paladin" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry name="[FW] Chaos Knight Paladin" id="a492-af8a-2d52-3fcd" collective="false" hidden="true" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Lord of War" id="a492-af8a-2d52-3fcd-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="375"/>
+      </costs>
       <profiles>
-        <profile id="4a81-a041-825d-bc32" name="Chaos Knight Paladin" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
+        <profile name="Chaos Knight Paladin" id="4a81-a041-825d-bc32" hidden="false" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <characteristics>
             <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">4</characteristic>
             <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
@@ -277,398 +403,283 @@
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="a492-af8a-2d52-3fcd-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d7b6-00d0-6faf-6092" name="Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Heavy Stubbers" id="d7b6-00d0-6faf-6092" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="1464-6882-7c5f-a588" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Heavy Stubber" id="1464-6882-7c5f-a588" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="04db-6e8d-62d8-5bf9" name="Foe-reaper Chainsword" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Foe-reaper Chainsword" id="04db-6e8d-62d8-5bf9" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="79a7-eaa9-7ef4-a6d9" hidden="false" targetId="b84e-247f-10b8-04b0" type="rule"/>
-            <infoLink id="b3cb-fd95-f24f-44e7" hidden="false" targetId="a6e2-245b-5c9c-0beb" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Foe-reaper" id="79a7-eaa9-7ef4-a6d9" hidden="false" targetId="b84e-247f-10b8-04b0" type="rule"/>
+            <infoLink name="Foe-reaper Chainsword" id="b3cb-fd95-f24f-44e7" hidden="false" targetId="a6e2-245b-5c9c-0beb" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="8ea2-ed72-9510-7da7" name="Ion Shield" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Ion Shield" id="8ea2-ed72-9510-7da7" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="fc62-ca61-a7d6-215e" hidden="false" targetId="aa51-04c0-9c9f-ebd4" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Ion Shield" id="fc62-ca61-a7d6-215e" hidden="false" targetId="aa51-04c0-9c9f-ebd4" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="3dca-8b71-7f62-52e2" name="Dirge Caster" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Dirge Caster" id="3dca-8b71-7f62-52e2" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="e87f-91ea-1de1-4fdf" hidden="false" targetId="87d2-daa6-ee28-d634" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="5"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Dirge Caster" id="e87f-91ea-1de1-4fdf" hidden="false" targetId="87d2-daa6-ee28-d634" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="ca92-219a-9c92-9ace" name="Rapid-Fire Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Rapid-Fire Battle Cannon" id="ca92-219a-9c92-9ace" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="39d9-15b9-96e9-efa6" hidden="false" targetId="f3ca-e162-b8c4-c820" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Rapid-Fire Battle Cannon" id="39d9-15b9-96e9-efa6" hidden="false" targetId="f3ca-e162-b8c4-c820" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2f7f-3f82-fedd-1831" name="Daemon Knight upgrade" hidden="false" collective="false" import="true">
+        <selectionEntryGroup name="Daemon Knight upgrade" id="2f7f-3f82-fedd-1831" collective="false" hidden="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a9e4-5ab5-10d7-51b9" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Khorne" id="a9e4-5ab5-10d7-51b9" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="50"/>
+              </costs>
               <rules>
-                <rule id="75f7-d9ac-b723-f2d1" name="Daemon Knight of Khorne" hidden="false">
+                <rule name="Daemon Knight of Khorne" id="75f7-d9ac-b723-f2d1" hidden="false">
                   <description>Confers Daemon (aligned with Khorne) and Hatred (Slaanesh). May re-roll the dice to determine the number of Stomp attacks and gains +D3 attacks on the charge instead of +1.</description>
                 </rule>
               </rules>
-              <costs>
-                <cost name="pts" typeId="points" value="50.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="0c23-77ee-60d7-bad2" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Tzeentch" id="0c23-77ee-60d7-bad2" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="65"/>
+              </costs>
               <rules>
-                <rule id="61a0-4c92-76e3-e01c" name="Daemon Knight of Tzeentch" hidden="false">
+                <rule name="Daemon Knight of Tzeentch" id="61a0-4c92-76e3-e01c" hidden="false">
                   <description>Confers Daemon (aligned with Tzeentch) and Hatred (Nurgle). May re-roll failed to hit rolls of 1 and Heavy stubber guns gain Soul-Blaze.</description>
                 </rule>
               </rules>
-              <costs>
-                <cost name="pts" typeId="points" value="65.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="eaec-716f-cd79-bdc5" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Nurgle" id="eaec-716f-cd79-bdc5" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="75"/>
+              </costs>
               <rules>
-                <rule id="de00-1cc9-2db8-2901" name="Daemon Knight of Nurgle" hidden="false">
+                <rule name="Daemon Knight of Nurgle" id="de00-1cc9-2db8-2901" hidden="false">
                   <description>Confers Daemon (Aligned with Nurgle) and Hatred (Tzeentch). Gains It Will Not Die!</description>
                 </rule>
               </rules>
-              <costs>
-                <cost name="pts" typeId="points" value="75.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="5537-75c5-1bf1-1cb3" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Slaanesh" id="5537-75c5-1bf1-1cb3" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="50"/>
+              </costs>
               <rules>
-                <rule id="dc77-f160-0ee3-8d5f" name="Daemon Knight of Slaanesh" hidden="false">
+                <rule name="Daemon Knight of Slaanesh" id="dc77-f160-0ee3-8d5f" hidden="false">
                   <description>Gains Daemon (aligned with Slaanesh) and Hatred (Khorne). All models in base contact with the knight at the start of the fight sub-phase must pass a Leadership check at -2 or be reduced to I1 for the rest of the fight.</description>
                 </rule>
               </rules>
-              <costs>
-                <cost name="pts" typeId="points" value="50.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="375.0"/>
-      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="ef23-c4ad-8a48-a817" name="Carapace Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup name="Carapace Weapons" id="ef23-c4ad-8a48-a817" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="0"/>
+        <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="b4fc-2549-11ac-21f7" name="Ironstorm Missile Pod" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Ironstorm Missile Pod" id="b4fc-2549-11ac-21f7" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="8ceb-3e8e-60d2-2294" hidden="false" targetId="255b-9aa4-d31e-01a6" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts" typeId="points" value="30"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Ironstorm Missle Pod" id="8ceb-3e8e-60d2-2294" hidden="false" targetId="255b-9aa4-d31e-01a6" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="994a-0d49-bb95-505b" name="Twin Icarus Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Twin Icarus Autocannon" id="994a-0d49-bb95-505b" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="98f4-76ac-7331-9df9" hidden="false" targetId="6880-c5e0-9fa1-6091" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="35"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Twin Icarus Autocannon" id="98f4-76ac-7331-9df9" hidden="false" targetId="6880-c5e0-9fa1-6091" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="9981-f314-4aaa-75b4" name="Stormspear Rocket Pod" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Stormspear Rocket Pod" id="9981-f314-4aaa-75b4" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="1167-4aee-ed70-f250" hidden="false" targetId="a2e6-ec8f-a719-56a1" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts" typeId="points" value="40"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Stormspear Rocket Pod" id="1167-4aee-ed70-f250" hidden="false" targetId="a2e6-ec8f-a719-56a1" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e7d3-3542-4c38-9766" name="Reaper Chainsword and Alternatives" hidden="false" collective="false" import="true" defaultSelectionEntryId="ea0a-3bcf-9d01-18e0">
+    <selectionEntryGroup name="Reaper Chainsword and Alternatives" id="e7d3-3542-4c38-9766" collective="false" defaultSelectionEntryId="ea0a-3bcf-9d01-18e0" hidden="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+        <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ea0a-3bcf-9d01-18e0" name="Reaper Chainsword" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Reaper Chainsword" id="ea0a-3bcf-9d01-18e0" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="786a-e482-0bc8-cbb5" hidden="false" targetId="a85e-39e0-03ee-2f29" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Reaper Chainsword" id="786a-e482-0bc8-cbb5" hidden="false" targetId="a85e-39e0-03ee-2f29" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="5edd-83f3-3a08-1b63" name="Thermal Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Thermal Cannon" id="5edd-83f3-3a08-1b63" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="d83e-3c59-9a4f-1b32" hidden="false" targetId="b460-6389-8095-3046" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="55.0"/>
+            <cost name="pts" typeId="points" value="55"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Thermal Cannon" id="d83e-3c59-9a4f-1b32" hidden="false" targetId="b460-6389-8095-3046" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="a5d8-4868-1abb-b361" name="Rapid-fire Battle Cannon and Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Rapid-fire Battle Cannon and Heavy Stubber" id="a5d8-4868-1abb-b361" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="0bbc-4379-c477-7a79" hidden="false" targetId="f3ca-e162-b8c4-c820" type="profile"/>
-            <infoLink id="3509-3bed-0330-046d" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts" typeId="points" value="60"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Rapid-Fire Battle Cannon" id="0bbc-4379-c477-7a79" hidden="false" targetId="f3ca-e162-b8c4-c820" type="profile"/>
+            <infoLink name="Heavy Stubber" id="3509-3bed-0330-046d" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="adc8-44e6-e903-e981" name="Avenger Gatling Cannon and Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Avenger Gatling Cannon and Heavy Flamer" id="adc8-44e6-e903-e981" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="432e-f8d6-307d-bd33" hidden="false" targetId="026b-fa67-ccaa-eba3" type="profile"/>
-            <infoLink id="4889-bc39-0844-202f" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts" typeId="points" value="60"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Avenger Gatling Cannon" id="432e-f8d6-307d-bd33" hidden="false" targetId="026b-fa67-ccaa-eba3" type="profile"/>
+            <infoLink name="Heavy Flamer" id="4889-bc39-0844-202f" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="06e7-7163-f288-0913" name="Thunderstrike Gauntlet and Alternatives" hidden="false" collective="false" import="true" defaultSelectionEntryId="58bd-27b8-3c60-fda2">
+    <selectionEntryGroup name="Thunderstrike Gauntlet and Alternatives" id="06e7-7163-f288-0913" collective="false" defaultSelectionEntryId="58bd-27b8-3c60-fda2" hidden="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint id="minSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+        <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="58bd-27b8-3c60-fda2" name="Thunderstrike Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Thunderstrike Gauntlet" id="58bd-27b8-3c60-fda2" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="be47-957f-c570-6f46" hidden="false" targetId="6970-2133-9082-e6b2" type="profile"/>
-            <infoLink id="2828-8c80-2486-bf84" hidden="false" targetId="7c23-ceb1-3a2b-9f80" type="profile"/>
-            <infoLink id="ca08-c41f-bbf7-1bac" name="" hidden="false" targetId="529a-5c03-7cb3-bad2" type="rule"/>
-            <infoLink id="077a-aa2c-1548-64e7" name="" hidden="false" targetId="a9af-815e-2851-0ed6" type="rule"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Thunderstrike Gauntlet" id="be47-957f-c570-6f46" hidden="false" targetId="6970-2133-9082-e6b2" type="profile"/>
+            <infoLink name="Hurl" id="2828-8c80-2486-bf84" hidden="false" targetId="7c23-ceb1-3a2b-9f80" type="profile"/>
+            <infoLink name="Colossal" id="ca08-c41f-bbf7-1bac" hidden="false" targetId="529a-5c03-7cb3-bad2" type="rule"/>
+            <infoLink name="Hurl" id="077a-aa2c-1548-64e7" hidden="false" targetId="a9af-815e-2851-0ed6" type="rule"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="c437-54ad-b22c-9496" name="Thermal Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Thermal Cannon" id="c437-54ad-b22c-9496" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="6a57-a437-da22-a471" hidden="false" targetId="b460-6389-8095-3046" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="45.0"/>
+            <cost name="pts" typeId="points" value="45"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Thermal Cannon" id="6a57-a437-da22-a471" hidden="false" targetId="b460-6389-8095-3046" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="6b68-195e-2acf-200f" name="Rapid-fire Battle Cannon and Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Rapid-fire Battle Cannon and Heavy Stubber" id="6b68-195e-2acf-200f" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="490b-3ae3-1e14-1ed9" hidden="false" targetId="f3ca-e162-b8c4-c820" type="profile"/>
-            <infoLink id="ce10-7bd2-ccd7-329e" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Rapid-Fire Battle Cannon" id="490b-3ae3-1e14-1ed9" hidden="false" targetId="f3ca-e162-b8c4-c820" type="profile"/>
+            <infoLink name="Heavy Stubber" id="ce10-7bd2-ccd7-329e" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+          </infoLinks>
         </selectionEntry>
-        <selectionEntry id="2d63-c037-0982-43c7" name="Avenger Gatling Cannon and Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Avenger Gatling Cannon and Heavy Flamer" id="2d63-c037-0982-43c7" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="e467-54ac-769d-9cef" hidden="false" targetId="026b-fa67-ccaa-eba3" type="profile"/>
-            <infoLink id="52aa-9da6-5aaf-92d6" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
-          </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Avenger Gatling Cannon" id="e467-54ac-769d-9cef" hidden="false" targetId="026b-fa67-ccaa-eba3" type="profile"/>
+            <infoLink name="Heavy Flamer" id="52aa-9da6-5aaf-92d6" hidden="false" targetId="2608-8425-4f4f-7f41" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="d5c4-ab2d-8af6-3b43" name="Fallen Household" hidden="false">
-      <description>If this Detachment contains 3 Renegade Knights, it forms a Fallen Household and all of its models have the Preferred Enemy (Imperial Knights) special rule. However, such is the enmity between their former comrades that all Imperial Knights will have the Preferred Enemy (Fallen Household) special rule as well.</description>
-    </rule>
-    <rule id="a9af-815e-2851-0ed6" name="Hurl" hidden="false">
-      <description>If a Renegade Knight fighting with a thunderstrike gauntlet destroys an enemy Monstrous Creature or vehicle in the Fight sub-phase, it can choose to hurl it (Gargantuan Creatures, Super-heavy vehicles, and buildings cannot be hurled). If a vehicle was destroyed as a result of suffering an Explodes! result on the Vehicle Damage table, resolve any damage before hurling it. Any passengers must make an emergency disembarkation before their Transport is hurled. To hurl an enemy model, immediately resolve a shooting attack against an enemy unit within 12&quot; that is not locked in combat using the Hurl profile. A hurled model is removed from the battlefield after the attack has been resolevd. </description>
-    </rule>
-    <rule id="16e3-41e5-f577-846f" name="The Bigger They Are..." hidden="false">
-      <description>The Strength of this attack is always equal to the Toughness value of the Monstrous Creature, or half the front Armour Value of the vehicle being hurled (rounding fractions up)</description>
-    </rule>
-    <rule id="b84e-247f-10b8-04b0" name="Foe-reaper" hidden="false">
-      <description>Add +1 to the Str D table result when rolling against enemy Monstrous and Gargantuan Creatures.</description>
-    </rule>
-    <rule id="529a-5c03-7cb3-bad2" name="Colossal" hidden="false">
-      <description>A model fighting with this weapon Piles In and fights at Initiative step 1. </description>
-    </rule>
-  </sharedRules>
-  <sharedProfiles>
-    <profile id="026b-fa67-ccaa-eba3" name="Avenger Gatling Cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 12, Rending</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7c23-ceb1-3a2b-9f80" name="Hurl" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">*</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, The Bigger They Are...</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="aa51-04c0-9c9f-ebd4" name="Ion Shield" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the opponents shooting phase, select the facing of the Ion Shield. The Ion Shield confers a 4+ Invunerable save against that facing until the start of your opponents next shooting phase.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="255b-9aa4-d31e-01a6" name="Ironstorm Missle Pod" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Barrage</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f3ca-e162-b8c4-c820" name="Rapid-Fire Battle Cannon" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordnance 2, Large Blast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a85e-39e0-03ee-2f29" name="Reaper Chainsword" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a2e6-ec8f-a719-56a1" name="Stormspear Rocket Pod" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b460-6389-8095-3046" name="Thermal Cannon" page="0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Melta, Large Blast</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6970-2133-9082-e6b2" name="Thunderstrike Gauntlet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Colossal, Hurl</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6880-c5e0-9fa1-6091" name="Twin Icarus Autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Interceptor, Skyfire, Twin-linked</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a6e2-245b-5c9c-0beb" name="Foe-reaper Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
-        <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
-        <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Foe Reaper</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="87d2-daa6-ee28-d634" name="Dirge Caster" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">An enemy model within 6&quot; of a vehicle with this special rule cannot fire Overwatch.</characteristic>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
 </catalogue>

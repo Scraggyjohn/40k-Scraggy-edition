@@ -397,6 +397,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Life Drain</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Cache of Demolition Charges" id="942e-8ac9-8491-f8d0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -405,6 +406,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Large Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Chimera" id="1295-b826-33a1-fcb7" hidden="false" page="80" publicationId="f840-ed73-pubN65537" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
@@ -423,6 +425,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Torrent</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Cult Icon" id="22d8-78e9-37a6-da97" hidden="false" page="100" publicationId="f840-ed73-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -436,6 +439,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Large Blast, One Use Only</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Drilldozer Blade" id="0ab5-9879-2567-c2cc" hidden="false" page="100" publicationId="f840-ed73-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -449,6 +453,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Ignores Cover</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Exterminator Autocannon" id="0903-33fe-de7f-d489" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -457,6 +462,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Twin-linked</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Genestealer Familiar" id="40c3-6e6b-c2a8-c36a" hidden="false" publicationId="f840-ed73-pubN76937" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -490,6 +496,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Grenade Launcher (Krak)" id="9b98-479f-464f-19be" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -498,6 +505,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Hand Flamer" id="23cb-da6e-7135-b560" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -506,6 +514,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Heavy Mining Laser" id="ad0d-b285-72d6-bbe9" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -514,6 +523,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Heavy Rock Cutter" id="0eeb-4158-97a3-838e" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -522,6 +532,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-handed, Unwieldy, Snip</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Heavy Rock Drill" id="857b-6d42-230e-8e0d" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -530,6 +541,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-handed, Unwieldy, Pulverise</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Heavy Rock Saw" id="3532-2fd5-ce9a-cfc6" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -538,6 +550,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-handed, Unwieldy, Armourbane</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Heavy Seismic Cannon (Long)" id="e6c4-3134-6647-a53c" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -546,6 +559,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6, Resonance</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Heavy Seismic Cannon (Short)" id="31cc-0b9c-c161-8016" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -554,6 +568,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Resonance</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Hunter-killer Missile" id="9048-a02b-fad9-9da3" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -562,6 +577,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, One Use Only</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Hybrid Metamorph" id="ce5e-e145-5f70-43ea" hidden="false" page="77" publicationId="f840-ed73-pubN65537" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -584,6 +600,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Lash Whip and Bonesword" id="02d0-705b-546b-bb71" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -592,6 +609,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Life Drain, Lash</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Leman Russ" id="2e52-9d95-690b-8fdb" hidden="false" page="85" publicationId="f840-ed73-pubN65537" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
@@ -638,6 +656,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Crush</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Metamorph Leader" id="f8ca-37a8-c8a3-39e1" hidden="false" page="77" publicationId="f840-ed73-pubN65537" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -660,6 +679,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Scythe</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Metamorph Whip" id="a056-0074-f434-2fd3" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -668,6 +688,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Lash</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Mining Laser" id="0437-bd86-51f9-9c86" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -676,6 +697,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Missile Launcher (Flakk)" id="c5c0-831f-c6f1-a491" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -684,6 +706,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Skyfire</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Missile Launcher (Frag)" id="c7f6-f7e2-91f0-e559" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -692,6 +715,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Missile Launcher (Krak)" id="5e98-2886-9494-22ac" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -700,6 +724,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Mortar" id="9b8a-fcd5-b272-6aa2" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -708,6 +733,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Barrage, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Needle pistol" id="4dde-d6d2-3973-c9f6" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -716,6 +742,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol, Poisoned (2+)</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Neophyte Hybrid" id="8e07-37a4-182b-1d82" hidden="false" page="75" publicationId="f840-ed73-pubN65537" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -794,6 +821,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Rending, Shred</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Power Hammer" id="4ad0-1cb5-73db-12e8" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -802,6 +830,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+3</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Specialist Weapon, Two-handed, Concussive, Unwieldy</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Power Pick" id="4eed-2d4b-f9ef-aeef" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -810,6 +839,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Primus" id="a1c2-95f5-790a-7c2a" hidden="false" page="72" publicationId="f840-ed73-pubN65537" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
@@ -860,6 +890,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Rending</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Sacred Cult Banner" id="afa7-d6cf-cbe9-68db" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -887,6 +918,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Searchlight" id="1378-1214-dddb-2e6d" hidden="false" publicationId="f840-ed73-pubN99150" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -900,6 +932,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Resonance</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Seismic Cannon (Short)" id="b7de-979b-1b1f-58d7" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -908,6 +941,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Resonance</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Smoke Launchers" id="be94-3241-83e6-6b48" hidden="false" publicationId="f840-ed73-pubN99150" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -926,6 +960,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Armourbane</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Web Pistol" id="743f-5281-d470-8964" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -934,6 +969,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol, Blast, Cocooned</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Webber" id="ccb6-b2fd-ee60-5798" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -942,6 +978,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast, Cocooned</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -1897,6 +1934,7 @@ Primus: Preferred Enemy</description>
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Instant Death, Poisoned (2+)</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4877,6 +4915,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 10, Ignores Cover, Rending</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4951,6 +4990,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Bio-sentience, Life Drain</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5550,6 +5590,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5723,6 +5764,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Sniper</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5782,6 +5824,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Poisoned (2+)</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5795,9 +5838,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
           </costs>
           <rules>
             <rule name="Alchemicus Familiar" id="a753-36ad-ca95-dd27" hidden="false">
-              <description>If the Alchemicus Familiar is taken, the Biophagus may roll 2D3 for Genomic Enhancement and select which result to apply. In close combat, a model with a Alchemicus familiar makes two additional Strength 4 AP- attacks with the Rending special rule. An Alchemicus familiar is represented by a separate miniature that always remains as close as possible to its master. The model itself is purely decorative, and is ignored for game purposes – just move it to one side if it gets in the way. Remove the familiar once its master has been slain.
-
-</description>
+              <description>If the Alchemicus Familiar is taken, the Biophagus may roll 2D3 for Genomic Enhancement and select which result to apply. In close combat, a model with a Alchemicus familiar makes two additional Strength 4 AP- attacks with the Rending special rule. An Alchemicus familiar is represented by a separate miniature that always remains as close as possible to its master. The model itself is purely decorative, and is ignored for game purposes – just move it to one side if it gets in the way. Remove the familiar once its master has been slain.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -5895,6 +5936,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="3x Liberator Autostub" id="5717-b2c6-98d4-f579" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -5965,6 +6007,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Instant Death</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5981,6 +6024,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Tail Strike</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6079,6 +6123,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Poisoned (2+)</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6094,6 +6139,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Sniper, Ignores Cover, Silencer</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6158,6 +6204,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6181,6 +6228,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6199,6 +6247,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Barrage, Large Blast</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6217,6 +6266,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                     <profile name="Missile Launcher - Frag" id="f2ed-13a7-899d-dc21" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -6225,6 +6275,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6246,6 +6297,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Skyfire</characteristic>
+                            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -6456,6 +6508,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6474,6 +6527,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6489,6 +6543,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6510,6 +6565,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
                                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy</characteristic>
+                                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6533,6 +6589,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6551,6 +6608,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
                                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6569,6 +6627,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6977,6 +7036,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6992,6 +7052,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7010,6 +7071,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Large Blast, One use only</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7028,6 +7090,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Grenade Launcher - Krak" id="39f3-5a15-3c67-8c04" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7036,6 +7099,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7060,6 +7124,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Specialist Weapon, Two-handed, Unwieldy</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7081,6 +7146,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7099,6 +7165,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7122,6 +7189,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7137,6 +7205,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7155,6 +7224,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Large Blast, One use only</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7173,6 +7243,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Grenade Launcher - Krak" id="c7e9-a58c-9402-1257" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7181,6 +7252,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7205,6 +7277,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Specialist Weapon, Two-handed, Unwieldy</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7226,6 +7299,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7244,6 +7318,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7262,6 +7337,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7280,6 +7356,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7298,6 +7375,7 @@ In addition, when Patriarch Ghosar and the Purestrain Princelings deploy using t
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+1</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Unwieldy</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
