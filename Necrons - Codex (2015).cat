@@ -587,6 +587,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Gauss, Skyfire, Interceptor</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Gauss Flayer Array" id="0db52f11-dabb-21a3-b466-ad48a8781046" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -595,6 +596,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Salvo 5/10, Gauss, Independent Targeting</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Hyperphase Sword" id="b70a4df0-519e-dbd7-e209-1be451a2334a" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -603,6 +605,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Particle Beamer" id="06d724e2-81b5-00f5-35ef-c29332b1bf59" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -611,6 +614,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Particle Caster" id="bd5a164f-0fdf-d044-c026-e32e2f5e9f95" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -619,6 +623,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Warlord Trait: Enduring Will" id="d62b-95fb-735e-e994" hidden="false" publicationId="026a-37f6-pubN68514" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -687,6 +692,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Gauss</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Gauss Blaster" id="350b-b649-4da3-d386" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -695,6 +701,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Gauss</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Tesla Carbine" id="492a-0534-f156-fb48" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -703,6 +710,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Tesla</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Voidblade" id="a979-d93e-c8f3-43c7" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -711,6 +719,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Entropic Strike, Rending</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Heavy Gauss Cannon" id="56ce-81b1-4242-7a3e" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -719,6 +728,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Gauss</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Powers of the C&apos;tan" id="a2c9-1a71-7668-854f" hidden="false" publicationId="026a-37f6-pubN68514" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -732,6 +742,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4, Tesla</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Quantum Shielding" id="171f-1214-dbc8-56a6" hidden="false" publicationId="026a-37f6-pubN68514" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -1126,6 +1137,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Melta</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1355,6 +1367,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast, Exile Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1525,6 +1538,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Swiftstrike</characteristic>
+                        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1757,6 +1771,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Sniper</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1977,6 +1992,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast, Lance</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2027,6 +2043,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Doomsday Cannon (High Power)" id="88204d0b-bc48-d7c6-aad9-127ff6276c30" hidden="false" publicationId="026a-37f6-pubN75032" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2035,6 +2052,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 1, Large Blast, Divert Power</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2084,6 +2102,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Executioner (2+), Two-handed</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2150,6 +2169,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Shred</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2202,6 +2222,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Primary Weapon 3, Skyfire, Interceptor</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Gauss Annihilator (Flux Arc)" id="0580b787-f470-1997-4137-1db347639b82" hidden="false" publicationId="026a-37f6-pubN76060" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -2210,6 +2231,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2337,6 +2359,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Lance</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2495,6 +2518,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2740,6 +2764,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Gauss, Independent Targeting</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2759,6 +2784,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Ordinance 1, Large Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3061,6 +3087,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Bomb, Large Blast, Blind, Pinning</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3181,6 +3208,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Chronoblade</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3280,6 +3308,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Apocalyptic Blast</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="2. Cosmic Fire (Coalescent)" id="48a1-fcc6-75ed-86d8" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3288,6 +3317,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Apocalyptic Blast, Ignores Cover</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="3. Seismic Assault (Coalescent)" id="6ed1-df45-807b-9f12" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3296,6 +3326,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 20, Strikedown</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="4. Sky of Falling Stars (Coalescent)" id="4a5a-d68f-823d-3871" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3304,6 +3335,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 6, Apocalyptic Barrage</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="5. Time&apos;s Arrow (Coalescent)" id="29d6-8486-cc4c-bfe2" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3312,6 +3344,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Precision Shots</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="6. Transdimensional Thunderbolt (Coalescent)" id="211c-9e87-5455-8f23" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3320,6 +3353,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Tesla</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3346,6 +3380,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Large Blast</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="2. Cosmic Fire (Transcendent)" id="5f8d-20e3-0a06-c32f" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3354,6 +3389,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Large Blast, Ignores Cover</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="3. Seismic Assault (Transcendent)" id="bcb7-97b2-4bf1-6a19" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3362,6 +3398,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 10, Strikedown</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="4. Sky of Falling Stars (Transcendent)" id="d1ad-fd4a-407c-2db1" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3370,6 +3407,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3, Large Blast, Barrage</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="5. Time&apos;s Arrow (Transcendent)" id="32c7-88cd-1b38-6e0f" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3378,6 +3416,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Precision Shots</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
         <profile name="6. Transdimensional Thunderbolt (Transcendent)" id="5258-c200-4062-866a" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3386,6 +3425,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Tesla</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3666,6 +3706,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Blast</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Singularity Chamber (Particle Hurricane)" id="101ec08b-9802-6416-4b2e-8f9dfcf6200f" hidden="false" publicationId="026a-37f6-pubN76060" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3674,6 +3715,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Fleshbane</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Singularity Chamber (Seismic Lash)" id="d34b8cda-eec9-7f71-62a1-c9f123d1c326" hidden="false" publicationId="026a-37f6-pubN76060" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -3682,6 +3724,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Quake, Armourbane, Ground Lash</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3811,6 +3854,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, One Use Only</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3907,6 +3951,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3, Blind, Solar Pulse</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4170,6 +4215,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Concussive, Psionic Shockwaves</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4241,6 +4287,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Rod of Covenant (Melee)" id="4196-c657-3d74-2aba" hidden="false" publicationId="026a-37f6-pubN68514" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -4249,6 +4296,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Two-handed</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4319,6 +4367,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Melta</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Heat Ray (Dispersed Beam)" id="fb84-7955-23c7-6864" hidden="false" publicationId="026a-37f6-pubN75032" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -4327,6 +4376,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4342,6 +4392,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4472,6 +4523,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Fleshbane, Master-crafted, Two-handed</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4766,6 +4818,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4795,6 +4848,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">+2</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Two-handed</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4818,6 +4872,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4836,6 +4891,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, One Use Only</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4928,6 +4984,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Tesla</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4946,6 +5003,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Gauss</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5034,6 +5092,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Salvo 5/10, Gauss, Independent Targeting</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5052,6 +5111,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 5, Tesla</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5176,6 +5236,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Blast, Melta</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5191,6 +5252,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Focussed Death Ray (Details)" id="ade6-7094-4a10-738f" hidden="false" publicationId="026a-37f6-pubN76060" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -5220,6 +5282,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2, Gauss, Interceptor, Skyfire</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5340,6 +5403,7 @@ If a unit has both the Reanimation Protocols and Feel No Pain special rules, you
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">9/10/D</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3/2/1</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Apocalyptic Barrage (3/5/6)</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Particle Whip Overload (Details)" id="8491-a9bc-91b5-5f84" hidden="false" publicationId="026a-37f6-pubN76060" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -5784,6 +5848,7 @@ When this has been done, choose up to D3+1 unengaged friendly non-vehicle units 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">D</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
             <profile name="Host of the Red Harvest" id="99db-39a8-1899-97b3" hidden="false" publicationId="026a-37f6-pubN93429" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
@@ -5797,6 +5862,7 @@ When this has been done, choose up to D3+1 unengaged friendly non-vehicle units 
                 <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
                 <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Torrent</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5814,6 +5880,7 @@ When this has been done, choose up to D3+1 unengaged friendly non-vehicle units 
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Exile Ray</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5947,6 +6014,7 @@ When this has been done, choose up to D3+1 unengaged friendly non-vehicle units 
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3, Blast</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Doomsday Blaster - High Power" id="2a1c-bd8b-2814-53e8" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -5955,6 +6023,7 @@ When this has been done, choose up to D3+1 unengaged friendly non-vehicle units 
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">10</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">1</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Large Blast, Gets Hot, Ponderous</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5976,6 +6045,7 @@ When this has been done, choose up to D3+1 unengaged friendly non-vehicle units 
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5996,6 +6066,7 @@ When this has been done, choose up to D3+1 unengaged friendly non-vehicle units 
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Gauss, Twin-Linked</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>

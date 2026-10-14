@@ -1015,11 +1015,11 @@
     </profile>
     <profile name="Shotgun" id="07cb-70d7-15c3-5117" hidden="false" publicationId="e1ebd931--pubN66380" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
-        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Shot</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"> Shot: When in half range, this weapon increases its Strength by +1.</characteristic>
       </characteristics>
     </profile>
     <profile name="Heavy Stubber" id="0031-0314-5b36-a220" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -1192,8 +1192,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire</characteristic>
-        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
     <profile name="Grav-gun" id="a3d2-b0d7-70bc-695e" hidden="false" publicationId="e1ebd931--pubN66380" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -1210,7 +1209,7 @@
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Twin-Linked</characteristic>
         <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
@@ -5387,7 +5386,7 @@ If several models are in a position to capture Cypher, some of which are Dark An
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Roboute Guilliman, Primarch of the Ultramarines" id="42fe-b322-a2a3-0ed8" collective="false" hidden="false" import="true" publicationId="e1ebd931--pubN86537" type="model">
+    <selectionEntry name="Roboute Guilliman, Lord Commander of the Imperium" id="42fe-b322-a2a3-0ed8" collective="false" hidden="false" import="true" publicationId="e1ebd931--pubN86537" type="model">
       <constraints>
         <constraint id="ad4b-5a22-ed2a-2f6b" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
       </constraints>

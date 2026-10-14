@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Space Marines: Codex (2015)" id="7ab0-ceb9-0a9f-f0b6" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2051" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Adeptus Astartes - Codex Chapters" id="7ab0-ceb9-0a9f-f0b6" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2051" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="New Catalogue (link)" id="4932-612f-0824-d0fe" targetId="6cacb5fc-d6bf-078d-307e-6f16c72d5f2a" type="catalogue"/>
     <catalogueLink name="New Catalogue (link)" id="e230-9ed5-7785-dda0" targetId="578f-d512-a02e-7d0b" type="catalogue"/>
@@ -232,18 +232,6 @@
       <categoryLinks>
         <categoryLink name="HQ" id="c881-ca62-9faa-9cd0-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink name="Contemptor Dreadnoughts" id="d6d7-7893-adc1-fdce" collective="false" hidden="false" import="true" targetId="cf76-43dd-578f-eb6b" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Heavy Support" id="d6d7-7893-adc1-fdce-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="3c60-ad86-831c-7b7c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="atLeast" value="1"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </entryLink>
     <entryLink name="Cataphractii Terminator Squad" id="f63a-8a68-7b1a-f0b1" collective="false" hidden="false" import="true" targetId="801e-f41e-be72-5e0b" type="selectionEntry">
       <categoryLinks>
@@ -495,11 +483,6 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Castraferrum Dreadnoughts" id="dd6f-0a8c-bd9f-8552" collective="false" hidden="false" import="true" targetId="0ea4-8a62-96b6-77d0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Elites" id="dd6f-0a8c-bd9f-8552-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="0db3-6a22-9d02-1a91" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="0db3-6a22-9d02-1a91-abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
@@ -692,16 +675,6 @@
           </conditions>
         </modifier>
       </modifiers>
-    </entryLink>
-    <entryLink name="Castraferrum-Venerable Dreadnoughts" id="674e-8e55-c4db-0cd1" collective="false" hidden="false" import="true" targetId="26d6-4c1c-d787-d28f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Elites" id="674e-8e55-c4db-0cd1-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink name="Castraferrum-Ironclad Dreadnoughts" id="33e9-67c2-193d-9d51" collective="false" hidden="false" import="true" targetId="fb1b-d00b-3c7b-605e" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Elites" id="33e9-67c2-193d-9d51-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-      </categoryLinks>
     </entryLink>
     <entryLink name="Techmarine" id="2fb9-fb09-b01c-1f32" collective="false" hidden="false" import="true" targetId="ed17-3299-0b3a-4e48" type="selectionEntry">
       <categoryLinks>
@@ -1710,11 +1683,6 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Contemptor-Mortis Pattern Dreadnought" id="0595-1bfe-b72c-8154" collective="false" hidden="false" import="true" targetId="34e9-e466-5276-0696" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Elites" id="0595-1bfe-b72c-8154-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink name="Hyperios Air Defence Battery" id="7aa7-2040-f891-b490" collective="false" hidden="false" import="true" targetId="84e8-0701-9e53-853e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Fast Attack" id="7aa7-2040-f891-b490-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
@@ -2012,21 +1980,6 @@
         <categoryLink name="Fast Attack" id="8e89-fded-752f-5492-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Castraferrum-Chaplain Dreadnought" id="dde5-9df7-da2c-5059" collective="false" hidden="false" import="true" targetId="a7a3-c6a4-2ef2-189b" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Elites" id="dde5-9df7-da2c-5059-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink name="Castraferrum-Siege Dreadnought" id="157d-8023-fc26-2bae" collective="false" hidden="false" import="true" targetId="bfcd-8088-dfce-bab7" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Elites" id="157d-8023-fc26-2bae-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink name="Castraferrum-Mortis Dreadnought" id="cf83-f8a9-aeaf-4c7e" collective="false" hidden="false" import="true" targetId="87fe-5c79-bafc-2a71" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Elites" id="cf83-f8a9-aeaf-4c7e-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink name="Damocles Command Rhino" id="0143-2013-d8b9-6406" collective="false" hidden="false" import="true" targetId="3170-a8f1-4dd4-7e3e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="No Force Org Slot" id="0143-2013-d8b9-6406-ff36a6f3-19bf-4f48-8956-adacfd28fe74" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
@@ -2162,11 +2115,6 @@
     <entryLink name="Thunderhawk Transporter Wing" id="3cce-d86a-e551-58ec" collective="false" hidden="false" import="true" targetId="3f06-462e-6d51-dfff" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Lord of War" id="3cce-d86a-e551-58ec-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink name="Contemptor Dreadnought" id="4f08-1222-6542-f411" collective="false" hidden="false" import="true" targetId="8687-f896-6f59-bff7" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Elites" id="4f08-1222-6542-f411-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Sokar Pattern Stormbird" id="d8b0-3d1b-e46d-7f2e" collective="false" hidden="false" import="true" targetId="f64e-6871-1e3d-b32a" type="selectionEntry">
@@ -2358,16 +2306,6 @@
         <categoryLink name="Troops" id="0aa5-f5c4-d3c9-ebb4" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Castraferrum-Librarian Dreadnought" id="fdc3-8bfc-834a-b494" hidden="false" import="true" targetId="ec485d82-9ebd-b8fd-8343-434a0c548c84" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="HQ" id="094a-2f88-c757-d8e5" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink name="Castraferrum-Furioso Dreadnought" id="695b-a43c-dc5a-1931" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Elites" id="88cd-7608-cc78-6645" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink name="Nephilim Jetfighter" id="469a-e06d-07a1-9d78" hidden="false" import="true" targetId="2c64-daad-13a6-c7bf" type="selectionEntry"/>
     <entryLink name="Nephilim Jetfighter Flyer Wing" id="fd2f-74fa-77e8-3de3" hidden="false" import="true" targetId="d05a-fa3a-278f-87d3" type="selectionEntry">
       <categoryLinks>
@@ -2378,6 +2316,16 @@
     <entryLink name="Dark Talon Flyer Wing" id="ef3c-db6e-fe7c-5a27" hidden="false" import="true" targetId="aedf-7e8d-6c0b-6836" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Fast Attack" id="4dcc-1c55-277a-cc01" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Castraferrum Dreadnought Talon" id="8137-3da8-e55f-37ea" hidden="false" import="true" targetId="72a8-44aa-8d2f-63c0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" id="bab8-d159-8eed-9dc4" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Contemptor Dreadnought Talon" id="d81a-7bb1-d5d1-5313" hidden="false" import="true" targetId="ac51-741f-8d64-430b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" id="6f66-ef14-0bdf-45f4" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3787,6 +3735,9 @@ Note that Bike Squads count as being at full strength when they have eight Space
     </rule>
     <rule name="Machine Destroyer" id="ea15-1d27-6d17-e46b" hidden="false" publicationId="7ab0-ceb9-pubN209104">
       <description>When attacking any target with an Armour Value, rolls of a 1 on the Destroyer Damage table may be re-rolled.</description>
+    </rule>
+    <rule name="Dreadnought Talon" id="e361-b1c4-30d0-f606" hidden="false">
+      <description>Every dreadnought in this unit is for all purposes classed as a unit on its own and may never be joined together to make a squad.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -6945,7 +6896,6 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <infoLink name="Bulky" id="b040-4cc1-8f09-926a" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule"/>
         <infoLink name="Slow and Purposeful" id="c315-8c35-f657-f83d" hidden="false" targetId="e6bc-ea23-502f-5042" type="rule"/>
         <infoLink name="Deep Strike" id="f771-214c-d3d8-bf2e" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
-        <infoLink name="Hail of Fire" id="9f89-fd64-8d04-e424" hidden="false" targetId="53ef-472d-fba7-5517" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -8959,6 +8909,11 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <infoLink name="Combat Squads" id="d59f-7ca9-3c8b-3098" hidden="false" targetId="7e2f-8a72-6606-5b2d" type="rule"/>
         <infoLink name="Chapter Tactics" id="773a-5898-d484-2b75" hidden="false" targetId="894f-81b4-7aca-8eda" type="rule"/>
       </infoLinks>
+      <rules>
+        <rule name="Backbone of the Chapter" id="2445-89b4-2e71-b2a2" hidden="false">
+          <description>On a turn in which this unit does not move in the preceding movement phase, The Boltguns in this unit may fire an extra shot than normally would be allowed. This does not effect variants like Bolt Pistol and Storm Bolters.</description>
+        </rule>
+      </rules>
       <selectionEntries>
         <selectionEntry name="Space Marine Sergeant" id="e3b2-fd6b-7b4e-a4b1" collective="false" hidden="false" import="true" type="model">
           <constraints>
@@ -8989,7 +8944,6 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier field="points" type="set" value="1"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -9232,11 +9186,6 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                         <modifier field="hidden" type="set" value="true">
                           <conditions>
                             <condition childId="9d4d-6636-abce-062b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1"/>
-                          </conditions>
-                        </modifier>
-                        <modifier field="points" type="set" value="1">
-                          <conditions>
-                            <condition childId="0d0c-f16e-35e2-f30f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="9c23-bc1d-d40b-e05f" shared="true" type="equalTo" value="1"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -11538,11 +11487,8 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Space Marine Shotgun" id="8edf-9dc1-9d77-196c" collective="false" hidden="false" import="true" type="upgrade">
-      <costs>
-        <cost name="pts" typeId="points" value="0"/>
-      </costs>
       <infoLinks>
-        <infoLink name="Shotgun" id="3a70-f79e-336d-5e1e" hidden="false" targetId="07cb-70d7-15c3-5117" type="profile"/>
+        <infoLink name="Shotgun" id="0832-6923-0694-c32e" hidden="false" targetId="07cb-70d7-15c3-5117" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Sniper Rifle" id="ce9e-314f-36e4-74df" collective="false" hidden="false" import="true" type="upgrade">
@@ -14684,7 +14630,6 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <infoLink name="Bulky" id="4879-862c-d9ae-96c6" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule"/>
         <infoLink name="Relentless" id="1a60-aed0-dc1d-7ad3" hidden="false" targetId="7674-690c-ab59-1444" type="rule"/>
         <infoLink name="Deep Strike" id="4238-e0fa-7b21-15b3" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
-        <infoLink name="Hail of Fire" id="d596-fa7d-72bf-a343" hidden="false" targetId="53ef-472d-fba7-5517" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -30712,7 +30657,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <infoLink name="Bulky" id="6c6a-8e97-34a8-baba" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule"/>
         <infoLink name="Relentless" id="2b30-ffd3-e3f7-82b8" hidden="false" targetId="7674-690c-ab59-1444" type="rule"/>
         <infoLink name="Deep Strike" id="95ea-8900-39fe-e849" hidden="false" targetId="243a-b08c-3c8c-c363" type="rule"/>
-        <infoLink name="Hail of Fire" id="851b-9602-adfd-4bdd" hidden="false" targetId="53ef-472d-fba7-5517" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry name="Tartaros Sergeant" id="5bd5-6fd7-0129-f3de" collective="false" hidden="false" import="true" type="model">
@@ -32995,6 +32939,44 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry name="Castraferrum Dreadnought Talon" id="72a8-44aa-8d2f-63c0" hidden="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink name="Dreadnought Talon" id="2786-d362-dd1a-f7ad" hidden="false" targetId="e361-b1c4-30d0-f606" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Dreadnoughts" id="1374-adc4-c6e2-5e7f" hidden="false">
+          <constraints>
+            <constraint id="a042-8505-402f-6912" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Castraferrum Dreadnought" id="7268-f81a-badf-6015" hidden="false" import="true" targetId="41fc-7893-62fd-5f0a" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Chaplain Dreadnought" id="1f6a-071e-99ec-d128" hidden="false" import="true" targetId="a7a3-c6a4-2ef2-189b" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="4cca-4ff8-0e0c-e162" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Siege Dreadnought" id="b08b-a353-ee42-c725" hidden="false" import="true" targetId="bfcd-8088-dfce-bab7" type="selectionEntry"/>
+            <entryLink name="Ironclad Dreadnought" id="3dcb-59da-7d75-3769" hidden="false" import="true" targetId="3477-d240-abb7-58ab" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Librarian Dreadnought" id="e4cb-9fcd-8549-2dae" hidden="false" import="true" targetId="ec485d82-9ebd-b8fd-8343-434a0c548c84" type="selectionEntry"/>
+            <entryLink name="Venerable Dreadnought" id="d976-617c-8523-dbe4" hidden="false" import="true" targetId="7b9d-f00c-e2ae-921a" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Mortis Dreadnought" id="755f-3f0d-8f91-8c2b" hidden="false" import="true" targetId="87fe-5c79-bafc-2a71" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Contemptor Dreadnought Talon" id="ac51-741f-8d64-430b" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Dreadnought Talon" id="690a-e3c8-c748-c58b" hidden="false" targetId="e361-b1c4-30d0-f606" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Dreadnoughts" id="aeee-4f9a-15d8-bb17" hidden="false">
+          <constraints>
+            <constraint id="087e-2d14-0a48-724e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Contemptor Dreadnought" id="3512-62d2-8907-5d09" hidden="false" import="true" targetId="8687-f896-6f59-bff7" type="selectionEntry"/>
+            <entryLink name="Contemptor-Mortis Pattern Dreadnought" id="e1ab-cffb-f106-4aa3" hidden="false" import="true" targetId="34e9-e466-5276-0696" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
