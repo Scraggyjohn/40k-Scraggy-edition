@@ -2188,7 +2188,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Roboute Guilliman, Primarch of the Ultramarines" id="ad2f-3656-35f5-8b08" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
+    <entryLink name="Roboute Guilliman, Lord Commander of the Imperium" id="ad2f-3656-35f5-8b08" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Lord of War" id="ad2f-3656-35f5-8b08-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
       </categoryLinks>
@@ -3236,7 +3236,7 @@
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Gets Hot</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1, Gets Hot</characteristic>
         <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
@@ -3245,7 +3245,7 @@
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">1</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Poisoned (2+)</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1, Poisoned (2+)</characteristic>
         <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
@@ -3254,7 +3254,7 @@
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
         <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
@@ -3263,7 +3263,7 @@
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire, Ignores Cover</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1, Ignores Cover</characteristic>
         <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
       </characteristics>
     </profile>
@@ -3840,13 +3840,21 @@ Note that Bike Squads count as being at full strength when they have eight Space
         <infoLink name="Specialist Weapon" id="2189-8246-54e6-05f2" hidden="false" targetId="6981-e5a9-c7d1-9332" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Boltgun" id="f8c3-890f-1aae-ca79" collective="false" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Astartes Boltgun" id="f8c3-890f-1aae-ca79" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0"/>
       </costs>
-      <infoLinks>
-        <infoLink name="Boltgun" id="54d5-6dcf-23c7-4311" hidden="false" targetId="3d4b-95ea-f860-dd22" type="profile"/>
-      </infoLinks>
+      <profiles>
+        <profile name="Astartes Boltgun" id="4f00-7188-830a-f36f" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+            <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1, Rifleman</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Rifleman: In a turn in which the bearer didn&apos;t move in the preceding movement phase, the bearer may fire an extra shot.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup name="Bayonet" id="b409-188f-f6a3-dc28" hidden="false">
           <constraints>
@@ -8343,7 +8351,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <infoLink name="Twin-Linked" id="ef6a-aa09-555f-6b04" hidden="false" targetId="3002-de38-7230-fbc6" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Bolt Pistol" id="fd49-81fb-9716-fb24" collective="false" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Astartes Bolt Pistol" id="fd49-81fb-9716-fb24" collective="false" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0"/>
       </costs>
@@ -8909,11 +8917,6 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <infoLink name="Combat Squads" id="d59f-7ca9-3c8b-3098" hidden="false" targetId="7e2f-8a72-6606-5b2d" type="rule"/>
         <infoLink name="Chapter Tactics" id="773a-5898-d484-2b75" hidden="false" targetId="894f-81b4-7aca-8eda" type="rule"/>
       </infoLinks>
-      <rules>
-        <rule name="Backbone of the Chapter" id="2445-89b4-2e71-b2a2" hidden="false">
-          <description>On a turn in which this unit does not move in the preceding movement phase, The Boltguns in this unit may fire an extra shot than normally would be allowed. This does not effect variants like Bolt Pistol and Storm Bolters.</description>
-        </rule>
-      </rules>
       <selectionEntries>
         <selectionEntry name="Space Marine Sergeant" id="e3b2-fd6b-7b4e-a4b1" collective="false" hidden="false" import="true" type="model">
           <constraints>
@@ -9014,7 +9017,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               <entryLinks>
                 <entryLink name="Melee Weapons" id="dd92-d83f-5ab8-a70a" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
                 <entryLink name="Ranged Weapons" id="5bdf-78c8-59a3-3b67" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="5fe6-ebf4-18e2-8478" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Bolt Pistol" id="5fe6-ebf4-18e2-8478" collective="false" defaultAmount="1" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="7bae-0a97-d685-9f2b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -9029,7 +9032,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               <entryLinks>
                 <entryLink name="Ranged Weapons" id="1bfa-e6bf-6cca-124c" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                 <entryLink name="Melee Weapons" id="b661-d93e-93e5-4fff" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
-                <entryLink name="Boltgun" id="b85d-d959-8432-801e" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Boltgun" id="b85d-d959-8432-801e" collective="false" defaultAmount="1" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="c0dd-e8cf-bcdd-da9a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -19661,7 +19664,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
             </entryLink>
             <entryLink name="Vulkan He&apos;stan" id="6f55-3752-9608-6dde" collective="false" hidden="false" import="true" targetId="2ba5-e1bb-8c8a-db3c" type="selectionEntry"/>
             <entryLink name="Shadow Captain Shrike" id="e770-c72d-67e3-8120" collective="false" hidden="false" import="true" targetId="7ad0-cd95-c9ec-d71d" type="selectionEntry"/>
-            <entryLink name="Roboute Guilliman, Primarch of the Ultramarines" id="7959-1deb-c6db-5ddd" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
+            <entryLink name="Roboute Guilliman, Lord Commander of the Imperium" id="7959-1deb-c6db-5ddd" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditionGroups>
@@ -30616,7 +30619,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <constraint id="8c67-1cdb-2744-024f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Roboute Guilliman, Primarch of the Ultramarines" id="b593-c31c-bc33-3bac" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
+        <entryLink name="Roboute Guilliman, Lord Commander of the Imperium" id="b593-c31c-bc33-3bac" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
           <constraints>
             <constraint id="c9b1-93cb-ca1f-8b6d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="41db-9558-4271-fca0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -32719,7 +32722,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <entryLinks>
                 <entryLink name="Melee Weapons" id="4c1c-d49b-c8a5-0fa0" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
                 <entryLink name="Ranged Weapons" id="b4e8-2906-56ce-659a" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="d1bb-c365-dd74-e8bc" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Bolt Pistol" id="d1bb-c365-dd74-e8bc" collective="false" defaultAmount="1" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="ba15-dbf6-da97-ce1b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -32734,7 +32737,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <entryLinks>
                 <entryLink name="Ranged Weapons" id="1c47-c491-030c-3d13" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                 <entryLink name="Melee Weapons" id="12bd-8bb6-ab38-6629" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
-                <entryLink name="Boltgun" id="631d-e2c8-b764-73bf" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Boltgun" id="631d-e2c8-b764-73bf" collective="false" defaultAmount="1" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="5875-1c6c-40ee-67c5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
