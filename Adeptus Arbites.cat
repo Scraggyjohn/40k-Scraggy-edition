@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Adeptus Arbites" id="12e7-1d49-c6cf-a869" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2042" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Adeptus Arbites" id="12e7-1d49-c6cf-a869" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2042" library="false" revision="2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Inquisition + Agents of the Imperium" id="f904-2e29-a703-a19e" targetId="6e6c7c90-fc3a-84f7-48fc-47e305b2de3b" type="catalogue"/>
     <catalogueLink name="New Catalogue (link)" id="711d-2f02-263a-734f" targetId="7ab0-ceb9-0a9f-f0b6" type="catalogue"/>
@@ -14,12 +14,12 @@
     <categoryEntry name="Troops" id="be17-53e7-c4f4-44ee" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink name="Arbites Vigilant Squad" id="977f-c338-8f55-c22b" hidden="false" import="true" targetId="ba9c-44d7-7608-b1d6" type="selectionEntry">
+    <entryLink name="Arbites Vigilant Section" id="977f-c338-8f55-c22b" hidden="false" import="true" targetId="ba9c-44d7-7608-b1d6" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="59df-5447-fa8f-4687" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Arbites Exaction Squad" id="4d83-d08d-dc8b-98b5" hidden="false" import="true" targetId="d5b8-ad02-031a-c019" type="selectionEntry">
+    <entryLink name="Arbites Exaction Section" id="4d83-d08d-dc8b-98b5" hidden="false" import="true" targetId="d5b8-ad02-031a-c019" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="1fe1-5c6b-f4a6-f19f" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
@@ -57,6 +57,11 @@
     <entryLink name="Arbites Subductor Section" id="36d4-7679-86b7-89f6" hidden="false" import="true" targetId="04b6-655f-6261-4de8" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="ab36-5c42-4f96-130d" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Arbites Marksman Team" id="5ad5-55d4-bb9b-7bb0" hidden="false" import="true" targetId="652d-ef34-1fc9-9e53" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Troops" id="b876-336f-9a91-6d50" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -282,7 +287,7 @@
       </infoLinks>
       <rules>
         <rule name="The Pack" id="46df-04b5-50b7-b171" hidden="false">
-          <description>The Leashmaster has been cybernetically enhanced so may move as a beast just like the Cyber-Mastiffs do, but act as an Infantry model for everything other circumstance.</description>
+          <description>The Leashmaster has been cybernetically enhanced so may move as a beast just like the Cyber-Mastiffs do, but act as an Infantry model for every other circumstance.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -441,7 +446,7 @@
             <constraint id="02c8-edf6-924a-4231" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Shotpistol" id="75a0-275e-4b26-1cf1" hidden="false" import="true" targetId="8c76-0240-67c3-fd37" type="selectionEntry">
+            <entryLink name="Shotpistol" id="75a0-275e-4b26-1cf1" defaultAmount="1" hidden="false" import="true" targetId="8c76-0240-67c3-fd37" type="selectionEntry">
               <constraints>
                 <constraint id="8139-23c4-3c9d-2eeb" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -575,7 +580,7 @@
             <constraint id="ac7b-c5c7-ce29-07f3" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Shotpistol" id="e8ad-a465-7922-12f2" hidden="false" import="true" targetId="8c76-0240-67c3-fd37" type="selectionEntry">
+            <entryLink name="Shotpistol" id="e8ad-a465-7922-12f2" defaultAmount="1" hidden="false" import="true" targetId="8c76-0240-67c3-fd37" type="selectionEntry">
               <constraints>
                 <constraint id="3b27-f2a4-ae16-0a60" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -586,11 +591,16 @@
                 <constraint id="8f35-26ea-fea8-e449" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
+            <entryLink name="Concussion Pistol" id="76e6-147c-c5fa-bf32" hidden="false" import="true" targetId="1044-d6a3-6dca-1e79" type="selectionEntry">
+              <constraints>
+                <constraint id="64b7-6af8-4aea-14e4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Arbites Execution Section" id="5c1b-2d80-fd73-ac06" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Arbites Execution Section" id="5c1b-2d80-fd73-ac06" hidden="false" import="true" type="unit">
       <entryLinks>
         <entryLink name="Arbites Proctor-Executioner" id="41f3-9f3f-2e80-83d3" hidden="false" import="true" targetId="da68-5ab6-152c-def1" type="selectionEntry">
           <constraints>
@@ -604,11 +614,35 @@
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Operatives" id="1a68-0fea-4b3a-e311" hidden="false">
+          <constraints>
+            <constraint id="0479-4e80-07e0-05b6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="9"/>
+            <constraint id="c83a-7c53-ef79-2fa2" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
+          </constraints>
           <entryLinks>
             <entryLink name="Arbites Executioner" id="576b-3923-17df-c89e" hidden="false" import="true" targetId="060f-db0c-4d68-81a8" type="selectionEntry">
               <constraints>
                 <constraint id="739d-3b68-e943-3f73" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="2"/>
                 <constraint id="e8ab-ad22-f537-98ed" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="9"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Arbites Executioner-Gunner" id="6fec-e6b0-5217-2a16" hidden="false" import="true" targetId="0b12-f328-ecab-af67" type="selectionEntry">
+              <constraints>
+                <constraint id="4897-dc9c-083a-c1f6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="13"/>
+              </costs>
+              <modifiers>
+                <modifier field="4897-dc9c-083a-c1f6" type="set" value="2">
+                  <conditions>
+                    <condition childId="c7c7-0524-4423-c8e9" childName="Arbites Executioner-Grenadier" field="selections" includeChildSelections="true" scope="parent" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink name="Arbites Executioner-Grenadier" id="c7c7-0524-4423-c8e9" hidden="false" import="true" targetId="51d8-eb91-f25a-aa6f1" type="selectionEntry">
+              <constraints>
+                <constraint id="d2d3-fa9d-4927-e615" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -737,6 +771,251 @@
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry name="Arbites Executioner-Gunner" id="0b12-f328-ecab-af67" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="15"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Repression Baton" id="c26c-434e-8ce5-ce44" hidden="false" import="true" targetId="e8ff-7e34-148e-6dcc" type="selectionEntry">
+          <constraints>
+            <constraint id="fb31-c59f-d664-b46f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="89f5-408d-8b52-5e3d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Assault &amp; Krak Grenades" id="203f-79d0-0200-9249" hidden="false" import="true" targetId="b863-e06c-b5dd-1433" type="selectionEntry"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Executioner-Gunner" id="5b48-cf3e-8688-aabf" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Specialist Weapons" id="95a2-d83a-976f-ba8b" hidden="false">
+          <constraints>
+            <constraint id="80c2-c058-501b-40ce" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="a2a3-e4ac-23ae-49b8" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Heavy Stubber" id="bb25-121a-a3fe-7f94" hidden="false" import="true" targetId="4b5a-97e1-7d00-a893" type="selectionEntry">
+              <constraints>
+                <constraint id="1488-623a-13a5-9b8f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink name="Grenade Launcher" id="c1e8-d929-2e1b-b224" defaultAmount="1" hidden="false" import="true" targetId="3a91-7248-239e-1ab5" type="selectionEntry">
+              <modifiers>
+                <modifier field="points" type="set" value="5"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Arbites Executioner-Grenadier" id="51d8-eb91-f25a-aa6f1" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="15"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Repression Baton" id="3005-ba77-39da-2d83" hidden="false" import="true" targetId="e8ff-7e34-148e-6dcc" type="selectionEntry">
+          <constraints>
+            <constraint id="9c3d-0db0-4874-3b4f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="46d8-e770-1c8b-8fc0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Assault &amp; Krak Grenades" id="343f-e659-55ff-00dd" hidden="false" import="true" targetId="b863-e06c-b5dd-1433" type="selectionEntry"/>
+        <entryLink name="Automatic Grenade Launcher" id="ad52-da85-e886-5bd8" hidden="false" import="true" targetId="6242-990c-cc12-6efc4" type="selectionEntry">
+          <constraints>
+            <constraint id="f6aa-4160-7972-ece4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="4b0e-47bd-cddc-c2fd" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Executioner-Grenadier" id="27f5-4c4d-0a8e-06ef" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Arbites Marksman Team" id="652d-ef34-1fc9-9e53" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="50"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Arbites Marksman" id="b06f-dcac-b41e-8bea" hidden="false" import="true" targetId="cfde-7782-1355-3e3b" type="selectionEntry">
+          <constraints>
+            <constraint id="5350-bfcf-89f1-85bc" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="385b-bbc8-4581-1bdd" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Arbites Spotter" id="7b31-62da-f01c-da6a" hidden="false" import="true" targetId="a4e5-ea30-a9a8-bc28" type="selectionEntry">
+          <constraints>
+            <constraint id="506c-9f9f-3fbe-4898" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="158f-3a88-4d2d-f68c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Infiltrate" id="7069-3b85-1a31-78c4" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Support Team" id="d2f8-2618-b815-12cd" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit may not be used towards your Compulsory troops choices in a detachment.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Arbites Marksman" id="cfde-7782-1355-3e3b" hidden="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink name="Assault &amp; Krak Grenades" id="3ad8-3217-fa33-7b25" hidden="false" import="true" targetId="b863-e06c-b5dd-1433" type="selectionEntry"/>
+        <entryLink name="Shotpistol" id="5f9f-5420-5dca-cae0" hidden="false" import="true" targetId="8c76-0240-67c3-fd37" type="selectionEntry">
+          <constraints>
+            <constraint id="6c1a-6641-705d-ba16" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="8c51-d33d-e6a0-c5df" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Marksman" id="0e53-b586-7411-8815" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Armor Piercing Sniper Rifle" id="2b4a-4451-badf-e945" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="077a-343e-0f5f-7b55" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="c02a-8066-2e7b-3ad6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Armor Piercing Sniper Rifle" id="d629-9640-df23-5b59" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">X</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Sniper</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Camleoline Cloak" id="8110-cfe8-0b47-b0c1" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="8e38-936e-196a-2cc1" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="7881-8466-e5f3-d247" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Camleoline Cloak" id="7be4-6959-ffbe-1d33" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this wargear gains the Stealth rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Arbites Spotter" id="a4e5-ea30-a9a8-bc28" hidden="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink name="Assault &amp; Krak Grenades" id="643a-325a-f9c1-f3cf" hidden="false" import="true" targetId="b863-e06c-b5dd-1433" type="selectionEntry"/>
+        <entryLink name="Shotpistol" id="c08c-39a0-9644-ee7b" hidden="false" import="true" targetId="8c76-0240-67c3-fd37" type="selectionEntry">
+          <constraints>
+            <constraint id="32b3-8505-10d1-c62c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="fc87-6294-d50a-4092" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Spotter" id="9dab-0a0c-2f6a-7d7b" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+            <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+            <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+            <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+            <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+            <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+            <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+            <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+            <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">7</characteristic>
+            <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Spotter Scope" id="19b9-9e54-9ac6-843a" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="eee1-d923-f129-c140" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="446b-8c9e-8a56-f243" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Spotter Scope" id="c083-f50f-c277-db36" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">-</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Laser Designator</characteristic>
+                <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule name="Laser Designator" id="e5de-4bcb-f205-4a21" hidden="false">
+              <description>If this weapon hits an enemy unit, model or vehicle then any friendly Barrage weapons may subtract their BS when determining scatter distance when firing indirectly. This ends at the end your Shooting Phase.
+
+Also the Arbites Marksman in this unit becomes BS5 and the Armor Piercing Sniper Rifle becomes AP2 against an enemy unit,model or vehicle that is hit by this weapon. This ends at the end your Shooting Phase.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry name="Camleoline Cloak" id="83b3-3577-ad26-4cb0" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="e26a-6d64-a0bb-d8b9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="9b8b-10bd-dd26-c3bc" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Camleoline Cloak" id="20f8-a40f-5f82-93f8" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this wargear gains the Stealth rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

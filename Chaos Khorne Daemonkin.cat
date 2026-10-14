@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Chaos Khorne Daemonkin" id="9b32-f1cf-7ad4-9ca1" authorName="BSData Developers" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2004" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Chaos - Khorne Daemonkin" id="9b32-f1cf-7ad4-9ca1" authorName="BSData Developers" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2004" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
     <categoryEntry name="Command" id="9050-d437-3301-7e42" hidden="false"/>

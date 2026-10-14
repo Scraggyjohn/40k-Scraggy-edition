@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Dark Angels: Codex (2015)" id="578f-d512-a02e-7d0b" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2018" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Adeptus Astartes - Dark Angels (Not updated)" id="578f-d512-a02e-7d0b" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2018" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="HQ" id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false"/>
     <categoryEntry name="Elites" id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false"/>
@@ -256,7 +256,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Ravenwing Dark Talon" id="cb46-4819-62a9-b542" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry">
+    <entryLink name="Dark Talon Strike Fighter" id="cb46-4819-62a9-b542" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Fast Attack" id="cb46-4819-62a9-b542-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
@@ -398,7 +398,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Ravenwing Darkshroud" id="a9b3-a894-e88f-a33a" collective="false" hidden="false" import="true" targetId="a17c-9c05-3aea-852d" type="selectionEntry">
+    <entryLink name="Darkshroud" id="a9b3-a894-e88f-a33a" collective="false" hidden="false" import="true" targetId="a17c-9c05-3aea-852d" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Fast Attack" id="a9b3-a894-e88f-a33a-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
@@ -10670,7 +10670,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="4"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Ravenwing Dark Talon" id="ec49-6d98-918b-a430" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry"/>
+            <entryLink name="Dark Talon Strike Fighter" id="ec49-6d98-918b-a430" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -14160,7 +14160,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                 <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Ravenwing Dark Talon" id="2065-297c-813f-4c16" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry"/>
+                <entryLink name="Dark Talon Strike Fighter" id="2065-297c-813f-4c16" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -15662,7 +15662,7 @@ casualties. In missions that use Victory Points to determine the winner, the Sla
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Ravenwing Dark Talon" id="dcd7-bbf1-109b-e892" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry"/>
+            <entryLink name="Dark Talon Strike Fighter" id="dcd7-bbf1-109b-e892" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Nephilim Jetfighters" id="8c8f-2de9-8b8d-11cd" collective="false" defaultSelectionEntryId="6d22-2d97-a3ed-4fe4" hidden="false" import="true">
@@ -15708,7 +15708,7 @@ casualties. In missions that use Victory Points to determine the winner, the Sla
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Ravenwing Darkshroud" id="ff7d-9c25-64c3-f8aa" collective="false" hidden="false" import="true" targetId="a17c-9c05-3aea-852d" type="selectionEntry"/>
+            <entryLink name="Darkshroud" id="ff7d-9c25-64c3-f8aa" collective="false" hidden="false" import="true" targetId="a17c-9c05-3aea-852d" type="selectionEntry"/>
             <entryLink name="Ravenwing Land Speeder Vengance" id="76aa-fe7d-658e-4a66" collective="false" hidden="false" import="true" targetId="d576-a2c9-4b76-c0d3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -17039,7 +17039,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Ravenwing Dark Talon" id="2d27-a81d-33f1-d08a" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry"/>
+            <entryLink name="Dark Talon Strike Fighter" id="2d27-a81d-33f1-d08a" collective="false" hidden="false" import="true" targetId="24c4-2a62-c218-3da1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>

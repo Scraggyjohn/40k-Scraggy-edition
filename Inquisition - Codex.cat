@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Inquisition: Codex (2013) + Agents of the Imperium" id="6e6c7c90-fc3a-84f7-48fc-47e305b2de3b" authorName="BSData Developers" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2038" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Inquisition + Agents of the Imperium" id="6e6c7c90-fc3a-84f7-48fc-47e305b2de3b" authorName="BSData Developers" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2038" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="New Catalogue (link)" id="2a0d-8fcc-302f-550e" targetId="f840-ed73-44ab-3d6a" type="catalogue"/>
     <catalogueLink name="New Catalogue (link)" id="c271-5aa4-1211-2e53" targetId="2be8d152-3ba0-47c1-9a34-96f5f76bc49c" type="catalogue"/>
@@ -218,17 +218,17 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Arbites Subductor Squad" id="bec6-2c06-ab91-b07a" hidden="false" import="true" targetId="04b6-655f-6261-4de8" type="selectionEntry">
+    <entryLink name="Arbites Subductor Section" id="bec6-2c06-ab91-b07a" hidden="false" import="true" targetId="04b6-655f-6261-4de8" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="98b1-1ed8-d9fb-5bf0" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Arbites Vigilant Squad" id="5ffd-39aa-974e-8f83" hidden="false" import="true" targetId="ba9c-44d7-7608-b1d6" type="selectionEntry">
+    <entryLink name="Arbites Vigilant Section" id="5ffd-39aa-974e-8f83" hidden="false" import="true" targetId="ba9c-44d7-7608-b1d6" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="7ae6-be2e-7706-bd1c" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Arbites Exaction Squad" id="94ae-012f-191c-e529" hidden="false" import="true" targetId="d5b8-ad02-031a-c019" type="selectionEntry">
+    <entryLink name="Arbites Exaction Section" id="94ae-012f-191c-e529" hidden="false" import="true" targetId="d5b8-ad02-031a-c019" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="b145-91b6-c648-163b" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
@@ -7701,8 +7701,7 @@ Roll a D6:
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
-                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7718,8 +7717,7 @@ Roll a D6:
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Blast</characteristic>
-                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
                 <profile name="Automatic Grenade Launcher - Krak" id="c0f9-5b7e-0b1e-9754" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -7728,8 +7726,7 @@ Roll a D6:
                     <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
                     <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
-                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
-</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7803,8 +7800,8 @@ Roll a D6:
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Concussion</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Concussion: If a unit suffers one or more unsaved wounds from a Concussion Carbine, it suffers -1 Initiative until the end of its next turn.</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Concussive</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7819,8 +7816,8 @@ Roll a D6:
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">6</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast, Concussion</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Concussion: If a unit suffers one or more unsaved wounds from a Concussion Carbine, it suffers -1 Initiative until the end of its next turn.</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1, Blast, Concussive</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7842,7 +7839,7 @@ Roll a D6:
         <entryLink name="Assault &amp; Krak Grenades" id="aca3-9969-e71b-c4dc" hidden="false" import="true" targetId="b863-e06c-b5dd-1433" type="selectionEntry"/>
       </entryLinks>
       <profiles>
-        <profile name="Subductor-Chastener" id="5f8e-ba16-031b-a6e6" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+        <profile name="Subductor-Chastener" id="5f8e-ba16-031b-5" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
             <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
@@ -7909,8 +7906,33 @@ Roll a D6:
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
             <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">6</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2, Concussion</characteristic>
-            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Concussion: If a unit suffers one or more unsaved wounds from a Concussion Carbine, it suffers -1 Initiative until the end of its next turn.</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2, Concussive</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Automatic Grenade Launcher" id="6242-990c-cc12-6efc4" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="20"/>
+      </costs>
+      <profiles>
+        <profile name="Automatic Grenade Launcher - Frag" id="b8da-2767-af02-457e1" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+            <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3, Blast</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
+          </characteristics>
+        </profile>
+        <profile name="Automatic Grenade Launcher - Krak" id="9e24-4491-291f-ecaf1" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">7</characteristic>
+            <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">4</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"/>
           </characteristics>
         </profile>
       </profiles>

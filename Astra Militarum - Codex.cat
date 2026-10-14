@@ -21986,7 +21986,11 @@ May not take Carapace Armour.</description>
       <entryLinks>
         <entryLink name="Dedicated Transport" id="272d-a93a-44ff-57f9" collective="false" hidden="false" import="true" targetId="5c722a7f-f3bb-f881-b1c9-19b708780b8a" type="selectionEntryGroup">
           <entryLinks>
-            <entryLink name="Centaur RSV" id="da2d-3a64-0929-63a7" hidden="false" import="true" targetId="9bf5-1892-fa6c-315b" type="selectionEntry"/>
+            <entryLink name="Centaur RSV" id="da2d-3a64-0929-63a7" hidden="false" import="true" targetId="9bf5-1892-fa6c-315b" type="selectionEntry">
+              <constraints>
+                <constraint id="c911-82f3-dc50-badd" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </entryLink>
         <entryLink name="Commissar" id="b188-dc34-4054-08a7" collective="false" hidden="false" import="true" targetId="5d9c650e-5d0d-3490-f151-8161623ea294" type="selectionEntry"/>

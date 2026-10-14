@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Deathwatch: Codex (2016)" id="ee8b-68c8-02226-2d18" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2036" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Adeptus Astartes - Deathwatch (Not updated)" id="ee8b-68c8-02226-2d18" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2036" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
     <categoryEntry name="Auxiliary" id="ef2b-83bd-1bad-5742" hidden="false"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Blood Angels: Codex (2014)" id="6cacb5fc-d6bf-078d-307e-6f16c72d5f2a" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2025" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Adeptus Astartes - Blood Angels (Not updated)" id="6cacb5fc-d6bf-078d-307e-6f16c72d5f2a" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="2041" library="false" revision="2025" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Command" id="9050-d437-3301-7e42" hidden="false"/>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
@@ -67,7 +67,7 @@
         <categoryLink name="Elites" id="b0bca62f-69f5-5983-83c4-a02e689ab41d-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Furioso Dreadnought" id="8efa4f92-3314-9253-336a-a03cf4028100" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry">
+    <entryLink name="Castraferrum-Furioso Dreadnought" id="8efa4f92-3314-9253-336a-a03cf4028100" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="8efa4f92-3314-9253-336a-a03cf4028100-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
@@ -167,7 +167,7 @@
         <categoryLink name="Fast Attack" id="39238210-8d17-6125-dad2-44645618d298-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Dreadnought" id="62e814b6-618a-135c-d804-c9a3b7b6b544" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry">
+    <entryLink name="Castraferrum Dreadnought" id="62e814b6-618a-135c-d804-c9a3b7b6b544" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="62e814b6-618a-135c-d804-c9a3b7b6b544-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
@@ -237,7 +237,7 @@
         <categoryLink name="HQ" id="541fa895-c348-0c2c-019f-23dd288ce9eb-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Librarian Dreadnought" id="e5f92323-dc05-29da-8035-ad081a926dd0" collective="false" hidden="false" import="true" targetId="ec485d82-9ebd-b8fd-8343-434a0c548c84" type="selectionEntry">
+    <entryLink name="Castraferrum-Librarian Dreadnought" id="e5f92323-dc05-29da-8035-ad081a926dd0" collective="false" hidden="false" import="true" targetId="ec485d82-9ebd-b8fd-8343-434a0c548c84" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="e5f92323-dc05-29da-8035-ad081a926dd0-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
@@ -1612,7 +1612,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Furioso Dreadnought" id="670c-e0de-9180-1ba5" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="670c-e0de-9180-1ba5" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Squads - Choose 5" id="059c-aa39-a1e8-1ec2" collective="false" hidden="false" import="true">
@@ -1704,7 +1704,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink name="Furioso Dreadnought" id="15b5-aa14-1b62-1929" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry">
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="15b5-aa14-1b62-1929" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry">
               <modifiers>
                 <modifier field="minSelections" type="set" value="1">
                   <conditionGroups>
@@ -1766,7 +1766,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Dreadnought" id="1b55-9b38-39f2-f3cc" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
+            <entryLink name="Castraferrum Dreadnought" id="1b55-9b38-39f2-f3cc" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1787,9 +1787,9 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Dreadnought" id="5f2c-c039-d848-20e1" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
-            <entryLink name="Furioso Dreadnought" id="953f-b3fb-eddb-d939" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
-            <entryLink name="Librarian Dreadnought" id="8beb-95b6-103f-43be" collective="false" hidden="false" import="true" targetId="ec485d82-9ebd-b8fd-8343-434a0c548c84" type="selectionEntry"/>
+            <entryLink name="Castraferrum Dreadnought" id="5f2c-c039-d848-20e1" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="953f-b3fb-eddb-d939" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Librarian Dreadnought" id="8beb-95b6-103f-43be" collective="false" hidden="false" import="true" targetId="ec485d82-9ebd-b8fd-8343-434a0c548c84" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -12956,7 +12956,6 @@
         <infoLink name="And They Shall Know No Fear" id="75ef6688-278c-f7eb-68dc-79746d43da8c" hidden="false" targetId="2e56-6b02-4343-0e40" type="rule"/>
         <infoLink name="Combat Squads" id="51fd243c-23c9-c544-3df6-89c4e6cf0102" hidden="false" targetId="3d2faf58-5514-68f4-82d6-d57152b1778b" type="rule"/>
         <infoLink name="Terminator" id="5f478d07-e663-0a6d-1e85-e4cf86f99f63" hidden="false" targetId="a660a2a9-2249-2bb1-5490-18386ab7800d" type="profile"/>
-        <infoLink name="Hail of Fire" id="2c28-6acb-fae4-a591" hidden="false" targetId="53ef-472d-fba7-5517" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -15465,7 +15464,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Furioso Dreadnought" id="fd941685-2526-7e84-2d9b-27f31fc3c7d6" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="fd941685-2526-7e84-2d9b-27f31fc3c7d6" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -16512,7 +16511,7 @@
                 <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="6"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Furioso Dreadnought" id="2b8d7824-4009-2994-0d04-96db1304c274" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+                <entryLink name="Castraferrum-Furioso Dreadnought" id="2b8d7824-4009-2994-0d04-96db1304c274" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -16607,7 +16606,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Dreadnought" id="4cf835c4-8a03-8a9c-06db-356bb847f524" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
+            <entryLink name="Castraferrum Dreadnought" id="4cf835c4-8a03-8a9c-06db-356bb847f524" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Furioso Dreadnought" id="ffb07558-8403-7f4a-6eb1-38fd98470fad" collective="false" defaultSelectionEntryId="cc52922b-204b-0d91-e134-102f80b861cb" hidden="false" import="true">
@@ -16616,7 +16615,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Furioso Dreadnought" id="cc52922b-204b-0d91-e134-102f80b861cb" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="cc52922b-204b-0d91-e134-102f80b861cb" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -16709,7 +16708,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Dreadnought" id="4ee3a5e5-4539-6a78-6b23-32b999ed3185" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
+            <entryLink name="Castraferrum Dreadnought" id="4ee3a5e5-4539-6a78-6b23-32b999ed3185" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Furioso Dreadnought" id="acf13db9-45a5-4f22-bce1-12dd7eba7d8c" collective="false" defaultSelectionEntryId="5e59670b-c87c-4dba-cbc2-db4aa938221a" hidden="false" import="true">
@@ -16718,7 +16717,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Furioso Dreadnought" id="5e59670b-c87c-4dba-cbc2-db4aa938221a" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="5e59670b-c87c-4dba-cbc2-db4aa938221a" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
           </entryLinks>
           <modifiers>
             <modifier field="minSelections" type="set" value="1">
@@ -17858,7 +17857,7 @@
                 <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Dreadnought" id="3eae415a-0940-d34f-8304-52a7e6dda4c2" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
+                <entryLink name="Castraferrum Dreadnought" id="3eae415a-0940-d34f-8304-52a7e6dda4c2" collective="false" hidden="false" import="true" targetId="33eef3e7-6898-3307-fdd2-6b6e6cc718c6" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Furioso Dreadnought" id="e4778910-8036-d8bc-4688-2556b9649a97" collective="false" defaultSelectionEntryId="4a008bfc-995d-fa78-a984-5b6529b2ed0d" hidden="false" import="true">
@@ -17867,7 +17866,7 @@
                 <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Furioso Dreadnought" id="4a008bfc-995d-fa78-a984-5b6529b2ed0d" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+                <entryLink name="Castraferrum-Furioso Dreadnought" id="4a008bfc-995d-fa78-a984-5b6529b2ed0d" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -19075,7 +19074,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Furioso Dreadnought" id="23271cd6-6917-6708-f618-19221bcccaf5" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="23271cd6-6917-6708-f618-19221bcccaf5" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Stormraven Gunship" id="fa086ac2-cf7a-1d73-b3f8-1f4774bf07e7" collective="false" defaultSelectionEntryId="244be4da-45fb-cdfb-561e-2c75dca8fdaf" hidden="false" import="true">
@@ -19138,7 +19137,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Furioso Dreadnought" id="242c0113-8e34-fea7-0b30-63846eb35f28" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="242c0113-8e34-fea7-0b30-63846eb35f28" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -22062,7 +22061,7 @@
                 <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Furioso Dreadnought" id="09dffa7f-4125-67c1-f994-1b049297d3d9" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+                <entryLink name="Castraferrum-Furioso Dreadnought" id="09dffa7f-4125-67c1-f994-1b049297d3d9" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Tactical Squads" id="dfe6768b-ff86-8382-a1b6-aaac25292f04" collective="false" defaultSelectionEntryId="06a27d55-bad1-918b-af31-0f19dc237c85" hidden="false" import="true">
@@ -22349,7 +22348,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="4"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Furioso Dreadnought" id="aebee937-2e52-db37-a3e3-8850670c958a" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="aebee937-2e52-db37-a3e3-8850670c958a" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Veterans" id="b1d96e05-ec8c-5b94-4ac9-edfb906ac946" collective="false" hidden="false" import="true">
@@ -22402,7 +22401,7 @@
             <constraint id="maxSelections" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Furioso Dreadnought" id="47cca0f8-b685-7176-156e-ac9d182b4a8a" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
+            <entryLink name="Castraferrum-Furioso Dreadnought" id="47cca0f8-b685-7176-156e-ac9d182b4a8a" collective="false" hidden="false" import="true" targetId="624e9e8a-b1e2-17b6-12ff-101e065d94f3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Tactical Squads" id="6b9ca6f5-a712-b6c3-c319-643bf9f958b6" collective="false" defaultSelectionEntryId="8dfd8830-23c4-08a7-c569-075b77b637ab" hidden="false" import="true">
