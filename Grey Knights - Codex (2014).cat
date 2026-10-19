@@ -301,7 +301,7 @@
         <categoryLink name="Flyer Wing" id="bdea-4de6-b872-07cc-8c73-dac2-10f4-9b50" hidden="false" primary="true" targetId="8c73-dac2-10f4-9b50"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Roboute Guilliman, Primarch of the Ultramarines" id="4273-3231-6f4a-55bc" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
+    <entryLink name="Roboute Guilliman, Lord Commander of the Imperium" id="4273-3231-6f4a-55bc" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Lords of War" id="4273-3231-6f4a-55bc-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
       </categoryLinks>
@@ -2394,7 +2394,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
   </sharedProfiles>
   <sharedRules>
     <rule name="Agile (Super-heavy)" id="92544069-3936-d557-a38c-e161e7d95c45" hidden="false" page="6" publicationId="987d0372--pubN111283"/>
-    <rule name="And They Shall Know No Fear" id="5e77fe06-fcb2-eed9-8563-faaa22ae9545" hidden="false" page="157" publicationId="987d0372--pubN111299"/>
+    <rule name="And They Shall Know No Fear" id="5e77fe06-fcb2-eed9-8563-faaa22ae9545" hidden="false" page="157" publicationId="987d0372--pubN111299">
+      <description>A unit that contains at least one model with this special rule automatically passes Fear and Regroup tests. When it Regroups, the unit does not make the 3&quot; Regroup move, but can instead move, shoot (or Run) and declare charges normally in that turn. Furthermore, if a unit containing one or more models with this special rule is caught by a Sweeping Advance, they are not destroyed, but remain locked in combat instead.</description>
+    </rule>
     <rule name="Apocalyptic Barrage" id="39ec1439-3654-4e87-e0af-98799bfa3b1f" hidden="false" page="0" publicationId="987d0372--pubN111315"/>
     <rule name="Armoured Vanguard Squadron Restrictions" id="f23af62a-0281-61e9-65fe-b8389ea6b9bb" hidden="false" page="42" publicationId="987d0372--pubN111331"/>
     <rule name="Assault Vehicle" id="3d09b716-4b26-6a43-a7be-411485e5e6fe" hidden="false" page="157" publicationId="987d0372--pubN111299"/>
@@ -2425,7 +2427,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <description>Not affected by Instant Death</description>
     </rule>
     <rule name="Fear" id="b93856b7-0e96-132d-01b3-11d04f46b45b" hidden="false" page="163" publicationId="987d0372--pubN111299"/>
-    <rule name="Fearless" id="166b0b6e-e024-00d6-46d0-af040f04d681" hidden="false" page="163" publicationId="987d0372--pubN111299"/>
+    <rule name="Fearless" id="166b0b6e-e024-00d6-46d0-af040f04d681" hidden="false" page="163" publicationId="987d0372--pubN111299">
+      <description>Units containing one or more models with the Fearless special rule automatically pass Pinning, Fear, Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit has Gone to Ground and then gains the Fearless special rule, all the effects of Go to Ground are immediately cancelled.</description>
+    </rule>
     <rule name="Feel No Pain" id="ea48191f-6117-55d3-9561-b43fe2993ba4" hidden="false" page="164" publicationId="987d0372--pubN111299"/>
     <rule name="Fighter Ace" id="6287b24a-c2b7-dfe0-405a-dfdf82491fb3" hidden="false" publicationId="987d0372--pubN78970">
       <description>D6 Result:
@@ -2457,7 +2461,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
     <rule name="Move Through Cover" id="4e4a34b2-fcf7-cc4f-accc-5f1eaf5020b2" hidden="false" page="168" publicationId="987d0372--pubN111299"/>
     <rule name="Night Vision" id="c2caf8c2-5a56-7191-157e-9b5d67792853" hidden="false" page="168" publicationId="987d0372--pubN111299"/>
     <rule name="Power of the Machine Spirit" id="08a704f4-3d10-d92c-7843-603167b4aa63" hidden="false" page="169" publicationId="987d0372--pubN111299"/>
-    <rule name="Preferred Enemy (Daemons)" id="541b914f-667b-83f6-af9c-d2469b9018fe" hidden="false" page="169" publicationId="987d0372--pubN111299"/>
+    <rule name="Preferred Enemy (Daemons)" id="541b914f-667b-83f6-af9c-d2469b9018fe" hidden="false" page="169" publicationId="987d0372--pubN111299">
+      <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
+    </rule>
     <rule name="Psi-Flame" id="f3dd6ccb-690a-1f6f-66a2-39df0d7a6df1" hidden="false" page="0" publicationId="987d0372--pubN73460"/>
     <rule name="Psi-shock" id="28e29bee-f1b3-9fb5-2a25-3fd595c1ba93" hidden="false" page="57" publicationId="987d0372--pubN65537">
       <description>Random Psyker in hit unit suffers Perils of the Warp.</description>
@@ -2475,13 +2481,17 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
     <rule name="Purifying Flame" id="e6ab68d0-8599-fa8d-1185-eb4ee27ad266" hidden="false" page="68" publicationId="987d0372--pubN65537">
       <description>All close-combat attacks made by Purifiers have Soul Blaze</description>
     </rule>
-    <rule name="Purity of Spirit" id="6416ce5a-5fcd-228c-40cd-102277f2a251" hidden="false"/>
+    <rule name="Purity of Spirit" id="6416ce5a-5fcd-228c-40cd-102277f2a251" hidden="false">
+      <description>Grey Knights Psykers can generate psychic powers from the Daemonology discipline. Grey Knights Psykers can only generate Sanctic powers from the Daemonology discipline – they cannot manifest Malefic psychic powers from this discipline. In addition, unless otherwise stated, when attempting to manifest psychic powers from the Daemonology discipline, Grey Knights Psykers only suffer Perils of the Warp if two or more 6s are rolled when taking a psychic test.</description>
+    </rule>
     <rule name="Pyromancy" id="5c3ac33d-631a-a566-437b-0f83d8698aed" hidden="false"/>
     <rule name="Rapid Assault" id="5622a647-216a-cbbe-f6c9-5b00e3505fa4" hidden="false" page="0"/>
     <rule name="Reactor Meltdown" id="ab591a54-da30-e4b5-82b4-72ab6e83a06a" hidden="false" page="6" publicationId="987d0372--pubN111283"/>
     <rule name="Reinforced Aegis" id="b2afbff1-34f6-bd88-1948-c32e75289be3" hidden="false"/>
     <rule name="Reinforced Aegis [FW]" id="49603d3d-b526-edd8-d97c-b852cfdcedea" hidden="false"/>
-    <rule name="Relentless" id="a49fdf7e-e873-b9df-aea8-335c813c1be3" hidden="false" page="170" publicationId="987d0372--pubN111299"/>
+    <rule name="Relentless" id="a49fdf7e-e873-b9df-aea8-335c813c1be3" hidden="false" page="170" publicationId="987d0372--pubN111299">
+      <description>Relentless models can shoot with Heavy, Salvo or Ordnance weapons, counting as stationary, even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
+    </rule>
     <rule name="Sanctuary" id="5370b9ce-69ef-6aeb-669c-9e514abc0ea6" hidden="false">
       <description>Daemonology (Sanctic) Psychic Power</description>
     </rule>
