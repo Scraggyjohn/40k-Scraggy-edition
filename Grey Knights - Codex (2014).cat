@@ -2391,6 +2391,11 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Warlord an all friendly Grey Knight-units within 12&quot; have Stubborn.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Personal Teleporter" id="74db-1161-c984-ff92" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models with a personal teleporter add the Jump type to their unit type. For example, an Infantry model with a personal teleporter becomes Jump Infantry, whilst a Monstrous Creature with a personal teleporter becomes Jump Monstrous Creature. In addition, once per game, a unit composed entirely of models with personal teleporters can make a teleport shunt instead of moving in the Movement phase. A unit making a teleport shunt moves up to 30&quot; in the Movement phase. This move cannot end up on another unit or impassable terrain, but ignores intervening units, terrain etc. A unit cannot charge in the same turn that it makes a teleport shunt.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Agile (Super-heavy)" id="92544069-3936-d557-a38c-e161e7d95c45" hidden="false" page="6" publicationId="987d0372--pubN111283"/>
@@ -4216,6 +4221,9 @@ All squads must include 10 models.</description>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Personal Teleporter" id="8ae8-dc83-c26d-5da7" hidden="false" targetId="74db-1161-c984-ff92" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5245,6 +5253,9 @@ All squads must include 10 models.</description>
           <costs>
             <cost name="pts" typeId="points" value="30"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Personal Teleporter" id="c17c-5195-7ec3-1974" hidden="false" targetId="74db-1161-c984-ff92" type="profile"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry name="Psyker [ML 1]" id="532d836e-ef10-3172-b572-b58dbee9a02f" collective="true" hidden="false" import="true" type="upgrade">
           <constraints>
