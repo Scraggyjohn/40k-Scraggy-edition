@@ -30374,6 +30374,23 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <infoLink name="Infiltrate" id="8025-a7e1-c679-d223" hidden="false" targetId="0b11-a0ff-f0ba-5341" type="rule"/>
         <infoLink name="Scout" id="be38-ad32-5111-cc79" hidden="false" targetId="1794-e0e0-bedf-e46b" type="rule"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Vox-relay beacon" id="4c5f-4f6b-5b4b-4dbd" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c4b1-dc0d-4da9-efc5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="6"/>
+          </costs>
+          <profiles>
+            <profile name="Vox-relay beacon" id="a1af-dbe4-2f76-61c0" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This units Vox-relay beacon can be placed out of coherency and outside of your deployment zone. It is placed as a marker and cannot be targeted or attacked in any way. As long as an officer and the Reconnaissance squad are both within 18&quot; of the relay beacon then the officer may issue orders to the squad. If an enemy unit moves within 3&quot; of the marker it is removed from play and ceases to function. Any order that applies to lasguns also applies to lascarbines.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Troopers" id="dc0a-910f-42aa-29eb" hidden="false">
           <constraints>
@@ -30645,7 +30662,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
 </characteristic>
                           </characteristics>
                         </profile>
-                        <profile name="Recoilless Rifle" id="de60-5a1f-0bad-74ce" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile name="Recoilless Rifle - Krak" id="de60-5a1f-0bad-74ce" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
                             <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
