@@ -30452,6 +30452,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       <constraints>
                         <constraint id="e665-f155-9438-0797" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5"/>
+                      </costs>
                       <infoLinks>
                         <infoLink name="Sniper" id="7857-33ba-bae9-1545" hidden="false" targetId="ed78-4c38-34cf-326c" type="rule"/>
                       </infoLinks>
@@ -30472,6 +30475,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       <constraints>
                         <constraint id="98ea-1f5f-4f11-9c9d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="8"/>
+                      </costs>
                       <profiles>
                         <profile name="Autostubber" id="44c4-d12b-ff00-96e5" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                           <characteristics>
@@ -30489,6 +30495,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       <constraints>
                         <constraint id="4a85-e83f-183e-8a9f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10"/>
+                      </costs>
                       <infoLinks>
                         <infoLink name="Meltagun" id="9c8c-4b24-108b-8094" hidden="false" targetId="ec4c-1132-ddaf-db8e" type="profile"/>
                         <infoLink name="Melta" id="b3d4-4035-1d06-ca3b" hidden="false" targetId="bc4c-234f-0293-98a7" type="rule"/>
@@ -30498,6 +30507,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                       <constraints>
                         <constraint id="046b-6230-d409-9d35" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="15"/>
+                      </costs>
                       <infoLinks>
                         <infoLink name="Plasma Gun" id="df74-ebc8-2df7-e823" hidden="false" targetId="03e5-60f2-4726-5cdd" type="profile"/>
                         <infoLink name="Gets Hot" id="314a-0b06-23e3-fcbd" hidden="false" targetId="4e9f-4f6f-6fbc-6418" type="rule"/>
