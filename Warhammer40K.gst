@@ -16,6 +16,7 @@
     <categoryEntry name="Flyer Wing" id="8c73-dac2-10f4-9b50" hidden="false"/>
     <categoryEntry name="Battle Formation" id="8dbf948c-125b-4886-b21e-3ccabc1e1188" hidden="false"/>
     <categoryEntry name="Spearhead" id="38cf4ccf-0665-45cb-a773-fea06ee1467a" hidden="false"/>
+    <categoryEntry name="Companions" id="7413-2510-fe13-005f" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name="pts" id="points" defaultCostLimit="0" hidden="false"/>
@@ -167,6 +168,11 @@
             <constraint id="maxSelections" field="selections" includeChildForces="true" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="Companions" id="e834-c2b4-7fba-f79d" hidden="false" targetId="7413-2510-fe13-005f">
+          <constraints>
+            <constraint id="606c-0814-9489-318d" field="selections" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Elites" id="5374616e6461726423232344415441232323-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
           <constraints>
             <constraint id="maxSelections" field="selections" includeChildForces="true" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="3"/>
@@ -227,6 +233,11 @@
             <constraint id="maxSelections" field="selections" includeChildForces="true" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="Companions" id="63b7-7819-f3be-a484" hidden="false" targetId="7413-2510-fe13-005f">
+          <constraints>
+            <constraint id="467d-3b13-3fb2-d34d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Elites" id="416c6c696564204465746163686d656e7423232344415441232323-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
           <constraints>
             <constraint id="maxSelections" field="selections" includeChildForces="true" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -272,6 +283,7 @@
       <categoryLinks>
         <categoryLink name="No Force Org Slot" id="f27ddc58-26a0-c164-64d5-75065a3d9620-ff36a6f3-19bf-4f48-8956-adacfd28fe74" hidden="false" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
         <categoryLink name="HQ" id="f27ddc58-26a0-c164-64d5-75065a3d9620-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Companions" id="2560-0ac7-e27c-c1f8" hidden="false" targetId="7413-2510-fe13-005f"/>
         <categoryLink name="Elites" id="f27ddc58-26a0-c164-64d5-75065a3d9620-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
         <categoryLink name="Troops" id="f27ddc58-26a0-c164-64d5-75065a3d9620-5d76b6f5-20ae-4d70-8f59-ade72a2add3a" hidden="false" primary="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
         <categoryLink name="Fast Attack" id="f27ddc58-26a0-c164-64d5-75065a3d9620-c274d0b0-5866-44bc-9810-91c136ae7438" hidden="false" primary="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
@@ -430,6 +442,7 @@
             <constraint id="bb45-92b4-0465-379b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="Companions" id="8c3e-fe0d-5351-d0c6" hidden="false" targetId="7413-2510-fe13-005f"/>
         <categoryLink name="Elites" id="fa36-51b1-cf51-2945-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
           <constraints>
             <constraint id="6b1b-8649-5998-605a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
@@ -473,6 +486,11 @@
           <constraints>
             <constraint id="ccbe-3b03-3926-f981" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
             <constraint id="8db1-e86c-8ce6-d81f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Companions" id="8c89-a27b-cf38-921a" hidden="false" targetId="7413-2510-fe13-005f">
+          <constraints>
+            <constraint id="a0e4-8d95-565d-e645" field="selections" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Elites" id="9ce4-7ecb-cdf1-0f2a-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" hidden="false" primary="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
@@ -1019,7 +1037,7 @@
         <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">3</characteristic>
         <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2, Shot</characteristic>
-        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796"> Shot: When in half range, this weapon increases its Strength by +1.</characteristic>
+        <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">Shot: When in half range, this weapon increases its Strength by +1.</characteristic>
       </characteristics>
     </profile>
     <profile name="Heavy Stubber" id="0031-0314-5b36-a220" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">

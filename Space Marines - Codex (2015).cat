@@ -3,6 +3,7 @@
   <catalogueLinks>
     <catalogueLink name="New Catalogue (link)" id="4932-612f-0824-d0fe" targetId="6cacb5fc-d6bf-078d-307e-6f16c72d5f2a" type="catalogue"/>
     <catalogueLink name="New Catalogue (link)" id="e230-9ed5-7785-dda0" targetId="578f-d512-a02e-7d0b" type="catalogue"/>
+    <catalogueLink name="Adepta Sororitas: Codex (2013)" id="c95c-abca-d250-f8f0" targetId="818a0a0f-43c3-6587-c690-9b14d0a7ba96" type="catalogue"/>
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Core" id="bf93-7277-bf48-16f7" hidden="false"/>
@@ -2270,7 +2271,7 @@
     </entryLink>
     <entryLink name="Terminator Ancient" id="34ed-e62d-981a-c9e7" hidden="false" import="true" targetId="1b0f-12e3-c7e0-a069" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="No Force Org Slot" id="1213-7238-8d19-4042" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="Companions" id="1792-913d-64ca-d0af" hidden="false" primary="true" targetId="7413-2510-fe13-005f"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50"/>
@@ -2278,7 +2279,7 @@
     </entryLink>
     <entryLink name="Apothecarian Detachment" id="f6af-315e-1235-47bd" hidden="false" import="true" targetId="52aa-20a1-2aab-2cb9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="No Force Org Slot" id="094e-cb06-201e-9e1f" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="Companions" id="85fb-2663-400e-5b83" hidden="false" primary="true" targetId="7413-2510-fe13-005f"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Veteran Scout Commander" id="d444-5b80-7f4b-0870" hidden="false" import="true" targetId="db3c-3bb2-faf6-4fbb" type="selectionEntry">
@@ -4507,7 +4508,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
       </costs>
       <entryLinks>
         <entryLink name="Frag and Krak Grenades" id="5ac3-feae-0290-daf5" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-        <entryLink name="Bolt Pistol" id="c6ae-bf40-223b-3261" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="c6ae-bf40-223b-3261" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="2627-cac1-288a-1ee6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="c7a8-bbb4-8c02-4dc3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -4629,7 +4630,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
       </costs>
       <entryLinks>
         <entryLink name="Frag and Krak Grenades" id="0589-449f-adaf-0b77" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-        <entryLink name="Bolt Pistol" id="f7f2-52ec-e9f7-5fab" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="f7f2-52ec-e9f7-5fab" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="e995-5cf3-f02a-6ebe" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="c90a-af6d-1830-2613" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -5164,7 +5165,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
       </costs>
       <entryLinks>
         <entryLink name="Frag and Krak Grenades" id="dfb6-5855-9ef2-3c94" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-        <entryLink name="Bolt Pistol" id="c1f6-faea-a067-2ad4" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="c1f6-faea-a067-2ad4" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="614b-260f-5cff-0dc2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="b7d6-a031-93e0-16ff" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -5267,7 +5268,7 @@ Note that Bike Squads count as being at full strength when they have eight Space
       </costs>
       <entryLinks>
         <entryLink name="Frag and Krak Grenades" id="9e1a-6484-4e5c-e0d6" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-        <entryLink name="Bolt Pistol" id="1888-6a5b-4411-c6d1" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="1888-6a5b-4411-c6d1" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="2198-ee2c-c5b3-59ea" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="6e25-ad05-bfe4-63fc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -5350,7 +5351,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
       </costs>
       <entryLinks>
         <entryLink name="Frag and Krak Grenades" id="fd5e-340b-9841-997e" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-        <entryLink name="Bolt Pistol" id="796a-529c-aad6-f396" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="796a-529c-aad6-f396" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="5240-bb89-f25e-7422" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="2d14-2e55-d8c1-c3b3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -5474,7 +5475,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
       </costs>
       <entryLinks>
         <entryLink name="Frag and Krak Grenades" id="392c-4044-b548-bce9" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-        <entryLink name="Bolt Pistol" id="2764-5737-6d93-4d93" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="2764-5737-6d93-4d93" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="b243-b212-2ae4-07f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="d468-bd0b-3ace-b13a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -5605,7 +5606,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <cost name="pts" typeId="points" value="185"/>
       </costs>
       <entryLinks>
-        <entryLink name="Bolt Pistol" id="54ab-5836-c2a0-d7a9" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="54ab-5836-c2a0-d7a9" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="2bb9-78e1-27a4-caa8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="702a-18ab-54ba-e108" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -5712,7 +5713,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
       </costs>
       <entryLinks>
         <entryLink name="Frag and Krak Grenades" id="718f-3e92-5128-37ac" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-        <entryLink name="Bolt Pistol" id="5862-c273-61ed-86f0" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="5862-c273-61ed-86f0" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="aa0f-c111-d614-d79c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="e088-d3b8-503d-5920" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -6317,7 +6318,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                           <entryLinks>
                             <entryLink name="Ranged Weapons" id="d773-03ad-0a8b-4aad" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                             <entryLink name="Chapter Relics - Ranged Weapons" id="c894-f33c-03e2-14f7" collective="false" hidden="false" import="true" targetId="9a53-c9f3-3b25-33a9" type="selectionEntryGroup"/>
-                            <entryLink name="Bolt Pistol" id="5fea-f803-bf6e-f3d2" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                            <entryLink name="Astartes Bolt Pistol" id="5fea-f803-bf6e-f3d2" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                               <constraints>
                                 <constraint id="4d7a-5b9a-1c41-c0f5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                               </constraints>
@@ -6390,13 +6391,13 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <cost name="pts" typeId="points" value="90"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="831c-7018-a4f2-ad39" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="831c-7018-a4f2-ad39" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="5a1c-a430-8626-d326" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="dec7-999e-071f-adbd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Boltgun" id="c3fc-4fd4-5f17-ee34" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="c3fc-4fd4-5f17-ee34" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="c031-5c62-1d3d-7b63" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="5196-0f42-0331-e130" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -7426,7 +7427,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   <entryLinks>
                     <entryLink name="Ranged Weapons" id="9db8-d3d7-dec6-4150" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                     <entryLink name="Chapter Relics - Ranged Weapons" id="76c6-4051-4b32-4a03" collective="false" hidden="false" import="true" targetId="9a53-c9f3-3b25-33a9" type="selectionEntryGroup"/>
-                    <entryLink name="Bolt Pistol" id="aa23-b571-43d0-41ee" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                    <entryLink name="Astartes Bolt Pistol" id="aa23-b571-43d0-41ee" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                       <constraints>
                         <constraint id="0911-ed68-8c52-bbe5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -7900,7 +7901,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="fdf9-8d8b-1956-2de0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Boltgun" id="9235-4fb6-ee21-03db" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                    <entryLink name="Astartes Boltgun" id="9235-4fb6-ee21-03db" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                       <constraints>
                         <constraint id="beb6-8f20-6ae8-4c26" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -7910,7 +7911,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                         <constraint id="6a53-b882-ad62-c5a5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
                     </entryLink>
-                    <entryLink name="Bolt Pistol" id="2811-fa2e-c532-733e" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                    <entryLink name="Astartes Bolt Pistol" id="2811-fa2e-c532-733e" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                       <constraints>
                         <constraint id="a352-03c6-f1b8-d7f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -8127,7 +8128,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   <entryLinks>
                     <entryLink name="Ranged Weapons" id="e602-c3e8-5628-9d51" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                     <entryLink name="Chapter Relics - Ranged Weapons" id="6247-32cc-6071-8eb6" collective="false" hidden="false" import="true" targetId="9a53-c9f3-3b25-33a9" type="selectionEntryGroup"/>
-                    <entryLink name="Bolt Pistol" id="0962-f631-7dae-f2ec" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                    <entryLink name="Astartes Bolt Pistol" id="0962-f631-7dae-f2ec" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                       <constraints>
                         <constraint id="6f9c-a81d-c916-e0e9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -8285,7 +8286,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   <entryLinks>
                     <entryLink name="Ranged Weapons" id="d996-7ffa-639c-ed6e" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                     <entryLink name="Chapter Relics - Ranged Weapons" id="243a-5a82-a2ca-09f7" collective="false" hidden="false" import="true" targetId="9a53-c9f3-3b25-33a9" type="selectionEntryGroup"/>
-                    <entryLink name="Bolt Pistol" id="ae94-36d2-2eca-f747" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                    <entryLink name="Astartes Bolt Pistol" id="ae94-36d2-2eca-f747" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                       <constraints>
                         <constraint id="4eca-6551-f214-1e54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -9017,7 +9018,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               <entryLinks>
                 <entryLink name="Melee Weapons" id="dd92-d83f-5ab8-a70a" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
                 <entryLink name="Ranged Weapons" id="5bdf-78c8-59a3-3b67" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="5fe6-ebf4-18e2-8478" collective="false" defaultAmount="1" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="5fe6-ebf4-18e2-8478" collective="false" defaultAmount="1" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="7bae-0a97-d685-9f2b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -9032,7 +9033,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               <entryLinks>
                 <entryLink name="Ranged Weapons" id="1bfa-e6bf-6cca-124c" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                 <entryLink name="Melee Weapons" id="b661-d93e-93e5-4fff" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
-                <entryLink name="Boltgun" id="b85d-d959-8432-801e" collective="false" defaultAmount="1" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="b85d-d959-8432-801e" collective="false" defaultAmount="1" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="c0dd-e8cf-bcdd-da9a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -9158,7 +9159,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <cost name="pts" typeId="points" value="13"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="7798-cfd4-6278-7a19" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="7798-cfd4-6278-7a19" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="94bc-6d9e-f21e-d769" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="defe-a36e-12cf-1ca8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -9176,7 +9177,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="4b72-0c9f-71cc-e900" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Boltgun" id="0d0c-f16e-35e2-f30f" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                    <entryLink name="Astartes Boltgun" id="0d0c-f16e-35e2-f30f" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                       <constraints>
                         <constraint id="6144-5530-197d-08c6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
@@ -9217,7 +9218,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="5351-972b-6842-2ad9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="c177-966e-a114-e21b" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="c177-966e-a114-e21b" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="8a27-2f8a-9fff-692d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="622b-de78-9e7a-4e1e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -9255,7 +9256,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="51b2-1d8c-30db-336b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="4038-a3a7-b2bb-ad08" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="4038-a3a7-b2bb-ad08" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="e020-97f7-a423-4030" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="b68f-b55d-12d7-c204" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -11304,7 +11305,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               <entryLinks>
                 <entryLink name="Melee Weapons" id="ab74-338e-9ea7-ddd6" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
                 <entryLink name="Ranged Weapons" id="744c-1cac-a12c-024b" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="44e2-6cbf-2f9c-c226" collective="false" defaultAmount="1" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="44e2-6cbf-2f9c-c226" collective="false" defaultAmount="1" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="981a-42c1-838b-7db1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -11350,7 +11351,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="aa61-bcd8-8b68-878a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Boltgun" id="133a-fd7b-c3d1-1ca6" collective="false" defaultAmount="1" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="133a-fd7b-c3d1-1ca6" collective="false" defaultAmount="1" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="8a8c-0050-2ca8-2ff0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -11393,7 +11394,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               </costs>
               <entryLinks>
                 <entryLink name="Frag and Krak Grenades" id="8844-33fd-4538-0aa4" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-                <entryLink name="Bolt Pistol" id="aac1-7c3a-1437-9122" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="aac1-7c3a-1437-9122" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="ab2a-3d9b-e8b9-d9fc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="910f-b4a2-a98e-85ea" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -11417,7 +11418,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="7d34-34a3-f9f1-a945" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Boltgun" id="ac17-65ce-6f0a-1728" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
+                    <entryLink name="Astartes Boltgun" id="ac17-65ce-6f0a-1728" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
                     <entryLink name="Chainsword" id="0ff3-43b1-a37e-ad3d" collective="false" hidden="false" import="true" targetId="6e6a-f954-5a00-ca4b" type="selectionEntry"/>
                     <entryLink name="Space Marine Shotgun" id="1851-0f27-e74c-13fc" collective="false" hidden="false" import="true" targetId="8edf-9dc1-9d77-196c" type="selectionEntry"/>
                     <entryLink name="Sniper Rifle" id="bcc1-cd33-2c9d-4cf3" collective="false" hidden="false" import="true" targetId="ce9e-314f-36e4-74df" type="selectionEntry"/>
@@ -11434,7 +11435,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               </costs>
               <entryLinks>
                 <entryLink name="Frag and Krak Grenades" id="43fe-1a9e-b5b6-90f0" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-                <entryLink name="Bolt Pistol" id="9f85-5b22-5097-437a" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="9f85-5b22-5097-437a" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="ce70-8775-40b5-c1df" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="798b-3736-2372-2fea" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -11474,7 +11475,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="8227-35f7-1286-6c8c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Boltgun" id="8645-c26a-0ab0-4522" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
+                    <entryLink name="Astartes Boltgun" id="8645-c26a-0ab0-4522" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
                     <entryLink name="Heavy Bolter" id="47c0-adef-4e1c-ecc8" collective="false" hidden="false" import="true" targetId="d75c-8a7a-0479-8d6f" type="selectionEntry">
                       <modifiers>
                         <modifier field="points" type="set" value="8"/>
@@ -11800,13 +11801,13 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <cost name="pts" typeId="points" value="14"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="4cf8-0e5a-9cc6-3173" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="4cf8-0e5a-9cc6-3173" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="deb0-c47e-9961-a6aa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="88eb-84b1-8226-cdff" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Boltgun" id="6ae5-7726-2c52-83d7" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="6ae5-7726-2c52-83d7" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="551f-d7f4-a85d-e0e0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="3261-ecc1-d28e-f40d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -11831,7 +11832,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="9b47-ecf4-9902-939f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="1441-d71a-6e4a-9426" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="1441-d71a-6e4a-9426" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="2fb3-65f5-10a6-8f9b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="eaf9-e47d-73ef-dea4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -11868,7 +11869,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="982e-e6f3-c667-63ef" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="6482-3a30-cd23-9420" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="6482-3a30-cd23-9420" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="d7d4-b11d-352d-cc1e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="edc2-6ebe-6396-16d7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -11927,7 +11928,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint id="01f9-bd17-39c7-3a5e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Bolt Pistol" id="2364-c8be-efb9-6380" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="2364-c8be-efb9-6380" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="653f-587b-c441-6fca" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="865b-1339-54e9-1121" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -12238,7 +12239,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <cost name="pts" typeId="points" value="14"/>
           </costs>
           <entryLinks>
-            <entryLink name="Bolt Pistol" id="d54a-4944-e018-3d84" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="d54a-4944-e018-3d84" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="deab-905b-9ed8-431c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="fd2f-7479-8e1c-2674" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -12272,7 +12273,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint id="683e-8e54-d2c9-49fd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Boltgun" id="ffc7-4e53-cc95-63fe" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
+                <entryLink name="Astartes Boltgun" id="ffc7-4e53-cc95-63fe" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
                 <entryLink name="Chainsword" id="666c-bccc-9844-740c" collective="false" hidden="false" import="true" targetId="6e6a-f954-5a00-ca4b" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -12287,7 +12288,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="b46c-1973-3ed4-d480" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="961e-8273-0dc3-43c8" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="961e-8273-0dc3-43c8" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="047a-7a90-5afe-b2e1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="3463-2131-7fde-4339" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -12345,7 +12346,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
             <cost name="pts" typeId="points" value="10"/>
           </costs>
           <entryLinks>
-            <entryLink name="Bolt Pistol" id="aefb-e650-8020-e84d" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="aefb-e650-8020-e84d" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="1bf7-8d47-97f4-f2ef" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="d69b-33ed-79a0-819a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -12392,7 +12393,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   </constraints>
                 </entryLink>
                 <entryLink name="Space Marine Shotgun" id="d23e-3204-9cec-ad4e" collective="false" hidden="false" import="true" targetId="8edf-9dc1-9d77-196c" type="selectionEntry"/>
-                <entryLink name="Boltgun" id="2e79-fe6a-b80c-cd5d" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="2e79-fe6a-b80c-cd5d" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="dc24-17ca-83b4-03eb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -12410,7 +12411,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="bb4b-9a3b-09d0-d49e" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="5881-4b44-843b-7fe3" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="5881-4b44-843b-7fe3" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="bba8-5bf1-a08b-dc5f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="a622-8711-9b9c-1c6a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -12471,7 +12472,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               </constraints>
               <entryLinks>
                 <entryLink name="Melee Weapons" id="762c-2b36-a887-8c32" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="8c2f-268a-10fe-82a8" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="8c2f-268a-10fe-82a8" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="1ecd-b13c-01ee-0b9a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -12570,7 +12571,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint id="a551-844d-0289-ace3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Bolt Pistol" id="2692-690b-5668-6182" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="2692-690b-5668-6182" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="00d4-d197-285f-2eab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="8b0a-d65d-40f1-5a57" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -12627,7 +12628,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="fdf4-85fb-e17d-5262" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="9daa-cc79-ba01-bca1" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="9daa-cc79-ba01-bca1" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="bb63-cd4e-22d4-c723" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="e9ba-18d8-6a7e-1c45" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -12834,7 +12835,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <entryLink name="Melee Weapons" id="0d47-4bef-b66b-f8b6" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
                 <entryLink name="Ranged Weapons" id="60a4-11cd-ff34-ee7a" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                 <entryLink name="Special Weapons" id="5972-6d44-67dd-b1d0" collective="false" hidden="false" import="true" targetId="50af-fdfc-4941-e61d" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="6edc-8736-7173-b7d7" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="6edc-8736-7173-b7d7" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="d164-0417-2ba5-04f2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -13020,7 +13021,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="c560-2826-152e-850e" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="5f23-74d1-0a99-aad5" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="5f23-74d1-0a99-aad5" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="0be3-19cb-7702-cb16" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="1009-d67a-b85a-361a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -13070,7 +13071,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint id="b8e1-9faf-a850-7037" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Boltgun" id="bdbf-d4f4-2e00-6d07" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="bdbf-d4f4-2e00-6d07" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="f511-5ac9-9322-fae4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -13150,13 +13151,13 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="ab0e-9269-ddf8-3a46" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="3cce-fd94-16de-1524" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="3cce-fd94-16de-1524" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="71e9-4f23-e2a3-a90b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="016f-edfa-c35f-a3ec" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Boltgun" id="8a8b-da73-552e-7c07" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+            <entryLink name="Astartes Boltgun" id="8a8b-da73-552e-7c07" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
               <constraints>
                 <constraint id="ad1e-4957-8caa-9175" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                 <constraint id="a90f-d3fe-7c8d-5775" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -14421,7 +14422,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               </constraints>
               <entryLinks>
                 <entryLink name="Ranged Weapons" id="ce8b-283c-01a6-060c" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="2468-c3f1-f05e-ae53" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="2468-c3f1-f05e-ae53" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="be44-7661-9383-0912" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -14445,7 +14446,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="c3c8-8682-6329-edfe" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Boltgun" id="faa3-89c9-aa3f-a635" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="faa3-89c9-aa3f-a635" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="e014-86aa-23a0-f926" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -14489,13 +14490,13 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <cost name="pts" typeId="points" value="25"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="6c04-bae8-e257-a93b" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="6c04-bae8-e257-a93b" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="2a5d-f7dd-4a82-3ad9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="fb9f-1c1a-155a-a3af" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Boltgun" id="dda8-a4cd-1f40-a9eb" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="dda8-a4cd-1f40-a9eb" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="7bbd-daa2-509e-5e43" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="3815-ba85-470c-fb06" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -14527,7 +14528,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <cost name="pts" typeId="points" value="25"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="0f89-65b7-d211-6085" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="0f89-65b7-d211-6085" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="dcc9-b985-8181-4bf3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="f815-f25e-55f5-0458" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -14546,7 +14547,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   </constraints>
                   <entryLinks>
                     <entryLink name="Special Weapons" id="97bf-16fd-71be-13de" collective="false" hidden="false" import="true" targetId="50af-fdfc-4941-e61d" type="selectionEntryGroup"/>
-                    <entryLink name="Boltgun" id="8d7c-220e-fff6-aced" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                    <entryLink name="Astartes Boltgun" id="8d7c-220e-fff6-aced" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                       <constraints>
                         <constraint id="e372-3637-67a2-e79b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -14563,7 +14564,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <cost name="pts" typeId="points" value="25"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="3f09-0da3-b082-9269" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="3f09-0da3-b082-9269" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="a304-b062-8fb7-baca" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="f608-a2be-559b-6ec8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -14583,7 +14584,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   </constraints>
                   <entryLinks>
                     <entryLink name="Heavy Weapons" id="87cf-eada-84cc-39eb" collective="false" hidden="false" import="true" targetId="f0a3-9130-30ce-cdee" type="selectionEntryGroup"/>
-                    <entryLink name="Boltgun" id="a5ed-0be8-475a-91a2" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                    <entryLink name="Astartes Boltgun" id="a5ed-0be8-475a-91a2" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                       <constraints>
                         <constraint id="fd92-c33f-d75d-f357" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -14679,7 +14680,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <modifier field="points" type="set" value="-5"/>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Power Fist" id="ee7f-7f91-55be-decc" collective="false" hidden="false" import="true" targetId="3807-43f2-2759-6830" type="selectionEntry">
+                <entryLink name="Power Fist" id="ee7f-7f91-55be-decc" collective="false" defaultAmount="1" hidden="false" import="true" targetId="3807-43f2-2759-6830" type="selectionEntry">
                   <constraints>
                     <constraint id="97d3-6312-73e6-962e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -14706,6 +14707,11 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   <modifiers>
                     <modifier field="points" type="set" value="5"/>
                   </modifiers>
+                </entryLink>
+                <entryLink name="Heavy Thunder Hammer" id="8562-0965-bf01-7c3e" hidden="false" import="true" targetId="0ee8-b542-3877-e854" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="35"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -14865,6 +14871,16 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   </modifiers>
                 </entryLink>
                 <entryLink name="Cyclone Missile Launcher" id="4673-a967-752e-e745" collective="false" hidden="false" import="true" targetId="0d6f-a491-f688-71b0" type="selectionEntry"/>
+                <entryLink name="Multi-Melta" id="6dd6-a867-0a8e-905f" hidden="false" import="true" targetId="aa2f-d707-c74a-a4d8" type="selectionEntry">
+                  <constraints>
+                    <constraint id="d2bf-90c9-009e-31dd" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Plasma Cannon" id="c8f8-1919-2e5d-88f8" hidden="false" import="true" targetId="08d1-a140-70d4-1996" type="selectionEntry">
+                  <constraints>
+                    <constraint id="f407-cd04-0bf2-37fa" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -15287,7 +15303,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="33b8-4220-78e5-fe0e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="d92f-5701-65ed-8a9c" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="d92f-5701-65ed-8a9c" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="c1c5-cf48-1e8a-3303" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -15437,7 +15453,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="ca51-aee3-7813-b822" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Bolt Pistol" id="77b3-29b7-e4cf-420b" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                    <entryLink name="Astartes Bolt Pistol" id="77b3-29b7-e4cf-420b" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                       <constraints>
                         <constraint id="ef0d-0128-cb92-58fc" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                         <constraint id="8a04-2c84-bf46-ffd0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
@@ -15675,7 +15691,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               </constraints>
               <entryLinks>
                 <entryLink name="Melee Weapons" id="5949-dff8-d532-06da" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="9bf1-9833-89f6-9a2f" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="9bf1-9833-89f6-9a2f" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="b279-5bee-65d3-073f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -15723,7 +15739,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="12d3-3441-2729-c875" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="fe40-a02b-597b-ef25" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="fe40-a02b-597b-ef25" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="72aa-6b2c-2e31-c052" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="c27d-762c-bb7d-4e8e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -15758,7 +15774,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="a6df-ae05-c1c6-1a1c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="f6dc-71fa-234b-fe10" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="f6dc-71fa-234b-fe10" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="02a2-f2cc-0d5c-2570" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="3cae-13ae-acb8-9fea" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -15818,7 +15834,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
         <cost name="pts" typeId="points" value="35"/>
       </costs>
       <entryLinks>
-        <entryLink name="Bolt Pistol" id="5000-5899-4e97-1947" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="5000-5899-4e97-1947" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="cafe-ad75-0850-9111" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="6c36-4ea8-6e9e-0222" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -16052,7 +16068,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               </constraints>
               <entryLinks>
                 <entryLink name="Melee Weapons" id="028a-f73f-70ed-ccbd" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="463e-2c91-944e-d971" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="463e-2c91-944e-d971" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="e7b9-0d98-0d74-b6f3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -16095,7 +16111,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
               </costs>
               <entryLinks>
                 <entryLink name="Frag and Krak Grenades" id="2e2d-aaf3-6391-92df" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-                <entryLink name="Bolt Pistol" id="943a-c1c4-01b1-45f8" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="943a-c1c4-01b1-45f8" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="4f70-4fa5-6340-7712" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="2a84-5339-89b9-89d4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -16140,7 +16156,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <modifier field="points" type="set" value="0"/>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="8050-5888-3fa1-2201" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="8050-5888-3fa1-2201" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="6496-ca9e-f0fd-d2e4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="5db1-b779-e8fa-c6c7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -16331,13 +16347,13 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <cost name="pts" typeId="points" value="13"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="40a2-7bed-ac7e-1048" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="40a2-7bed-ac7e-1048" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="57d3-6bf8-0f13-e620" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="b2e8-b528-1ac0-d605" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Boltgun" id="b989-81fb-6c45-93bc" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="b989-81fb-6c45-93bc" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="b536-d686-5494-b639" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="9a6e-79f2-0474-ebfb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -16362,14 +16378,13 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="ccfc-26de-b70b-9440" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="28f6-d1db-0170-26c1" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="28f6-d1db-0170-26c1" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="a9db-26f0-c312-a823" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="c797-f865-eb83-0b26" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                 </entryLink>
                 <entryLink name="Frag and Krak Grenades" id="91d5-e61e-9643-00b3" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-                <entryLink name="Suspensor Web" id="25b0-f214-df6a-3fd1" hidden="false" import="true" targetId="d409-bee4-bb21-ae16" type="selectionEntry"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Space Marine" id="06f3-ebf8-1bd3-1556" hidden="false" targetId="6244-402b-c286-c93f" type="profile"/>
@@ -16447,7 +16462,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   <entryLinks>
                     <entryLink name="Melee Weapons" id="c8bb-7ccd-b8af-487f" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
                     <entryLink name="Ranged Weapons" id="ece1-70b1-4cd8-8c09" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
-                    <entryLink name="Boltgun" id="e2e3-b64e-6638-f45d" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                    <entryLink name="Astartes Boltgun" id="e2e3-b64e-6638-f45d" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                       <constraints>
                         <constraint id="ed29-fd7a-a4ef-61c6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -16462,7 +16477,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                   <entryLinks>
                     <entryLink name="Ranged Weapons" id="25a2-a610-af8b-8ea9" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                     <entryLink name="Melee Weapons" id="b92a-6107-aaa2-06bd" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
-                    <entryLink name="Bolt Pistol" id="47a9-8f88-7b5d-1e86" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                    <entryLink name="Astartes Bolt Pistol" id="47a9-8f88-7b5d-1e86" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                       <constraints>
                         <constraint id="d636-6d7b-690f-44a2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -16581,7 +16596,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint id="57e6-a20c-30e0-0e71" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="f480-a87f-74d5-67ae" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry"/>
+                <entryLink name="Astartes Bolt Pistol" id="f480-a87f-74d5-67ae" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry"/>
                 <entryLink name="Grav-Pistol" id="5a24-e339-ed74-1b22" collective="false" hidden="false" import="true" targetId="21a6-6e4c-aa61-2ff2" type="selectionEntry"/>
                 <entryLink name="Thunder Hammer" id="d42d-7340-73e7-361a" collective="false" hidden="false" import="true" targetId="367d-1613-4eca-c677" type="selectionEntry">
                   <modifiers>
@@ -16781,7 +16796,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint id="5b62-be35-ccd6-08db" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="728e-d708-bf42-9831" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry"/>
+                <entryLink name="Astartes Bolt Pistol" id="728e-d708-bf42-9831" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry"/>
                 <entryLink name="Grav-Pistol" id="fd64-d5e5-1ba3-efba" collective="false" hidden="false" import="true" targetId="21a6-6e4c-aa61-2ff2" type="selectionEntry"/>
                 <entryLink name="Thunder Hammer" id="9a27-6f4a-78fb-ac8c" collective="false" hidden="false" import="true" targetId="367d-1613-4eca-c677" type="selectionEntry">
                   <modifiers>
@@ -16907,7 +16922,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="2c43-890b-0313-fe8f" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="6a4a-3fad-759b-5f31" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="6a4a-3fad-759b-5f31" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="fff3-185b-6acc-c460" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="eb33-6533-b777-66c8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -16954,7 +16969,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                 <constraint id="12e1-f455-325b-94a1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Boltgun" id="a1aa-5e69-9c8c-e2dc" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
+                <entryLink name="Astartes Boltgun" id="a1aa-5e69-9c8c-e2dc" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
                 <entryLink name="Combi-Flamer" id="4cb7-73ad-2c8c-5d60" collective="false" hidden="false" import="true" targetId="5654-d10a-9203-2beb" type="selectionEntry">
                   <modifiers>
                     <modifier field="points" type="set" value="10"/>
@@ -16993,7 +17008,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="63e4-e040-69c7-5c59" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="7bbc-ff53-1920-70e6" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="7bbc-ff53-1920-70e6" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="9453-ba2e-39d1-0d21" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="1470-cd8e-96f3-e034" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -17100,7 +17115,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="ade1-9ffe-cb21-39b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Bolt Pistol" id="bc41-d056-26fd-3d83" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry"/>
+                    <entryLink name="Astartes Bolt Pistol" id="bc41-d056-26fd-3d83" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry"/>
                     <entryLink name="Grav-Pistol" id="b639-22ce-5d5f-a450" collective="false" hidden="false" import="true" targetId="21a6-6e4c-aa61-2ff2" type="selectionEntry"/>
                     <entryLink name="Chainsword" id="d1fe-6d78-58ea-9d1d" collective="false" hidden="false" import="true" targetId="6e6a-f954-5a00-ca4b" type="selectionEntry"/>
                     <entryLink name="Lightning Claw" id="4c3a-1551-91e4-fef1" collective="false" hidden="false" import="true" targetId="a69d-81d9-e426-7b8a" type="selectionEntry">
@@ -17142,7 +17157,7 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
                     <constraint id="d7bb-f856-3214-25aa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Boltgun" id="fffc-a547-1af8-334e" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
+                    <entryLink name="Astartes Boltgun" id="fffc-a547-1af8-334e" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
                     <entryLink name="Grav-Pistol" id="72b4-4fa4-5807-1903" collective="false" hidden="false" import="true" targetId="21a6-6e4c-aa61-2ff2" type="selectionEntry"/>
                     <entryLink name="Chainsword" id="8ac3-4545-53ca-c701" collective="false" hidden="false" import="true" targetId="6e6a-f954-5a00-ca4b" type="selectionEntry"/>
                     <entryLink name="Lightning Claw" id="0c00-0355-06ab-008f" collective="false" hidden="false" import="true" targetId="a69d-81d9-e426-7b8a" type="selectionEntry">
@@ -17563,13 +17578,13 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="c48c-8e69-208a-a1b7" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="ee8c-18ef-e3a8-7f2c" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="ee8c-18ef-e3a8-7f2c" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="0700-8207-48fa-9c23" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="8432-1547-7c17-ed7d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Boltgun" id="fea4-f963-095d-b665" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+            <entryLink name="Astartes Boltgun" id="fea4-f963-095d-b665" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
               <constraints>
                 <constraint id="9216-4838-bf3c-5276" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="7a66-0b97-b241-3cd7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -17603,13 +17618,13 @@ If the tank is Wrecked or suffers an Explodes! result, Sergeant Chronus is treat
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="d395-dfed-e7d8-ca67" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="7415-f497-1109-6830" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="7415-f497-1109-6830" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="f7ff-1acd-f1d6-f54e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="7c01-1de5-49b5-5ba5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Boltgun" id="c19e-85cb-672a-6da9" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+            <entryLink name="Astartes Boltgun" id="c19e-85cb-672a-6da9" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
               <constraints>
                 <constraint id="5b91-975a-faee-3849" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="a118-e81f-843a-7405" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -18892,13 +18907,13 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="0d26-a5ca-1a67-86e0" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="2285-cab6-71cb-fc18" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="2285-cab6-71cb-fc18" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="e802-7dbc-bce6-b1e7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="18d1-73a3-f44f-5257" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Boltgun" id="13b0-352a-158a-b796" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+            <entryLink name="Astartes Boltgun" id="13b0-352a-158a-b796" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
               <constraints>
                 <constraint id="7ccd-2815-3f99-98b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="e0b9-9c41-d033-b224" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -18985,7 +19000,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="a2d2-0196-853a-079f" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="677b-0a27-3aa4-6933" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="677b-0a27-3aa4-6933" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="95de-04c4-e9a6-7fa0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="79d0-c288-0d5a-856e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -19028,7 +19043,7 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
           </costs>
           <entryLinks>
             <entryLink name="Frag and Krak Grenades" id="98c9-ca50-483b-6dcb" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-            <entryLink name="Bolt Pistol" id="591f-8ac8-559e-5aa7" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="591f-8ac8-559e-5aa7" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="ee32-b1e2-92f6-24d0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="736b-f7e8-e153-b6f3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -19899,18 +19914,6 @@ Harassing Fire: Any unit that suffers one or more unsaved Wounds from a unit tha
         <infoLink name="Helical Targeting Array" id="86e6-49c5-eef0-e29f" hidden="false" targetId="8b0e-5fbf-a080-2cd4" type="profile"/>
         <infoLink name="Smoke Launchers" id="af80-425e-34e0-c786" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
       </infoLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition childId="2f3f-0846-de83-57d5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="equalTo" value="0"/>
-                <condition childId="f1c4-09e2-1971-7362" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile name="Contemptor-Mortis Pattern Dreadnought" id="ced7-8b21-0f96-e11f" hidden="false" publicationId="7ab0-ceb9-pubN169253" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <characteristics>
@@ -21931,7 +21934,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
         <cost name="pts" typeId="points" value="175"/>
       </costs>
       <entryLinks>
-        <entryLink name="Bolt Pistol" id="894f-883d-481a-f193" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="894f-883d-481a-f193" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="a109-8741-30e2-0fb1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="d1ae-10a6-e2a2-635e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -22260,7 +22263,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
             <modifier field="points" type="set" value="0"/>
           </modifiers>
         </entryLink>
-        <entryLink name="Bolt Pistol" id="d68a-a39e-25c7-bd94" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="d68a-a39e-25c7-bd94" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="19f6-7395-1c6e-5221" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="1ccd-3168-640f-feb0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -22371,7 +22374,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
         <cost name="pts" typeId="points" value="165"/>
       </costs>
       <entryLinks>
-        <entryLink name="Bolt Pistol" id="cd7e-f2d7-6efc-af76" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="cd7e-f2d7-6efc-af76" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="5daf-0f29-3ab8-4ae9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="d315-95a2-118f-c509" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -22490,7 +22493,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
         <cost name="pts" typeId="points" value="175"/>
       </costs>
       <entryLinks>
-        <entryLink name="Bolt Pistol" id="7d6d-c49a-5367-6f03" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="7d6d-c49a-5367-6f03" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="f5b5-af36-66eb-147b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="aa25-2b0c-7735-a76a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -23011,7 +23014,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
             <modifier field="points" type="set" value="0"/>
           </modifiers>
         </entryLink>
-        <entryLink name="Bolt Pistol" id="8187-f8fd-9f8a-979e" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="8187-f8fd-9f8a-979e" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="a46b-b3c2-7d26-be33" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="9839-a92e-d480-3fa3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -23365,7 +23368,7 @@ Mirage is a blessing that targets the psyker, as well as any unit he has joined 
         <cost name="pts" typeId="points" value="185"/>
       </costs>
       <entryLinks>
-        <entryLink name="Bolt Pistol" id="63f7-7ef8-8072-9f7a" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="63f7-7ef8-8072-9f7a" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="ca90-0c89-e53c-8d45" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="d5ad-c40d-4e55-8b12" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -23479,7 +23482,7 @@ Mirage is a blessing that targets the psyker, as well as any unit he has joined 
             <modifier field="points" type="set" value="0"/>
           </modifiers>
         </entryLink>
-        <entryLink name="Bolt Pistol" id="a24b-3a4c-ee8a-e150" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="a24b-3a4c-ee8a-e150" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="264a-f123-836f-0364" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="78b9-7339-71a3-9810" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -23804,7 +23807,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
         <cost name="pts" typeId="points" value="145"/>
       </costs>
       <entryLinks>
-        <entryLink name="Bolt Pistol" id="1594-3276-880a-c5ee" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="1594-3276-880a-c5ee" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="3f5a-20cd-cd4e-34a5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="cc1c-d689-f992-ddeb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -23923,7 +23926,7 @@ Note that if this attack scatters, it will always scatter the full 2D6&quot; - L
         <cost name="pts" typeId="points" value="105"/>
       </costs>
       <entryLinks>
-        <entryLink name="Bolt Pistol" id="4d02-c94d-d359-0b35" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="4d02-c94d-d359-0b35" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="cc28-4184-5ded-ac28" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="1951-145a-26ea-7c7f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -26788,7 +26791,7 @@ If a unit of Automated Artillery loses an assault, nothing happens - there are n
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="eab7-1dcc-00df-b0ed" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="eab7-1dcc-00df-b0ed" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="cd2f-8088-43db-7f99" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                     <constraint id="3570-de62-9b50-fc35" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -27376,7 +27379,7 @@ If a unit of Automated Artillery loses an assault, nothing happens - there are n
             <modifier field="points" type="set" value="0"/>
           </modifiers>
         </entryLink>
-        <entryLink name="Bolt Pistol" id="f28d-ded8-8d46-5b01" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="f28d-ded8-8d46-5b01" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="e20a-f2ec-3d27-0e99" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="6c58-8bb8-21b5-3b54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -27746,7 +27749,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           </modifiers>
         </entryLink>
         <entryLink name="Frag and Krak Grenades" id="f0e4-8d76-c09e-0e3c" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-        <entryLink name="Bolt Pistol" id="56e4-980f-3045-913d" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="56e4-980f-3045-913d" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="5bc6-c24d-c1ff-6607" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
             <constraint id="0117-d4b1-9c91-d26b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
@@ -27824,7 +27827,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <entryLinks>
         <entryLink name="Signum" id="b630-1202-80f1-e98b" collective="false" hidden="false" import="true" targetId="4a77-9c7c-2c54-f27c" type="selectionEntry"/>
         <entryLink name="Frag and Krak Grenades" id="051a-c76a-28bd-fdc6" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-        <entryLink name="Bolt Pistol" id="7af3-d733-a0de-1e2e" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+        <entryLink name="Astartes Bolt Pistol" id="7af3-d733-a0de-1e2e" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
           <constraints>
             <constraint id="de98-a06f-2c61-2ffc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="54c1-df06-a189-6716" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -28073,7 +28076,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               </costs>
               <entryLinks>
                 <entryLink name="Frag and Krak Grenades" id="6de3-be0c-8a38-27f0" collective="false" hidden="false" import="true" targetId="2f28-0a8e-362d-a945" type="selectionEntry"/>
-                <entryLink name="Bolt Pistol" id="30e9-8913-488f-ffb0" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="30e9-8913-488f-ffb0" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="6f0c-9854-46d0-f249" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="7f9c-fb3a-4d49-719b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -29386,13 +29389,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <infoLink name="Smoke Launchers" id="c862-1a26-7d43-3ff4" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
         <infoLink name="Searchlight" id="52d1-fa69-a1bc-a73c" hidden="false" targetId="4b04-2a83-8ae7-d134" type="profile"/>
       </infoLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="2f3f-0846-de83-57d5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile name="Contemptor Dreadnought" id="4932-797a-789f-187e" hidden="false" publicationId="7ab0-ceb9-pubN169253" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Walker">
           <characteristics>
@@ -31171,7 +31167,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <selectionEntries>
                 <selectionEntry name="Power Armour" id="2c26-7b85-cd3e-616a" hidden="false" import="true" type="upgrade">
                   <entryLinks>
-                    <entryLink name="Bolt Pistol" id="648d-e0b0-39b7-1b38" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                    <entryLink name="Astartes Bolt Pistol" id="648d-e0b0-39b7-1b38" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                       <constraints>
                         <constraint id="7252-4cf4-cfe4-7ce8" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                         <constraint id="cbd9-22c5-3a68-b36b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -31406,7 +31402,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <entryLinks>
             <entryLink name="Melee Weapons" id="6d1c-2b67-c03b-fc37" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
             <entryLink name="Ranged Weapons" id="d1c6-11ce-3b39-b09d" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
-            <entryLink name="Bolt Pistol" id="8039-883c-55fa-49e4" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="8039-883c-55fa-49e4" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="1c21-c71f-8434-fe90" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
@@ -31451,7 +31447,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <constraint id="638c-8ac4-b46a-8fc3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Boltgun" id="7633-3ce2-2df1-eb2c" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+            <entryLink name="Astartes Boltgun" id="7633-3ce2-2df1-eb2c" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
               <constraints>
                 <constraint id="d174-2b47-3003-d053" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
@@ -32067,7 +32063,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <modifier field="points" type="set" value="15"/>
               </modifiers>
             </entryLink>
-            <entryLink name="Bolt Pistol" id="a8ae-c123-8c88-869e" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="a8ae-c123-8c88-869e" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="953f-7719-019f-bc2a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="015c-ff3c-0c0f-7e39" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -32182,7 +32178,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <modifier field="points" type="set" value="15"/>
               </modifiers>
             </entryLink>
-            <entryLink name="Bolt Pistol" id="c76d-c08a-dfcc-9be6" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+            <entryLink name="Astartes Bolt Pistol" id="c76d-c08a-dfcc-9be6" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
               <constraints>
                 <constraint id="5c66-a13b-19bc-450b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="04ed-f997-1563-9282" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -32362,7 +32358,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <constraint id="f6ad-96e7-3e1c-7ded" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Bolt Pistol" id="c59e-75f5-7558-6eaa" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="c59e-75f5-7558-6eaa" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="0ee9-4fad-f563-5ea7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -32511,7 +32507,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <constraint id="5131-d6bf-d698-f756" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Bolt Pistol" id="f0b7-48d1-1df6-ad98" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                    <entryLink name="Astartes Bolt Pistol" id="f0b7-48d1-1df6-ad98" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                       <constraints>
                         <constraint id="290c-011c-ac8a-233c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                         <constraint id="f839-629c-2a4e-8f24" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
@@ -32664,7 +32660,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink name="Bulky" id="21c1-81cf-983d-7fce" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry name="Veteran Sergeant" id="92a4-44db-94a6-a9e2" collective="false" hidden="false" import="true" type="upgrade">
@@ -32722,7 +32717,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <entryLinks>
                 <entryLink name="Melee Weapons" id="4c1c-d49b-c8a5-0fa0" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
                 <entryLink name="Ranged Weapons" id="b4e8-2906-56ce-659a" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
-                <entryLink name="Bolt Pistol" id="d1bb-c365-dd74-e8bc" collective="false" defaultAmount="1" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="d1bb-c365-dd74-e8bc" collective="false" defaultAmount="1" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="ba15-dbf6-da97-ce1b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -32737,7 +32732,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <entryLinks>
                 <entryLink name="Ranged Weapons" id="1c47-c491-030c-3d13" collective="false" hidden="false" import="true" targetId="cb1c-f2ee-4578-1e2f" type="selectionEntryGroup"/>
                 <entryLink name="Melee Weapons" id="12bd-8bb6-ab38-6629" collective="false" hidden="false" import="true" targetId="b93c-9671-94e4-9c5a" type="selectionEntryGroup"/>
-                <entryLink name="Boltgun" id="631d-e2c8-b764-73bf" collective="false" defaultAmount="1" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
+                <entryLink name="Astartes Boltgun" id="631d-e2c8-b764-73bf" collective="false" defaultAmount="1" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry">
                   <constraints>
                     <constraint id="5875-1c6c-40ee-67c5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
@@ -32770,7 +32765,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <cost name="pts" typeId="points" value="16"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="dfca-9a11-8e1f-5355" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="dfca-9a11-8e1f-5355" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="2872-6a9b-1bb0-df49" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="d02e-b0c3-9a56-d75d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -32786,7 +32781,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               </entryLinks>
               <infoLinks>
                 <infoLink name="Space Marine" id="9880-dc26-a7d7-6064" hidden="false" targetId="6244-402b-c286-c93f" type="profile"/>
-                <infoLink name="Bulky" id="6dcc-a82b-7767-ec3b" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Right Hand" id="66f8-d7d4-5b1d-335c" collective="false" defaultSelectionEntryId="0d0c-f16e-35e2-f30f" hidden="false" import="true">
@@ -32854,7 +32848,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <cost name="pts" typeId="points" value="16"/>
               </costs>
               <entryLinks>
-                <entryLink name="Bolt Pistol" id="0ac6-2061-a74d-0ecd" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
+                <entryLink name="Astartes Bolt Pistol" id="0ac6-2061-a74d-0ecd" collective="false" hidden="false" import="true" targetId="fd49-81fb-9716-fb24" type="selectionEntry">
                   <constraints>
                     <constraint id="5a13-9838-4284-ba90" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
                     <constraint id="2af3-65dc-35d7-87d2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -32870,7 +32864,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               </entryLinks>
               <infoLinks>
                 <infoLink name="Space Marine" id="0151-394f-b4cc-0a33" hidden="false" targetId="6244-402b-c286-c93f" type="profile"/>
-                <infoLink name="Bulky" id="ca41-6ba7-d2bb-bb1a" hidden="false" targetId="b4c1-e1df-b875-92a6" type="rule"/>
               </infoLinks>
               <modifiers>
                 <modifier field="1715-7198-baee-3599" type="increment" value="1">
@@ -32932,6 +32925,61 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="2ff2-c8c5-fd38-21e3" hidden="false">
+          <constraints>
+            <constraint id="ceb9-28c5-d057-84d6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Repressor" id="de1c-044b-0488-b648" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="75"/>
+              </costs>
+              <entryLinks>
+                <entryLink name="Dozer blade" id="a909-3d40-48fc-4f9e" hidden="false" import="true" targetId="01e2-3112-e1c3-48b2" type="selectionEntry">
+                  <constraints>
+                    <constraint id="1199-9841-d6f6-3bee" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="fdb3-eaa5-011c-feb0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier field="points" type="set" value="0"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink name="Searchlight and Smoke Launchers" id="bae4-2af9-7e98-4f92" hidden="false" import="true" targetId="eb53-cd56-7d70-e009" type="selectionEntry"/>
+                <entryLink name="Space Marine Vehicle Equipment" id="89e1-5894-91ba-da25" hidden="false" import="true" targetId="1857-78b2-9203-57e4" type="selectionEntryGroup"/>
+              </entryLinks>
+              <profiles>
+                <profile name="Repressor" id="41e1-8a70-183b-d56e" hidden="false" typeId="725a358c-765b-498c-8de5-399fc0c0725f" typeName="Vehicle">
+                  <characteristics>
+                    <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">4</characteristic>
+                    <characteristic name="Front" typeId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f">13</characteristic>
+                    <characteristic name="Side" typeId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e">11</characteristic>
+                    <characteristic name="Rear" typeId="0a9f33cb-0412-420a-89d2-20707c360bd2">10</characteristic>
+                    <characteristic name="HP" typeId="ae95a1af-719f-4365-b951-33cd3ca9148a">3</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehicle (Tank, Transport)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Repressor" id="7615-35d7-a4e6-6d5b" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+                  <characteristics>
+                    <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">10</characteristic>
+                    <characteristic name="Fire Points" typeId="fe20-e124-2c11-86ee">Two models can fire from the Repressor&apos;s top hatch. In addition, there are three firing ports on either side of the troop compartment, each of which may be fired out of by a single passenger.</characteristic>
+                    <characteristic name="Access Points" typeId="21e5-4518-a31c-7e56">The Repressor has one access point on each side of the hull and one at the rear.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry name="Cupola-mounted Storm Bolter" id="9ec9-f6d5-b01c-3abf" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="6437-f7c1-7815-b223" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="9599-c6a8-0e33-1a71" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Storm Bolter" id="b337-a3d7-8a24-58cc" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Boarding Shield" id="e713-525a-7826-34fc" hidden="false" import="true" type="upgrade">
@@ -32972,7 +33020,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
       <selectionEntryGroups>
         <selectionEntryGroup name="Dreadnoughts" id="aeee-4f9a-15d8-bb17" hidden="false">
           <constraints>
-            <constraint id="087e-2d14-0a48-724e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="3"/>
+            <constraint id="087e-2d14-0a48-724e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
           <entryLinks>
             <entryLink name="Contemptor Dreadnought" id="3512-62d2-8907-5d09" hidden="false" import="true" targetId="8687-f896-6f59-bff7" type="selectionEntry"/>
@@ -32988,7 +33036,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <constraint id="3654-6685-70d7-cf9d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Boltgun" id="a15f-dbe3-abeb-72a0" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
+        <entryLink name="Astartes Boltgun" id="a15f-dbe3-abeb-72a0" collective="false" hidden="false" import="true" targetId="f8c3-890f-1aae-ca79" type="selectionEntry"/>
         <entryLink name="Combi-Flamer" id="fcd2-4d28-c7b6-1f19" collective="false" hidden="false" import="true" targetId="5654-d10a-9203-2beb" type="selectionEntry"/>
         <entryLink name="Combi-Grav" id="1bd1-49eb-4a42-6405" collective="false" hidden="false" import="true" targetId="fff9-5305-7d6b-68f1" type="selectionEntry"/>
         <entryLink name="Combi-Melta" id="51a0-620d-7b30-e8ea" collective="false" hidden="false" import="true" targetId="62a2-9d6d-f287-cb31" type="selectionEntry"/>
@@ -33749,6 +33797,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier field="hidden" type="set" value="true"/>
           </modifiers>
         </entryLink>
         <entryLink name="Extra armour" id="ec50-2096-5757-a270" collective="false" hidden="false" import="true" targetId="8f7a-aacf-59f5-e2ad" type="selectionEntry">
