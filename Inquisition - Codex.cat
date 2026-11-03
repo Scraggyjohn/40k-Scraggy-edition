@@ -14,7 +14,7 @@
     <categoryEntry name="Lord of War" id="c888f08a-6cea-4a01-8126-d374a9231554" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink name="Roboute Guilliman, Primarch of the Ultramarines" id="bc44-2b9e-484b-88e7" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
+    <entryLink name="Roboute Guilliman, Lord Commander of the Imperium" id="bc44-2b9e-484b-88e7" collective="false" hidden="false" import="true" targetId="42fe-b322-a2a3-0ed8" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Lord of War" id="bc44-2b9e-484b-88e7-c888f08a-6cea-4a01-8126-d374a9231554" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
       </categoryLinks>
@@ -1284,7 +1284,9 @@ Sanctuary</description>
             <cost name="pts" typeId="points" value="25"/>
           </costs>
           <rules>
-            <rule name="Psyocculum" id="b31c-f007-efaf-c304" hidden="false" page="0"/>
+            <rule name="Psyocculum" id="b31c-f007-efaf-c304" hidden="false" page="0">
+              <description>The bearer of a psyocculum (and their unit) count as being Ballistic Skill 10 if shooting at a unit containing one or more models with the Psyker, Psychic Pilot or Brotherhood of Psykers/Sorcerers special rules. However this rule has no effect if the bearer (and their unit) are firing Snap Shots.</description>
+            </rule>
           </rules>
         </selectionEntry>
         <selectionEntry name="Warlord" id="4898-20d8-da74-0f19" collective="false" hidden="false" import="true" page="0" type="upgrade">
@@ -1367,6 +1369,11 @@ Sanctuary</description>
           </constraints>
           <entryLinks>
             <entryLink name="Combi-Weapons" id="9e70-dd9b-edf2-6509" collective="false" hidden="false" import="true" targetId="69ed-b72a-725b-3921" type="selectionEntryGroup"/>
+            <entryLink name="Chainfist" id="b238-cfe5-eb2e-ef7f" hidden="false" import="true" targetId="f663-8739-857b-a635" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="25"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntries>
             <selectionEntry name="Force Weapon" id="7716-6605-95f3-927e" collective="false" hidden="false" import="true" page="0" type="upgrade">
@@ -1480,6 +1487,33 @@ Sanctuary</description>
               <infoLinks>
                 <infoLink name="Close Combat Weapon" id="958a-d81b-cacc-c329" hidden="false" targetId="e294-a5c7-e01e-0a82" type="profile"/>
               </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Condemnor Bolt Pistol" id="c730-51d7-fbf8-7169" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+              <profiles>
+                <profile name="Condemnor Bolt Pistol - Bolt Pistol" id="c6e9-fb22-0057-09e8" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">4</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">5</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Condemnor Bolt Pistol - Stake Thrower" id="e234-d427-e7b7-80f8" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">5</characteristic>
+                    <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">--</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1, Psi-shock, One Use Only</characteristic>
+                    <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3015,7 +3049,9 @@ Sanctuary</description>
             <cost name="pts" typeId="points" value="25"/>
           </costs>
           <rules>
-            <rule name="Psyocculum" id="19ff-b2f6-0687-68e2" hidden="false" page="0"/>
+            <rule name="Psyocculum" id="19ff-b2f6-0687-68e2" hidden="false" page="0">
+              <description>The bearer of a psyocculum (and their unit) count as being Ballistic Skill 10 if shooting at a unit containing one or more models with the Psyker, Psychic Pilot or Brotherhood of Psykers/Sorcerers special rules. However this rule has no effect if the bearer (and their unit) are firing Snap Shots.</description>
+            </rule>
           </rules>
         </selectionEntry>
         <selectionEntry name="Warlord" id="f981-ee94-ddc9-b14e" collective="false" hidden="false" import="true" page="0" type="upgrade">
@@ -7937,6 +7973,20 @@ Roll a D6:
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Chainfist" id="f663-8739-857b-a635" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="Chainfist" id="14c6-3884-420b-3a31" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+            <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">x2</characteristic>
+            <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Armourbane, Specialist Weapon, Unwieldy</characteristic>
+            <characteristic name="Extra Info" typeId="a165-1a07-fe23-3796">
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Acolyte Weapons" id="18b3edc9-85e7-4ad3-53b6-ffa16972365b" collective="false" hidden="false" import="true">
@@ -9120,6 +9170,49 @@ Roll a D6:
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry name="Autosavant" id="c79e-3cf7-f3c7-8e43" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="2050-782c-43ae-2df5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="25"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Laspistol" id="ddbc-7bc8-7947-3b12" hidden="false" import="true" targetId="70a5be1a-29d9-bb71-bab0-8fda21fe0367" type="selectionEntry"/>
+            <entryLink name="Close Combat Weapon" id="141f-923a-7138-999c" hidden="false" import="true" targetId="0b415c15-81b4-5a3f-b0ae-1e460d13a958" type="selectionEntry"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Autosavant" id="535a-1104-7ba2-0b5c" hidden="false" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantry</characteristic>
+                <characteristic name="WS" typeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e">3</characteristic>
+                <characteristic name="BS" typeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5">3</characteristic>
+                <characteristic name="S" typeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b">3</characteristic>
+                <characteristic name="T" typeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd">3</characteristic>
+                <characteristic name="W" typeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8">1</characteristic>
+                <characteristic name="I" typeId="a558b3ef-04d0-440e-a312-bac3255bf592">3</characteristic>
+                <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">1</characteristic>
+                <characteristic name="Ld" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">8</characteristic>
+                <characteristic name="Save" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry name="Autoquill" id="22d4-c059-649b-e80a" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="3a53-d3d2-88dd-edad" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="e22e-8371-47f8-2246" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Autoquill" id="4915-6745-9fa6-3be7" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Wargear Item">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model equipped with an Autoquill gives Objective secured to the unit it is attached to. It also allows you to re-roll the effects of an objective such as &quot;Mysterious Objectives&quot;</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
